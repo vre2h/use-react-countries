@@ -1,12 +1,45 @@
 import React from 'react'
-import { useMyHook } from 'use-react-countries'
+import { useCountries } from 'use-react-countries'
+import './styles.css'
 
-const App = () => {
-  const example = useMyHook()
+export default function App() {
+  const countries = useCountries()
+
   return (
-    <div>
-      {example}
-    </div>
+    <>
+      <p>Count: {countries.length}</p>
+      <table>
+        <thead style={{ fontWeight: 'bold' }}>
+          <td>Name</td>
+          <td>Capital</td>
+          <td>Emoji</td>
+          <td>Area</td>
+          <td>Population</td>
+          <td>
+            <pre>.png</pre>
+          </td>
+          <td>
+            <pre>.svg</pre>
+          </td>
+          <td>Country Calling Code</td>
+        </thead>
+        {countries.map((c) => (
+          <tr>
+            <td>{c.name}</td>
+            <td>{c.capital}</td>
+            <td>{c.emoji}</td>
+            <td>{c.area}</td>
+            <td>{c.population}</td>
+            <td>
+              <img width={'20'} src={c.flags.png} />
+            </td>
+            <td>
+              <img width={'20'} src={c.flags.svg} />
+            </td>
+            <td>{c.countryCallingCode}</td>
+          </tr>
+        ))}
+      </table>
+    </>
   )
 }
-export default App

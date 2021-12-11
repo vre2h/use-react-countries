@@ -1,21 +1,10 @@
-import * as React from 'react'
+import { useState } from 'react'
+import defaultCountries from './constants/countries'
 
-export const useMyHook = () => {
-  let [{
-    counter
-  }, setState] = React.useState({
-    counter: 0
+export const useCountries = () => {
+  let [countries, setCountries] = useState(() => {
+    return defaultCountries
   })
 
-  React.useEffect(() => {
-    let interval = window.setInterval(() => {
-      counter++
-      setState({counter})
-    }, 1000)
-    return () => {
-      window.clearInterval(interval)
-    }
-  }, [])
-
-  return counter
+  return { countries, setCountries }
 }
