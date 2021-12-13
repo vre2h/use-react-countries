@@ -26,8 +26,8 @@ export default function App() {
         {countries.map((c) => (
           <tr>
             <td>{c.name}</td>
-            <td>{c.capital}</td>
             <td>{c.emoji}</td>
+            <td>{c.capital}</td>
             <td>{c.area}</td>
             <td>{c.population}</td>
             <td>

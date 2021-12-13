@@ -2,29 +2,29 @@ export default [
   {
     name: 'Kenya',
     capital: 'Nairobi',
-    currencies: { KES: { name: 'Kenyan shilling', symbol: 'Sh' } },
-    languages: { eng: 'English', swa: 'Swahili' },
-    latlng: [1, 38],
     area: 580367,
+    coordinates: [1, 38],
+    currencies: [{ name: 'Kenyan shilling', symbol: 'Sh' }],
+    languages: ['English', 'Swahili'],
     maps: {
       googleMaps: 'https://goo.gl/maps/Ni9M7wcCxf8bJHLX8',
       openStreetMaps: 'https://www.openstreetmap.org/relation/192798'
     },
-    population: 53771300,
     postalCode: { format: '#####', regex: '^(\\d{5})$' },
     flags: {
       png: 'https://flagcdn.com/w320/ke.png',
       svg: 'https://flagcdn.com/ke.svg'
     },
+    population: 53771300,
     emoji: '🇰🇪',
     countryCallingCode: '+254'
   },
   {
     name: 'San Marino',
     capital: 'City of San Marino',
-    currencies: { EUR: { name: 'Euro', symbol: '€' } },
-    languages: { ita: 'Italian' },
-    latlng: [43.76666666, 12.41666666],
+    currencies: [{ name: 'Euro', symbol: '€' }],
+    languages: ['Italian'],
+    coordinates: [43.76666666, 12.41666666],
     area: 61,
     maps: {
       googleMaps: 'https://goo.gl/maps/rxCVJjm8dVY93RPY8',
@@ -42,9 +42,9 @@ export default [
   {
     name: 'French Polynesia',
     capital: 'Papeetē',
-    currencies: { XPF: { name: 'CFP franc', symbol: '₣' } },
-    languages: { fra: 'French' },
-    latlng: [-15, -140],
+    currencies: [{ name: 'CFP franc', symbol: '₣' }],
+    languages: ['French'],
+    coordinates: [-15, -140],
     area: 4167,
     maps: {
       googleMaps: 'https://goo.gl/maps/xgg6BQTRyeQg4e1m6',
@@ -62,9 +62,9 @@ export default [
   {
     name: 'Sierra Leone',
     capital: 'Freetown',
-    currencies: { SLL: { name: 'Sierra Leonean leone', symbol: 'Le' } },
-    languages: { eng: 'English' },
-    latlng: [8.5, -11.5],
+    currencies: [{ name: 'Sierra Leonean leone', symbol: 'Le' }],
+    languages: ['English'],
+    coordinates: [8.5, -11.5],
     area: 71740,
     maps: {
       googleMaps: 'https://goo.gl/maps/jhacar85oq9QaeKB7',
@@ -81,9 +81,9 @@ export default [
   {
     name: 'Madagascar',
     capital: 'Antananarivo',
-    currencies: { MGA: { name: 'Malagasy ariary', symbol: 'Ar' } },
-    languages: { fra: 'French', mlg: 'Malagasy' },
-    latlng: [-20, 47],
+    currencies: [{ name: 'Malagasy ariary', symbol: 'Ar' }],
+    languages: ['French', 'Malagasy'],
+    coordinates: [-20, 47],
     area: 587041,
     maps: {
       googleMaps: 'https://goo.gl/maps/AHQh2ABBaFW6Ngj26',
@@ -101,9 +101,9 @@ export default [
   {
     name: 'Nigeria',
     capital: 'Abuja',
-    currencies: { NGN: { name: 'Nigerian naira', symbol: '₦' } },
-    languages: { eng: 'English' },
-    latlng: [10, 8],
+    currencies: [{ name: 'Nigerian naira', symbol: '₦' }],
+    languages: ['English'],
+    coordinates: [10, 8],
     area: 923768,
     maps: {
       googleMaps: 'https://goo.gl/maps/LTn417qWwBPFszuV9',
@@ -121,9 +121,9 @@ export default [
   {
     name: 'Jordan',
     capital: 'Amman',
-    currencies: { JOD: { name: 'Jordanian dinar', symbol: 'د.ا' } },
-    languages: { ara: 'Arabic' },
-    latlng: [31, 36],
+    currencies: [{ name: 'Jordanian dinar', symbol: 'د.ا' }],
+    languages: ['Arabic'],
+    coordinates: [31, 36],
     area: 89342,
     maps: {
       googleMaps: 'https://goo.gl/maps/ko1dzSDKg8Gsi9A98',
@@ -141,9 +141,9 @@ export default [
   {
     name: 'Libya',
     capital: 'Tripoli',
-    currencies: { LYD: { name: 'Libyan dinar', symbol: 'ل.د' } },
-    languages: { ara: 'Arabic' },
-    latlng: [25, 17],
+    currencies: [{ name: 'Libyan dinar', symbol: 'ل.د' }],
+    languages: ['Arabic'],
+    coordinates: [25, 17],
     area: 1759540,
     maps: {
       googleMaps: 'https://goo.gl/maps/eLgGnaQWcJEdYRMy5',
@@ -160,9 +160,9 @@ export default [
   {
     name: 'Guyana',
     capital: 'Georgetown',
-    currencies: { GYD: { name: 'Guyanese dollar', symbol: '$' } },
-    languages: { eng: 'English' },
-    latlng: [5, -59],
+    currencies: [{ name: 'Guyanese dollar', symbol: '$' }],
+    languages: ['English'],
+    coordinates: [5, -59],
     area: 214969,
     maps: {
       googleMaps: 'https://goo.gl/maps/DFsme2xEeugUAsCx5',
@@ -179,9 +179,9 @@ export default [
   {
     name: 'Mexico',
     capital: 'Mexico City',
-    currencies: { MXN: { name: 'Mexican peso', symbol: '$' } },
-    languages: { spa: 'Spanish' },
-    latlng: [23, -102],
+    currencies: [{ name: 'Mexican peso', symbol: '$' }],
+    languages: ['Spanish'],
+    coordinates: [23, -102],
     area: 1964375,
     maps: {
       googleMaps: 'https://goo.gl/maps/s5g7imNPMDEePxzbA',
@@ -199,9 +199,9 @@ export default [
   {
     name: 'Turkmenistan',
     capital: 'Ashgabat',
-    currencies: { TMT: { name: 'Turkmenistan manat', symbol: 'm' } },
-    languages: { rus: 'Russian', tuk: 'Turkmen' },
-    latlng: [40, 60],
+    currencies: [{ name: 'Turkmenistan manat', symbol: 'm' }],
+    languages: ['Russian', 'Turkmen'],
+    coordinates: [40, 60],
     area: 488100,
     maps: {
       googleMaps: 'https://goo.gl/maps/cgfUcaQHSWKuqeKk9',
@@ -219,9 +219,9 @@ export default [
   {
     name: 'Christmas Island',
     capital: 'Flying Fish Cove',
-    currencies: { AUD: { name: 'Australian dollar', symbol: '$' } },
-    languages: { eng: 'English' },
-    latlng: [-10.5, 105.66666666],
+    currencies: [{ name: 'Australian dollar', symbol: '$' }],
+    languages: ['English'],
+    coordinates: [-10.5, 105.66666666],
     area: 135,
     maps: {
       googleMaps: 'https://goo.gl/maps/ZC17hHsQZpShN5wk9',
@@ -239,12 +239,12 @@ export default [
   {
     name: 'Panama',
     capital: 'Panama City',
-    currencies: {
-      PAB: { name: 'Panamanian balboa', symbol: 'B/.' },
-      USD: { name: 'United States dollar', symbol: '$' }
-    },
-    languages: { spa: 'Spanish' },
-    latlng: [9, -80],
+    currencies: [
+      { name: 'Panamanian balboa', symbol: 'B/.' },
+      { name: 'United States dollar', symbol: '$' }
+    ],
+    languages: ['Spanish'],
+    coordinates: [9, -80],
     area: 75417,
     maps: {
       googleMaps: 'https://goo.gl/maps/sEN7sKqeawa5oPNLA',
@@ -261,9 +261,9 @@ export default [
   {
     name: 'Vatican City',
     capital: 'Vatican City',
-    currencies: { EUR: { name: 'Euro', symbol: '€' } },
-    languages: { ita: 'Italian', lat: 'Latin' },
-    latlng: [41.9, 12.45],
+    currencies: [{ name: 'Euro', symbol: '€' }],
+    languages: ['Italian', 'Latin'],
+    coordinates: [41.9, 12.45],
     area: 0.44,
     maps: {
       googleMaps: 'https://goo.gl/maps/DTKvw5Bd1QZaDZmE8',
@@ -280,13 +280,9 @@ export default [
   {
     name: 'Seychelles',
     capital: 'Victoria',
-    currencies: { SCR: { name: 'Seychellois rupee', symbol: '₨' } },
-    languages: {
-      crs: 'Seychellois Creole',
-      eng: 'English',
-      fra: 'French'
-    },
-    latlng: [-4.58333333, 55.66666666],
+    currencies: [{ name: 'Seychellois rupee', symbol: '₨' }],
+    languages: ['Seychellois Creole', 'English', 'French'],
+    coordinates: [-4.58333333, 55.66666666],
     area: 452,
     maps: {
       googleMaps: 'https://goo.gl/maps/aqCcy2TKh5TV5MAX8',
@@ -303,9 +299,9 @@ export default [
   {
     name: 'Algeria',
     capital: 'Algiers',
-    currencies: { DZD: { name: 'Algerian dinar', symbol: 'د.ج' } },
-    languages: { ara: 'Arabic' },
-    latlng: [28, 3],
+    currencies: [{ name: 'Algerian dinar', symbol: 'د.ج' }],
+    languages: ['Arabic'],
+    coordinates: [28, 3],
     area: 2381741,
     maps: {
       googleMaps: 'https://goo.gl/maps/RsAyAfyaiNVb8DpW8',
@@ -323,9 +319,9 @@ export default [
   {
     name: 'Guam',
     capital: 'Hagåtña',
-    currencies: { USD: { name: 'United States dollar', symbol: '$' } },
-    languages: { cha: 'Chamorro', eng: 'English', spa: 'Spanish' },
-    latlng: [13.46666666, 144.78333333],
+    currencies: [{ name: 'United States dollar', symbol: '$' }],
+    languages: ['Chamorro', 'English', 'Spanish'],
+    coordinates: [13.46666666, 144.78333333],
     area: 549,
     maps: {
       googleMaps: 'https://goo.gl/maps/Xfnq2i279b18cH3C9',
@@ -343,9 +339,9 @@ export default [
   {
     name: 'Sweden',
     capital: 'Stockholm',
-    currencies: { SEK: { name: 'Swedish krona', symbol: 'kr' } },
-    languages: { swe: 'Swedish' },
-    latlng: [62, 15],
+    currencies: [{ name: 'Swedish krona', symbol: 'kr' }],
+    languages: ['Swedish'],
+    coordinates: [62, 15],
     area: 450295,
     maps: {
       googleMaps: 'https://goo.gl/maps/iqygE491ADVgnBW39',
@@ -363,7 +359,7 @@ export default [
   {
     name: 'Antarctica',
     capital: 'Unknown',
-    latlng: [-90, 0],
+    coordinates: [-90, 0],
     area: 14000000,
     maps: {
       googleMaps: 'https://goo.gl/maps/kyBuJriu4itiXank7',
@@ -375,19 +371,16 @@ export default [
       svg: 'https://flagcdn.com/aq.svg'
     },
     emoji: '🇦🇶',
-    countryCallingCode: '+672'
+    countryCallingCode: '+672',
+    currencies: [],
+    languages: []
   },
   {
     name: 'Switzerland',
     capital: 'Bern',
-    currencies: { CHF: { name: 'Swiss franc', symbol: 'Fr.' } },
-    languages: {
-      fra: 'French',
-      gsw: 'Swiss German',
-      ita: 'Italian',
-      roh: 'Romansh'
-    },
-    latlng: [47, 8],
+    currencies: [{ name: 'Swiss franc', symbol: 'Fr.' }],
+    languages: ['French', 'Swiss German', 'Italian', 'Romansh'],
+    coordinates: [47, 8],
     area: 41284,
     maps: {
       googleMaps: 'https://goo.gl/maps/uVuZcXaxSx5jLyEC9',
@@ -405,9 +398,9 @@ export default [
   {
     name: 'Ethiopia',
     capital: 'Addis Ababa',
-    currencies: { ETB: { name: 'Ethiopian birr', symbol: 'Br' } },
-    languages: { amh: 'Amharic' },
-    latlng: [8, 38],
+    currencies: [{ name: 'Ethiopian birr', symbol: 'Br' }],
+    languages: ['Amharic'],
+    coordinates: [8, 38],
     area: 1104300,
     maps: {
       googleMaps: 'https://goo.gl/maps/2Q4hQWCbhuZLj3fG6',
@@ -425,9 +418,9 @@ export default [
   {
     name: 'Somalia',
     capital: 'Mogadishu',
-    currencies: { SOS: { name: 'Somali shilling', symbol: 'Sh' } },
-    languages: { ara: 'Arabic', som: 'Somali' },
-    latlng: [10, 49],
+    currencies: [{ name: 'Somali shilling', symbol: 'Sh' }],
+    languages: ['Arabic', 'Somali'],
+    coordinates: [10, 49],
     area: 637657,
     maps: {
       googleMaps: 'https://goo.gl/maps/8of8q7D1a8p7R6Fc9',
@@ -445,9 +438,9 @@ export default [
   {
     name: 'France',
     capital: 'Paris',
-    currencies: { EUR: { name: 'Euro', symbol: '€' } },
-    languages: { fra: 'French' },
-    latlng: [46, 2],
+    currencies: [{ name: 'Euro', symbol: '€' }],
+    languages: ['French'],
+    coordinates: [46, 2],
     area: 551695,
     maps: {
       googleMaps: 'https://goo.gl/maps/g7QxxSFsWyTPKuzd7',
@@ -465,9 +458,9 @@ export default [
   {
     name: 'Russia',
     capital: 'Moscow',
-    currencies: { RUB: { name: 'Russian ruble', symbol: '₽' } },
-    languages: { rus: 'Russian' },
-    latlng: [60, 100],
+    currencies: [{ name: 'Russian ruble', symbol: '₽' }],
+    languages: ['Russian'],
+    coordinates: [60, 100],
     area: 17098242,
     maps: {
       googleMaps: 'https://goo.gl/maps/4F4PpDhGJgVvLby57',
@@ -486,13 +479,13 @@ export default [
   {
     name: 'Western Sahara',
     capital: 'El Aaiún',
-    currencies: {
-      DZD: { name: 'Algerian dinar', symbol: 'دج' },
-      MAD: { name: 'Moroccan dirham', symbol: 'DH' },
-      MRU: { name: 'Mauritanian ouguiya', symbol: 'UM' }
-    },
-    languages: { ber: 'Berber', mey: 'Hassaniya', spa: 'Spanish' },
-    latlng: [24.5, -13],
+    currencies: [
+      { name: 'Algerian dinar', symbol: 'دج' },
+      { name: 'Moroccan dirham', symbol: 'DH' },
+      { name: 'Mauritanian ouguiya', symbol: 'UM' }
+    ],
+    languages: ['Berber', 'Hassaniya', 'Spanish'],
+    coordinates: [24.5, -13],
     area: 266000,
     maps: {
       googleMaps: 'https://goo.gl/maps/7nU3mB69vP6zQp7A8',
@@ -509,9 +502,9 @@ export default [
   {
     name: 'Åland Islands',
     capital: 'Mariehamn',
-    currencies: { EUR: { name: 'Euro', symbol: '€' } },
-    languages: { swe: 'Swedish' },
-    latlng: [60.116667, 19.9],
+    currencies: [{ name: 'Euro', symbol: '€' }],
+    languages: ['Swedish'],
+    coordinates: [60.116667, 19.9],
     area: 1580,
     maps: {
       googleMaps: 'https://goo.gl/maps/ewFb3vYsfUmVCoSb8',
@@ -528,9 +521,9 @@ export default [
   {
     name: 'Tokelau',
     capital: 'Fakaofo',
-    currencies: { NZD: { name: 'New Zealand dollar', symbol: '$' } },
-    languages: { eng: 'English', smo: 'Samoan', tkl: 'Tokelauan' },
-    latlng: [-9, -172],
+    currencies: [{ name: 'New Zealand dollar', symbol: '$' }],
+    languages: ['English', 'Samoan', 'Tokelauan'],
+    coordinates: [-9, -172],
     area: 12,
     maps: {
       googleMaps: 'https://goo.gl/maps/Ap5qN8qien6pT9UN6',
@@ -547,11 +540,9 @@ export default [
   {
     name: 'Chad',
     capital: "N'Djamena",
-    currencies: {
-      XAF: { name: 'Central African CFA franc', symbol: 'Fr' }
-    },
-    languages: { ara: 'Arabic', fra: 'French' },
-    latlng: [15, 19],
+    currencies: [{ name: 'Central African CFA franc', symbol: 'Fr' }],
+    languages: ['Arabic', 'French'],
+    coordinates: [15, 19],
     area: 1284000,
     maps: {
       googleMaps: 'https://goo.gl/maps/ziUdAZ8skuNfx5Hx7',
@@ -568,11 +559,9 @@ export default [
   {
     name: 'Trinidad and Tobago',
     capital: 'Port of Spain',
-    currencies: {
-      TTD: { name: 'Trinidad and Tobago dollar', symbol: '$' }
-    },
-    languages: { eng: 'English' },
-    latlng: [11, -61],
+    currencies: [{ name: 'Trinidad and Tobago dollar', symbol: '$' }],
+    languages: ['English'],
+    coordinates: [11, -61],
     area: 5130,
     maps: {
       googleMaps: 'https://goo.gl/maps/NrRfDEWoG8FGZqWY7',
@@ -589,11 +578,9 @@ export default [
   {
     name: 'Central African Republic',
     capital: 'Bangui',
-    currencies: {
-      XAF: { name: 'Central African CFA franc', symbol: 'Fr' }
-    },
-    languages: { fra: 'French', sag: 'Sango' },
-    latlng: [7, 21],
+    currencies: [{ name: 'Central African CFA franc', symbol: 'Fr' }],
+    languages: ['French', 'Sango'],
+    coordinates: [7, 21],
     area: 622984,
     maps: {
       googleMaps: 'https://goo.gl/maps/51V8dsi2rGYC9n3c9',
@@ -610,9 +597,9 @@ export default [
   {
     name: 'North Macedonia',
     capital: 'Skopje',
-    currencies: { MKD: { name: 'denar', symbol: 'den' } },
-    languages: { mkd: 'Macedonian' },
-    latlng: [41.83333333, 22],
+    currencies: [{ name: 'denar', symbol: 'den' }],
+    languages: ['Macedonian'],
+    coordinates: [41.83333333, 22],
     area: 25713,
     maps: {
       googleMaps: 'https://goo.gl/maps/55Q8MEnF6ACdu3q79',
@@ -630,9 +617,9 @@ export default [
   {
     name: 'El Salvador',
     capital: 'San Salvador',
-    currencies: { USD: { name: 'United States dollar', symbol: '$' } },
-    languages: { spa: 'Spanish' },
-    latlng: [13.83333333, -88.91666666],
+    currencies: [{ name: 'United States dollar', symbol: '$' }],
+    languages: ['Spanish'],
+    coordinates: [13.83333333, -88.91666666],
     area: 21041,
     maps: {
       googleMaps: 'https://goo.gl/maps/cZnCEi5sEMQtKKcB7',
@@ -650,9 +637,9 @@ export default [
   {
     name: 'Turks and Caicos Islands',
     capital: 'Cockburn Town',
-    currencies: { USD: { name: 'United States dollar', symbol: '$' } },
-    languages: { eng: 'English' },
-    latlng: [21.75, -71.58333333],
+    currencies: [{ name: 'United States dollar', symbol: '$' }],
+    languages: ['English'],
+    coordinates: [21.75, -71.58333333],
     area: 948,
     maps: {
       googleMaps: 'https://goo.gl/maps/R8VUDQfwZiFtvmyn8',
@@ -670,9 +657,9 @@ export default [
   {
     name: 'Kosovo',
     capital: 'Pristina',
-    currencies: { EUR: { name: 'Euro', symbol: '€' } },
-    languages: { sqi: 'Albanian', srp: 'Serbian' },
-    latlng: [42.666667, 21.166667],
+    currencies: [{ name: 'Euro', symbol: '€' }],
+    languages: ['Albanian', 'Serbian'],
+    coordinates: [42.666667, 21.166667],
     area: 10908,
     maps: {
       googleMaps: 'https://goo.gl/maps/CSC4Yc8SWPgburuD9',
@@ -689,9 +676,9 @@ export default [
   {
     name: 'Colombia',
     capital: 'Bogotá',
-    currencies: { COP: { name: 'Colombian peso', symbol: '$' } },
-    languages: { spa: 'Spanish' },
-    latlng: [4, -72],
+    currencies: [{ name: 'Colombian peso', symbol: '$' }],
+    languages: ['Spanish'],
+    coordinates: [4, -72],
     area: 1141748,
     maps: {
       googleMaps: 'https://goo.gl/maps/RdwTG8e7gPwS62oR6',
@@ -708,9 +695,9 @@ export default [
   {
     name: 'Palau',
     capital: 'Ngerulmud',
-    currencies: { USD: { name: 'United States dollar', symbol: '$' } },
-    languages: { eng: 'English', pau: 'Palauan' },
-    latlng: [7.5, 134.5],
+    currencies: [{ name: 'United States dollar', symbol: '$' }],
+    languages: ['English', 'Palauan'],
+    coordinates: [7.5, 134.5],
     area: 459,
     maps: {
       googleMaps: 'https://goo.gl/maps/MVasQBbUkQP7qQDR9',
@@ -728,9 +715,9 @@ export default [
   {
     name: 'Iran',
     capital: 'Tehran',
-    currencies: { IRR: { name: 'Iranian rial', symbol: '﷼' } },
-    languages: { fas: 'Persian (Farsi)' },
-    latlng: [32, 53],
+    currencies: [{ name: 'Iranian rial', symbol: '﷼' }],
+    languages: ['Persian (Farsi)'],
+    coordinates: [32, 53],
     area: 1648195,
     maps: {
       googleMaps: 'https://goo.gl/maps/dMgEGuacBPGYQnjY7',
@@ -748,9 +735,9 @@ export default [
   {
     name: 'French Southern and Antarctic Lands',
     capital: 'Port-aux-Français',
-    currencies: { EUR: { name: 'Euro', symbol: '€' } },
-    languages: { fra: 'French' },
-    latlng: [-49.25, 69.167],
+    currencies: [{ name: 'Euro', symbol: '€' }],
+    languages: ['French'],
+    coordinates: [-49.25, 69.167],
     area: 7747,
     maps: {
       googleMaps: 'https://goo.gl/maps/6ua6CX1m4w1xF2Em7',
@@ -767,8 +754,8 @@ export default [
   {
     name: 'Bouvet Island',
     capital: 'Unknown',
-    languages: { nor: 'Norwegian' },
-    latlng: [-54.43333333, 3.4],
+    languages: ['Norwegian'],
+    coordinates: [-54.43333333, 3.4],
     area: 49,
     maps: {
       googleMaps: 'https://goo.gl/maps/7WRQAEKZb4uK36yi9',
@@ -780,14 +767,15 @@ export default [
       svg: 'https://flagcdn.com/bv.svg'
     },
     emoji: '🇧🇻',
-    countryCallingCode: ''
+    countryCallingCode: '',
+    currencies: []
   },
   {
     name: 'British Virgin Islands',
     capital: 'Road Town',
-    currencies: { USD: { name: 'United States dollar', symbol: '$' } },
-    languages: { eng: 'English' },
-    latlng: [18.431383, -64.62305],
+    currencies: [{ name: 'United States dollar', symbol: '$' }],
+    languages: ['English'],
+    coordinates: [18.431383, -64.62305],
     area: 151,
     maps: {
       googleMaps: 'https://goo.gl/maps/49C9cSesNVAR9DQk8',
@@ -804,11 +792,9 @@ export default [
   {
     name: 'United Arab Emirates',
     capital: 'Abu Dhabi',
-    currencies: {
-      AED: { name: 'United Arab Emirates dirham', symbol: 'د.إ' }
-    },
-    languages: { ara: 'Arabic' },
-    latlng: [24, 54],
+    currencies: [{ name: 'United Arab Emirates dirham', symbol: 'د.إ' }],
+    languages: ['Arabic'],
+    coordinates: [24, 54],
     area: 83600,
     maps: {
       googleMaps: 'https://goo.gl/maps/AZZTDA6GzVAnKMVd8',
@@ -825,21 +811,21 @@ export default [
   {
     name: 'South Africa',
     capital: 'Pretoria',
-    currencies: { ZAR: { name: 'South African rand', symbol: 'R' } },
-    languages: {
-      afr: 'Afrikaans',
-      eng: 'English',
-      nbl: 'Southern Ndebele',
-      nso: 'Northern Sotho',
-      sot: 'Southern Sotho',
-      ssw: 'Swazi',
-      tsn: 'Tswana',
-      tso: 'Tsonga',
-      ven: 'Venda',
-      xho: 'Xhosa',
-      zul: 'Zulu'
-    },
-    latlng: [-29, 24],
+    currencies: [{ name: 'South African rand', symbol: 'R' }],
+    languages: [
+      'Afrikaans',
+      'English',
+      'Southern Ndebele',
+      'Northern Sotho',
+      'Southern Sotho',
+      'Swazi',
+      'Tswana',
+      'Tsonga',
+      'Venda',
+      'Xhosa',
+      'Zulu'
+    ],
+    coordinates: [-29, 24],
     area: 1221037,
     maps: {
       googleMaps: 'https://goo.gl/maps/CLCZ1R8Uz1KpYhRv6',
@@ -857,9 +843,9 @@ export default [
   {
     name: 'Czechia',
     capital: 'Prague',
-    currencies: { CZK: { name: 'Czech koruna', symbol: 'Kč' } },
-    languages: { ces: 'Czech', slk: 'Slovak' },
-    latlng: [49.75, 15.5],
+    currencies: [{ name: 'Czech koruna', symbol: 'Kč' }],
+    languages: ['Czech', 'Slovak'],
+    coordinates: [49.75, 15.5],
     area: 78865,
     maps: {
       googleMaps: 'https://goo.gl/maps/47dmgeXMZyhDHyQW8',
@@ -877,9 +863,9 @@ export default [
   {
     name: 'Hungary',
     capital: 'Budapest',
-    currencies: { HUF: { name: 'Hungarian forint', symbol: 'Ft' } },
-    languages: { hun: 'Hungarian' },
-    latlng: [47, 20],
+    currencies: [{ name: 'Hungarian forint', symbol: 'Ft' }],
+    languages: ['Hungarian'],
+    coordinates: [47, 20],
     area: 93028,
     maps: {
       googleMaps: 'https://goo.gl/maps/9gfPupm5bffixiFJ6',
@@ -897,9 +883,9 @@ export default [
   {
     name: 'Peru',
     capital: 'Lima',
-    currencies: { PEN: { name: 'Peruvian sol', symbol: 'S/ ' } },
-    languages: { aym: 'Aymara', que: 'Quechua', spa: 'Spanish' },
-    latlng: [-10, -76],
+    currencies: [{ name: 'Peruvian sol', symbol: 'S/ ' }],
+    languages: ['Aymara', 'Quechua', 'Spanish'],
+    coordinates: [-10, -76],
     area: 1285216,
     maps: {
       googleMaps: 'https://goo.gl/maps/uDWEUaXNcZTng1fP6',
@@ -917,11 +903,9 @@ export default [
   {
     name: 'Benin',
     capital: 'Porto-Novo',
-    currencies: {
-      XOF: { name: 'West African CFA franc', symbol: 'Fr' }
-    },
-    languages: { fra: 'French' },
-    latlng: [9.5, 2.25],
+    currencies: [{ name: 'West African CFA franc', symbol: 'Fr' }],
+    languages: ['French'],
+    coordinates: [9.5, 2.25],
     area: 112622,
     maps: {
       googleMaps: 'https://goo.gl/maps/uMw1BsHEXQYgVFFu6',
@@ -938,9 +922,9 @@ export default [
   {
     name: 'South Sudan',
     capital: 'Juba',
-    currencies: { SSP: { name: 'South Sudanese pound', symbol: '£' } },
-    languages: { eng: 'English' },
-    latlng: [7, 30],
+    currencies: [{ name: 'South Sudanese pound', symbol: '£' }],
+    languages: ['English'],
+    coordinates: [7, 30],
     area: 619745,
     maps: {
       googleMaps: 'https://goo.gl/maps/Zm1AYCXb9HSNF1P27',
@@ -957,8 +941,8 @@ export default [
   {
     name: 'Heard Island and McDonald Islands',
     capital: 'Unknown',
-    languages: { eng: 'English' },
-    latlng: [-53.1, 72.51666666],
+    languages: ['English'],
+    coordinates: [-53.1, 72.51666666],
     area: 412,
     maps: {
       googleMaps: 'https://goo.gl/maps/k5FBAiVaVyozuYeA7',
@@ -970,16 +954,15 @@ export default [
       svg: 'https://flagcdn.com/hm.svg'
     },
     emoji: '',
-    countryCallingCode: ''
+    countryCallingCode: '',
+    currencies: []
   },
   {
     name: 'Solomon Islands',
     capital: 'Honiara',
-    currencies: {
-      SBD: { name: 'Solomon Islands dollar', symbol: '$' }
-    },
-    languages: { eng: 'English' },
-    latlng: [-8, 159],
+    currencies: [{ name: 'Solomon Islands dollar', symbol: '$' }],
+    languages: ['English'],
+    coordinates: [-8, 159],
     area: 28896,
     maps: {
       googleMaps: 'https://goo.gl/maps/JbPkx86Ywjv8C1n8A',
@@ -996,11 +979,9 @@ export default [
   {
     name: 'Sint Maarten',
     capital: 'Philipsburg',
-    currencies: {
-      ANG: { name: 'Netherlands Antillean guilder', symbol: 'ƒ' }
-    },
-    languages: { eng: 'English', fra: 'French', nld: 'Dutch' },
-    latlng: [18.033333, -63.05],
+    currencies: [{ name: 'Netherlands Antillean guilder', symbol: 'ƒ' }],
+    languages: ['English', 'French', 'Dutch'],
+    coordinates: [18.033333, -63.05],
     area: 34,
     maps: {
       googleMaps: 'https://goo.gl/maps/DjvcESy1a1oGEZuNA',
@@ -1017,9 +998,9 @@ export default [
   {
     name: 'Turkey',
     capital: 'Ankara',
-    currencies: { TRY: { name: 'Turkish lira', symbol: '₺' } },
-    languages: { tur: 'Turkish' },
-    latlng: [39, 35],
+    currencies: [{ name: 'Turkish lira', symbol: '₺' }],
+    languages: ['Turkish'],
+    coordinates: [39, 35],
     area: 783562,
     maps: {
       googleMaps: 'https://goo.gl/maps/dXFFraiUDfcB6Quk6',
@@ -1037,9 +1018,9 @@ export default [
   {
     name: 'Ireland',
     capital: 'Dublin',
-    currencies: { EUR: { name: 'Euro', symbol: '€' } },
-    languages: { eng: 'English', gle: 'Irish' },
-    latlng: [53, -8],
+    currencies: [{ name: 'Euro', symbol: '€' }],
+    languages: ['English', 'Irish'],
+    coordinates: [53, -8],
     area: 70273,
     maps: {
       googleMaps: 'https://goo.gl/maps/hxd1BKxgpchStzQC6',
@@ -1056,9 +1037,9 @@ export default [
   {
     name: 'Botswana',
     capital: 'Gaborone',
-    currencies: { BWP: { name: 'Botswana pula', symbol: 'P' } },
-    languages: { eng: 'English', tsn: 'Tswana' },
-    latlng: [-22, 24],
+    currencies: [{ name: 'Botswana pula', symbol: 'P' }],
+    languages: ['English', 'Tswana'],
+    coordinates: [-22, 24],
     area: 582000,
     maps: {
       googleMaps: 'https://goo.gl/maps/E364KeLy6N4JwxwQ8',
@@ -1075,9 +1056,9 @@ export default [
   {
     name: 'Haiti',
     capital: 'Port-au-Prince',
-    currencies: { HTG: { name: 'Haitian gourde', symbol: 'G' } },
-    languages: { fra: 'French', hat: 'Haitian Creole' },
-    latlng: [19, -72.41666666],
+    currencies: [{ name: 'Haitian gourde', symbol: 'G' }],
+    languages: ['French', 'Haitian Creole'],
+    coordinates: [19, -72.41666666],
     area: 27750,
     maps: {
       googleMaps: 'https://goo.gl/maps/9o13xtjuUdqFnHbn9',
@@ -1095,9 +1076,9 @@ export default [
   {
     name: 'Japan',
     capital: 'Tokyo',
-    currencies: { JPY: { name: 'Japanese yen', symbol: '¥' } },
-    languages: { jpn: 'Japanese' },
-    latlng: [36, 138],
+    currencies: [{ name: 'Japanese yen', symbol: '¥' }],
+    languages: ['Japanese'],
+    coordinates: [36, 138],
     area: 377930,
     maps: {
       googleMaps: 'https://goo.gl/maps/NGTLSCSrA8bMrvnX9',
@@ -1115,9 +1096,9 @@ export default [
   {
     name: 'Norfolk Island',
     capital: 'Kingston',
-    currencies: { AUD: { name: 'Australian dollar', symbol: '$' } },
-    languages: { eng: 'English', pih: 'Norfuk' },
-    latlng: [-29.03333333, 167.95],
+    currencies: [{ name: 'Australian dollar', symbol: '$' }],
+    languages: ['English', 'Norfuk'],
+    coordinates: [-29.03333333, 167.95],
     area: 36,
     maps: {
       googleMaps: 'https://goo.gl/maps/pbvtm6XYd1iZbjky5',
@@ -1134,9 +1115,9 @@ export default [
   {
     name: 'Sudan',
     capital: 'Khartoum',
-    currencies: { SDG: { name: 'Sudanese pound' } },
-    languages: { ara: 'Arabic', eng: 'English' },
-    latlng: [15, 30],
+    currencies: [{ name: 'Sudanese pound' }],
+    languages: ['Arabic', 'English'],
+    coordinates: [15, 30],
     area: 1886068,
     maps: {
       googleMaps: 'https://goo.gl/maps/bNW7YUJCaqR8zcXn7',
@@ -1154,9 +1135,9 @@ export default [
   {
     name: 'Uganda',
     capital: 'Kampala',
-    currencies: { UGX: { name: 'Ugandan shilling', symbol: 'Sh' } },
-    languages: { eng: 'English', swa: 'Swahili' },
-    latlng: [1, 32],
+    currencies: [{ name: 'Ugandan shilling', symbol: 'Sh' }],
+    languages: ['English', 'Swahili'],
+    coordinates: [1, 32],
     area: 241550,
     maps: {
       googleMaps: 'https://goo.gl/maps/Y7812hFiGa8LD9N68',
@@ -1173,9 +1154,9 @@ export default [
   {
     name: 'Kazakhstan',
     capital: 'Nur-Sultan',
-    currencies: { KZT: { name: 'Kazakhstani tenge', symbol: '₸' } },
-    languages: { kaz: 'Kazakh', rus: 'Russian' },
-    latlng: [48, 68],
+    currencies: [{ name: 'Kazakhstani tenge', symbol: '₸' }],
+    languages: ['Kazakh', 'Russian'],
+    coordinates: [48, 68],
     area: 2724900,
     maps: {
       googleMaps: 'https://goo.gl/maps/8VohJGu7ShuzZYyeA',
@@ -1193,9 +1174,9 @@ export default [
   {
     name: 'Northern Mariana Islands',
     capital: 'Saipan',
-    currencies: { USD: { name: 'United States dollar', symbol: '$' } },
-    languages: { cal: 'Carolinian', cha: 'Chamorro', eng: 'English' },
-    latlng: [15.2, 145.75],
+    currencies: [{ name: 'United States dollar', symbol: '$' }],
+    languages: ['Carolinian', 'Chamorro', 'English'],
+    coordinates: [15.2, 145.75],
     area: 464,
     maps: {
       googleMaps: 'https://goo.gl/maps/cpZ67knoRAcfu1417',
@@ -1212,9 +1193,9 @@ export default [
   {
     name: 'Moldova',
     capital: 'Chișinău',
-    currencies: { MDL: { name: 'Moldovan leu', symbol: 'L' } },
-    languages: { ron: 'Moldavian' },
-    latlng: [47, 29],
+    currencies: [{ name: 'Moldovan leu', symbol: 'L' }],
+    languages: ['Moldavian'],
+    coordinates: [47, 29],
     area: 33846,
     maps: {
       googleMaps: 'https://goo.gl/maps/JjmyUuULujnDeFPf7',
@@ -1232,9 +1213,9 @@ export default [
   {
     name: 'Paraguay',
     capital: 'Asunción',
-    currencies: { PYG: { name: 'Paraguayan guaraní', symbol: '₲' } },
-    languages: { grn: 'Guaraní', spa: 'Spanish' },
-    latlng: [-23, -58],
+    currencies: [{ name: 'Paraguayan guaraní', symbol: '₲' }],
+    languages: ['Guaraní', 'Spanish'],
+    coordinates: [-23, -58],
     area: 406752,
     maps: {
       googleMaps: 'https://goo.gl/maps/JtnqG73WJn1Gx6mz6',
@@ -1252,9 +1233,9 @@ export default [
   {
     name: 'Estonia',
     capital: 'Tallinn',
-    currencies: { EUR: { name: 'Euro', symbol: '€' } },
-    languages: { est: 'Estonian' },
-    latlng: [59, 26],
+    currencies: [{ name: 'Euro', symbol: '€' }],
+    languages: ['Estonian'],
+    coordinates: [59, 26],
     area: 45227,
     maps: {
       googleMaps: 'https://goo.gl/maps/6SsynwGUodL1sDvq8',
@@ -1272,9 +1253,9 @@ export default [
   {
     name: 'Greenland',
     capital: 'Nuuk',
-    currencies: { DKK: { name: 'krone', symbol: 'kr.' } },
-    languages: { kal: 'Greenlandic' },
-    latlng: [72, -40],
+    currencies: [{ name: 'krone', symbol: 'kr.' }],
+    languages: ['Greenlandic'],
+    coordinates: [72, -40],
     area: 2166086,
     maps: {
       googleMaps: 'https://goo.gl/maps/j3289UPEQXt1ceSy8',
@@ -1292,13 +1273,13 @@ export default [
   {
     name: 'Palestine',
     capital: 'Ramallah',
-    currencies: {
-      EGP: { name: 'Egyptian pound', symbol: 'E£' },
-      ILS: { name: 'Israeli new shekel', symbol: '₪' },
-      JOD: { name: 'Jordanian dinar', symbol: 'JD' }
-    },
-    languages: { ara: 'Arabic' },
-    latlng: [31.9, 35.2],
+    currencies: [
+      { name: 'Egyptian pound', symbol: 'E£' },
+      { name: 'Israeli new shekel', symbol: '₪' },
+      { name: 'Jordanian dinar', symbol: 'JD' }
+    ],
+    languages: ['Arabic'],
+    coordinates: [31.9, 35.2],
     area: 6220,
     maps: {
       googleMaps: 'https://goo.gl/maps/QvTbkRdmdWEoYAmt5',
@@ -1315,9 +1296,9 @@ export default [
   {
     name: 'Finland',
     capital: 'Helsinki',
-    currencies: { EUR: { name: 'Euro', symbol: '€' } },
-    languages: { fin: 'Finnish', swe: 'Swedish' },
-    latlng: [64, 26],
+    currencies: [{ name: 'Euro', symbol: '€' }],
+    languages: ['Finnish', 'Swedish'],
+    coordinates: [64, 26],
     area: 338424,
     maps: {
       googleMaps: 'https://goo.gl/maps/HjgWDCNKRAYHrkMn8',
@@ -1335,11 +1316,9 @@ export default [
   {
     name: 'São Tomé and Príncipe',
     capital: 'São Tomé',
-    currencies: {
-      STN: { name: 'São Tomé and Príncipe dobra', symbol: 'Db' }
-    },
-    languages: { por: 'Portuguese' },
-    latlng: [1, 7],
+    currencies: [{ name: 'São Tomé and Príncipe dobra', symbol: 'Db' }],
+    languages: ['Portuguese'],
+    coordinates: [1, 7],
     area: 964,
     maps: {
       googleMaps: 'https://goo.gl/maps/9EUppm13RtPX9oF46',
@@ -1356,9 +1335,9 @@ export default [
   {
     name: 'Honduras',
     capital: 'Tegucigalpa',
-    currencies: { HNL: { name: 'Honduran lempira', symbol: 'L' } },
-    languages: { spa: 'Spanish' },
-    latlng: [15, -86.5],
+    currencies: [{ name: 'Honduran lempira', symbol: 'L' }],
+    languages: ['Spanish'],
+    coordinates: [15, -86.5],
     area: 112492,
     maps: {
       googleMaps: 'https://goo.gl/maps/BbeJK8Sk2VkMHbdF8',
@@ -1376,9 +1355,9 @@ export default [
   {
     name: 'Dominican Republic',
     capital: 'Santo Domingo',
-    currencies: { DOP: { name: 'Dominican peso', symbol: '$' } },
-    languages: { spa: 'Spanish' },
-    latlng: [19, -70.66666666],
+    currencies: [{ name: 'Dominican peso', symbol: '$' }],
+    languages: ['Spanish'],
+    coordinates: [19, -70.66666666],
     area: 48671,
     maps: {
       googleMaps: 'https://goo.gl/maps/soxooTHxEeiAbn3UA',
@@ -1396,9 +1375,9 @@ export default [
   {
     name: 'British Indian Ocean Territory',
     capital: 'Diego Garcia',
-    currencies: { USD: { name: 'United States dollar', symbol: '$' } },
-    languages: { eng: 'English' },
-    latlng: [-6, 71.5],
+    currencies: [{ name: 'United States dollar', symbol: '$' }],
+    languages: ['English'],
+    coordinates: [-6, 71.5],
     area: 60,
     maps: {
       googleMaps: 'https://goo.gl/maps/bheNucgekVEYozoi6',
@@ -1415,9 +1394,9 @@ export default [
   {
     name: 'Rwanda',
     capital: 'Kigali',
-    currencies: { RWF: { name: 'Rwandan franc', symbol: 'Fr' } },
-    languages: { eng: 'English', fra: 'French', kin: 'Kinyarwanda' },
-    latlng: [-2, 30],
+    currencies: [{ name: 'Rwandan franc', symbol: 'Fr' }],
+    languages: ['English', 'French', 'Kinyarwanda'],
+    coordinates: [-2, 30],
     area: 26338,
     maps: {
       googleMaps: 'https://goo.gl/maps/j5xb5r7CLqjYbyP86',
@@ -1434,9 +1413,9 @@ export default [
   {
     name: 'Comoros',
     capital: 'Moroni',
-    currencies: { KMF: { name: 'Comorian franc', symbol: 'Fr' } },
-    languages: { ara: 'Arabic', fra: 'French', zdj: 'Comorian' },
-    latlng: [-12.16666666, 44.25],
+    currencies: [{ name: 'Comorian franc', symbol: 'Fr' }],
+    languages: ['Arabic', 'French', 'Comorian'],
+    coordinates: [-12.16666666, 44.25],
     area: 1862,
     maps: {
       googleMaps: 'https://goo.gl/maps/eas4GP28C1GyStnu6',
@@ -1453,9 +1432,9 @@ export default [
   {
     name: 'Oman',
     capital: 'Muscat',
-    currencies: { OMR: { name: 'Omani rial', symbol: 'ر.ع.' } },
-    languages: { ara: 'Arabic' },
-    latlng: [21, 57],
+    currencies: [{ name: 'Omani rial', symbol: 'ر.ع.' }],
+    languages: ['Arabic'],
+    coordinates: [21, 57],
     area: 309500,
     maps: {
       googleMaps: 'https://goo.gl/maps/L2BoXoAwDDwWecnw5',
@@ -1473,9 +1452,9 @@ export default [
   {
     name: 'Portugal',
     capital: 'Lisbon',
-    currencies: { EUR: { name: 'Euro', symbol: '€' } },
-    languages: { por: 'Portuguese' },
-    latlng: [39.5, -8],
+    currencies: [{ name: 'Euro', symbol: '€' }],
+    languages: ['Portuguese'],
+    coordinates: [39.5, -8],
     area: 92090,
     maps: {
       googleMaps: 'https://goo.gl/maps/BaTBSyc4GWMmbAKB8',
@@ -1493,9 +1472,9 @@ export default [
   {
     name: 'American Samoa',
     capital: 'Pago Pago',
-    currencies: { USD: { name: 'United States dollar', symbol: '$' } },
-    languages: { eng: 'English', smo: 'Samoan' },
-    latlng: [-14.33333333, -170],
+    currencies: [{ name: 'United States dollar', symbol: '$' }],
+    languages: ['English', 'Samoan'],
+    coordinates: [-14.33333333, -170],
     area: 199,
     maps: {
       googleMaps: 'https://goo.gl/maps/Re9ePMjwP1sFCBFA6',
@@ -1512,9 +1491,9 @@ export default [
   {
     name: 'Thailand',
     capital: 'Bangkok',
-    currencies: { THB: { name: 'Thai baht', symbol: '฿' } },
-    languages: { tha: 'Thai' },
-    latlng: [15, 100],
+    currencies: [{ name: 'Thai baht', symbol: '฿' }],
+    languages: ['Thai'],
+    coordinates: [15, 100],
     area: 513120,
     maps: {
       googleMaps: 'https://goo.gl/maps/qeU6uqsfW4nCCwzw9',
@@ -1532,9 +1511,9 @@ export default [
   {
     name: 'Timor-Leste',
     capital: 'Dili',
-    currencies: { USD: { name: 'United States dollar', symbol: '$' } },
-    languages: { por: 'Portuguese', tet: 'Tetum' },
-    latlng: [-8.83333333, 125.91666666],
+    currencies: [{ name: 'United States dollar', symbol: '$' }],
+    languages: ['Portuguese', 'Tetum'],
+    coordinates: [-8.83333333, 125.91666666],
     area: 14874,
     maps: {
       googleMaps: 'https://goo.gl/maps/sFqBC9zjgUXPR1iTA',
@@ -1551,9 +1530,9 @@ export default [
   {
     name: 'Armenia',
     capital: 'Yerevan',
-    currencies: { AMD: { name: 'Armenian dram', symbol: '֏' } },
-    languages: { hye: 'Armenian' },
-    latlng: [40, 45],
+    currencies: [{ name: 'Armenian dram', symbol: '֏' }],
+    languages: ['Armenian'],
+    coordinates: [40, 45],
     area: 29743,
     maps: {
       googleMaps: 'https://goo.gl/maps/azWUtK9bUQYEyccbA',
@@ -1571,9 +1550,9 @@ export default [
   {
     name: 'Kuwait',
     capital: 'Kuwait City',
-    currencies: { KWD: { name: 'Kuwaiti dinar', symbol: 'د.ك' } },
-    languages: { ara: 'Arabic' },
-    latlng: [29.5, 45.75],
+    currencies: [{ name: 'Kuwaiti dinar', symbol: 'د.ك' }],
+    languages: ['Arabic'],
+    coordinates: [29.5, 45.75],
     area: 17818,
     maps: {
       googleMaps: 'https://goo.gl/maps/aqr3aNQjS1BAvksJ7',
@@ -1591,9 +1570,9 @@ export default [
   {
     name: 'South Georgia',
     capital: 'King Edward Point',
-    currencies: { SHP: { name: 'Saint Helena pound', symbol: '£' } },
-    languages: { eng: 'English' },
-    latlng: [-54.5, -37],
+    currencies: [{ name: 'Saint Helena pound', symbol: '£' }],
+    languages: ['English'],
+    coordinates: [-54.5, -37],
     area: 3903,
     maps: {
       googleMaps: 'https://goo.gl/maps/mJzdaBwKBbm2B81q9',
@@ -1610,9 +1589,9 @@ export default [
   {
     name: 'Saint Martin',
     capital: 'Marigot',
-    currencies: { EUR: { name: 'Euro', symbol: '€' } },
-    languages: { fra: 'French' },
-    latlng: [18.08333333, -63.95],
+    currencies: [{ name: 'Euro', symbol: '€' }],
+    languages: ['French'],
+    coordinates: [18.08333333, -63.95],
     area: 53,
     maps: {
       googleMaps: 'https://goo.gl/maps/P9ho9QuJ9EAR28JEA',
@@ -1630,9 +1609,9 @@ export default [
   {
     name: 'Georgia',
     capital: 'Tbilisi',
-    currencies: { GEL: { name: 'lari', symbol: '₾' } },
-    languages: { kat: 'Georgian' },
-    latlng: [42, 43.5],
+    currencies: [{ name: 'lari', symbol: '₾' }],
+    languages: ['Georgian'],
+    coordinates: [42, 43.5],
     area: 69700,
     maps: {
       googleMaps: 'https://goo.gl/maps/bvCaGBePR1ZEDK5cA',
@@ -1650,9 +1629,9 @@ export default [
   {
     name: 'Burundi',
     capital: 'Gitega',
-    currencies: { BIF: { name: 'Burundian franc', symbol: 'Fr' } },
-    languages: { fra: 'French', run: 'Kirundi' },
-    latlng: [-3.5, 30],
+    currencies: [{ name: 'Burundian franc', symbol: 'Fr' }],
+    languages: ['French', 'Kirundi'],
+    coordinates: [-3.5, 30],
     area: 27834,
     maps: {
       googleMaps: 'https://goo.gl/maps/RXPWoRrB9tfrJpUG7',
@@ -1669,11 +1648,9 @@ export default [
   {
     name: 'Anguilla',
     capital: 'The Valley',
-    currencies: {
-      XCD: { name: 'Eastern Caribbean dollar', symbol: '$' }
-    },
-    languages: { eng: 'English' },
-    latlng: [18.25, -63.16666666],
+    currencies: [{ name: 'Eastern Caribbean dollar', symbol: '$' }],
+    languages: ['English'],
+    coordinates: [18.25, -63.16666666],
     area: 91,
     maps: {
       googleMaps: 'https://goo.gl/maps/3KgLnEyN7amdno2p9',
@@ -1690,12 +1667,12 @@ export default [
   {
     name: 'Cambodia',
     capital: 'Phnom Penh',
-    currencies: {
-      KHR: { name: 'Cambodian riel', symbol: '៛' },
-      USD: { name: 'United States dollar', symbol: '$' }
-    },
-    languages: { khm: 'Khmer' },
-    latlng: [13, 105],
+    currencies: [
+      { name: 'Cambodian riel', symbol: '៛' },
+      { name: 'United States dollar', symbol: '$' }
+    ],
+    languages: ['Khmer'],
+    coordinates: [13, 105],
     area: 181035,
     maps: {
       googleMaps: 'https://goo.gl/maps/nztQtFSrUXZymJaW8',
@@ -1713,12 +1690,12 @@ export default [
   {
     name: 'Lesotho',
     capital: 'Maseru',
-    currencies: {
-      LSL: { name: 'Lesotho loti', symbol: 'L' },
-      ZAR: { name: 'South African rand', symbol: 'R' }
-    },
-    languages: { eng: 'English', sot: 'Sotho' },
-    latlng: [-29.5, 28.5],
+    currencies: [
+      { name: 'Lesotho loti', symbol: 'L' },
+      { name: 'South African rand', symbol: 'R' }
+    ],
+    languages: ['English', 'Sotho'],
+    coordinates: [-29.5, 28.5],
     area: 30355,
     maps: {
       googleMaps: 'https://goo.gl/maps/H8gJi5mL4Cmd1SF28',
@@ -1736,9 +1713,9 @@ export default [
   {
     name: 'Cayman Islands',
     capital: 'George Town',
-    currencies: { KYD: { name: 'Cayman Islands dollar', symbol: '$' } },
-    languages: { eng: 'English' },
-    latlng: [19.5, -80.5],
+    currencies: [{ name: 'Cayman Islands dollar', symbol: '$' }],
+    languages: ['English'],
+    coordinates: [19.5, -80.5],
     area: 264,
     maps: {
       googleMaps: 'https://goo.gl/maps/P3ZVXX3LH63t91hL8',
@@ -1755,9 +1732,9 @@ export default [
   {
     name: 'Vanuatu',
     capital: 'Port Vila',
-    currencies: { VUV: { name: 'Vanuatu vatu', symbol: 'Vt' } },
-    languages: { bis: 'Bislama', eng: 'English', fra: 'French' },
-    latlng: [-16, 167],
+    currencies: [{ name: 'Vanuatu vatu', symbol: 'Vt' }],
+    languages: ['Bislama', 'English', 'French'],
+    coordinates: [-16, 167],
     area: 12189,
     maps: {
       googleMaps: 'https://goo.gl/maps/hwAjehcT7VfvP5zJ8',
@@ -1774,14 +1751,9 @@ export default [
   {
     name: 'Bolivia',
     capital: 'Sucre',
-    currencies: { BOB: { name: 'Bolivian boliviano', symbol: 'Bs.' } },
-    languages: {
-      aym: 'Aymara',
-      grn: 'Guaraní',
-      que: 'Quechua',
-      spa: 'Spanish'
-    },
-    latlng: [-17, -65],
+    currencies: [{ name: 'Bolivian boliviano', symbol: 'Bs.' }],
+    languages: ['Aymara', 'Guaraní', 'Quechua', 'Spanish'],
+    coordinates: [-17, -65],
     area: 1098581,
     maps: {
       googleMaps: 'https://goo.gl/maps/9DfnyfbxNM2g5U9b9',
@@ -1798,9 +1770,9 @@ export default [
   {
     name: 'United Kingdom',
     capital: 'London',
-    currencies: { GBP: { name: 'British pound', symbol: '£' } },
-    languages: { eng: 'English' },
-    latlng: [54, -2],
+    currencies: [{ name: 'British pound', symbol: '£' }],
+    languages: ['English'],
+    coordinates: [54, -2],
     area: 242900,
     maps: {
       googleMaps: 'https://goo.gl/maps/FoDtc3UKMkFsXAjHA',
@@ -1822,9 +1794,9 @@ export default [
   {
     name: 'Tonga',
     capital: "Nuku'alofa",
-    currencies: { TOP: { name: 'Tongan paʻanga', symbol: 'T$' } },
-    languages: { eng: 'English', ton: 'Tongan' },
-    latlng: [-20, -175],
+    currencies: [{ name: 'Tongan paʻanga', symbol: 'T$' }],
+    languages: ['English', 'Tongan'],
+    coordinates: [-20, -175],
     area: 747,
     maps: {
       googleMaps: 'https://goo.gl/maps/p5YALBY2QdEzswRo7',
@@ -1841,9 +1813,9 @@ export default [
   {
     name: 'Spain',
     capital: 'Madrid',
-    currencies: { EUR: { name: 'Euro', symbol: '€' } },
-    languages: { spa: 'Spanish' },
-    latlng: [40, -4],
+    currencies: [{ name: 'Euro', symbol: '€' }],
+    languages: ['Spanish'],
+    coordinates: [40, -4],
     area: 505992,
     maps: {
       googleMaps: 'https://goo.gl/maps/138JaXW8EZzRVitY9',
@@ -1861,9 +1833,9 @@ export default [
   {
     name: 'Israel',
     capital: 'Jerusalem',
-    currencies: { ILS: { name: 'Israeli new shekel', symbol: '₪' } },
-    languages: { ara: 'Arabic', heb: 'Hebrew' },
-    latlng: [31.47, 35.13],
+    currencies: [{ name: 'Israeli new shekel', symbol: '₪' }],
+    languages: ['Arabic', 'Hebrew'],
+    coordinates: [31.47, 35.13],
     area: 20770,
     maps: {
       googleMaps: 'https://goo.gl/maps/6UY1AH8XeafVwdC97',
@@ -1881,9 +1853,9 @@ export default [
   {
     name: 'Malaysia',
     capital: 'Kuala Lumpur',
-    currencies: { MYR: { name: 'Malaysian ringgit', symbol: 'RM' } },
-    languages: { eng: 'English', msa: 'Malay' },
-    latlng: [2.5, 112.5],
+    currencies: [{ name: 'Malaysian ringgit', symbol: 'RM' }],
+    languages: ['English', 'Malay'],
+    coordinates: [2.5, 112.5],
     area: 330803,
     maps: {
       googleMaps: 'https://goo.gl/maps/qrY1PNeUXGyXDcPy6',
@@ -1901,11 +1873,9 @@ export default [
   {
     name: 'Curaçao',
     capital: 'Willemstad',
-    currencies: {
-      ANG: { name: 'Netherlands Antillean guilder', symbol: 'ƒ' }
-    },
-    languages: { eng: 'English', nld: 'Dutch', pap: 'Papiamento' },
-    latlng: [12.116667, -68.933333],
+    currencies: [{ name: 'Netherlands Antillean guilder', symbol: 'ƒ' }],
+    languages: ['English', 'Dutch', 'Papiamento'],
+    coordinates: [12.116667, -68.933333],
     area: 444,
     maps: {
       googleMaps: 'https://goo.gl/maps/9D3hTeA3qKaRT7S16',
@@ -1922,15 +1892,9 @@ export default [
   {
     name: 'DR Congo',
     capital: 'Kinshasa',
-    currencies: { CDF: { name: 'Congolese franc', symbol: 'FC' } },
-    languages: {
-      fra: 'French',
-      kon: 'Kikongo',
-      lin: 'Lingala',
-      lua: 'Tshiluba',
-      swa: 'Swahili'
-    },
-    latlng: [0, 25],
+    currencies: [{ name: 'Congolese franc', symbol: 'FC' }],
+    languages: ['French', 'Kikongo', 'Lingala', 'Tshiluba', 'Swahili'],
+    coordinates: [0, 25],
     area: 2344858,
     maps: {
       googleMaps: 'https://goo.gl/maps/KfhNVn6VqdZXWu8n9',
@@ -1947,12 +1911,12 @@ export default [
   {
     name: 'Cuba',
     capital: 'Havana',
-    currencies: {
-      CUC: { name: 'Cuban convertible peso', symbol: '$' },
-      CUP: { name: 'Cuban peso', symbol: '$' }
-    },
-    languages: { spa: 'Spanish' },
-    latlng: [21.5, -80],
+    currencies: [
+      { name: 'Cuban convertible peso', symbol: '$' },
+      { name: 'Cuban peso', symbol: '$' }
+    ],
+    languages: ['Spanish'],
+    coordinates: [21.5, -80],
     area: 109884,
     maps: {
       googleMaps: 'https://goo.gl/maps/1dDw1QfZspfMUTm99',
@@ -1970,9 +1934,9 @@ export default [
   {
     name: 'Djibouti',
     capital: 'Djibouti',
-    currencies: { DJF: { name: 'Djiboutian franc', symbol: 'Fr' } },
-    languages: { ara: 'Arabic', fra: 'French' },
-    latlng: [11.5, 43],
+    currencies: [{ name: 'Djiboutian franc', symbol: 'Fr' }],
+    languages: ['Arabic', 'French'],
+    coordinates: [11.5, 43],
     area: 23200,
     maps: {
       googleMaps: 'https://goo.gl/maps/V1HWfzN3bS1kwf4C6',
@@ -1989,9 +1953,9 @@ export default [
   {
     name: 'Chile',
     capital: 'Santiago',
-    currencies: { CLP: { name: 'Chilean peso', symbol: '$' } },
-    languages: { spa: 'Spanish' },
-    latlng: [-30, -71],
+    currencies: [{ name: 'Chilean peso', symbol: '$' }],
+    languages: ['Spanish'],
+    coordinates: [-30, -71],
     area: 756102,
     maps: {
       googleMaps: 'https://goo.gl/maps/XboxyNHh2fAjCPNn9',
@@ -2009,11 +1973,9 @@ export default [
   {
     name: 'Bosnia and Herzegovina',
     capital: 'Sarajevo',
-    currencies: {
-      BAM: { name: 'Bosnia and Herzegovina convertible mark' }
-    },
-    languages: { bos: 'Bosnian', hrv: 'Croatian', srp: 'Serbian' },
-    latlng: [44, 18],
+    currencies: [{ name: 'Bosnia and Herzegovina convertible mark' }],
+    languages: ['Bosnian', 'Croatian', 'Serbian'],
+    coordinates: [44, 18],
     area: 51209,
     maps: {
       googleMaps: 'https://www.google.com/maps/place/Bosnia+and+Herzegovina',
@@ -2031,14 +1993,9 @@ export default [
   {
     name: 'Singapore',
     capital: 'Singapore',
-    currencies: { SGD: { name: 'Singapore dollar', symbol: '$' } },
-    languages: {
-      zho: 'Chinese',
-      eng: 'English',
-      msa: 'Malay',
-      tam: 'Tamil'
-    },
-    latlng: [1.36666666, 103.8],
+    currencies: [{ name: 'Singapore dollar', symbol: '$' }],
+    languages: ['Chinese', 'English', 'Malay', 'Tamil'],
+    coordinates: [1.36666666, 103.8],
     area: 710,
     maps: {
       googleMaps: 'https://goo.gl/maps/QbQt9Y9b5KFzsahV6',
@@ -2056,9 +2013,9 @@ export default [
   {
     name: 'French Guiana',
     capital: 'Cayenne',
-    currencies: { EUR: { name: 'Euro', symbol: '€' } },
-    languages: { fra: 'French' },
-    latlng: [4, -53],
+    currencies: [{ name: 'Euro', symbol: '€' }],
+    languages: ['French'],
+    coordinates: [4, -53],
     area: 83534,
     maps: {
       googleMaps: 'https://goo.gl/maps/NJawFwMzG7YtCrVP7',
@@ -2076,9 +2033,9 @@ export default [
   {
     name: 'Suriname',
     capital: 'Paramaribo',
-    currencies: { SRD: { name: 'Surinamese dollar', symbol: '$' } },
-    languages: { nld: 'Dutch' },
-    latlng: [4, -56],
+    currencies: [{ name: 'Surinamese dollar', symbol: '$' }],
+    languages: ['Dutch'],
+    coordinates: [4, -56],
     area: 163820,
     maps: {
       googleMaps: 'https://goo.gl/maps/iy7TuQLSi4qgoBoG7',
@@ -2095,12 +2052,12 @@ export default [
   {
     name: 'Eswatini',
     capital: 'Mbabane',
-    currencies: {
-      SZL: { name: 'Swazi lilangeni', symbol: 'L' },
-      ZAR: { name: 'South African rand', symbol: 'R' }
-    },
-    languages: { eng: 'English', ssw: 'Swazi' },
-    latlng: [-26.5, 31.5],
+    currencies: [
+      { name: 'Swazi lilangeni', symbol: 'L' },
+      { name: 'South African rand', symbol: 'R' }
+    ],
+    languages: ['English', 'Swazi'],
+    coordinates: [-26.5, 31.5],
     area: 17364,
     maps: {
       googleMaps: 'https://goo.gl/maps/cUY79eqQihFSE8hV6',
@@ -2118,9 +2075,9 @@ export default [
   {
     name: 'Belgium',
     capital: 'Brussels',
-    currencies: { EUR: { name: 'Euro', symbol: '€' } },
-    languages: { deu: 'German', fra: 'French', nld: 'Dutch' },
-    latlng: [50.83333333, 4],
+    currencies: [{ name: 'Euro', symbol: '€' }],
+    languages: ['German', 'French', 'Dutch'],
+    coordinates: [50.83333333, 4],
     area: 30528,
     maps: {
       googleMaps: 'https://goo.gl/maps/UQQzat85TCtPRXAL8',
@@ -2138,9 +2095,9 @@ export default [
   {
     name: 'China',
     capital: 'Beijing',
-    currencies: { CNY: { name: 'Chinese yuan', symbol: '¥' } },
-    languages: { zho: 'Chinese' },
-    latlng: [35, 105],
+    currencies: [{ name: 'Chinese yuan', symbol: '¥' }],
+    languages: ['Chinese'],
+    coordinates: [35, 105],
     area: 9706961,
     maps: {
       googleMaps: 'https://goo.gl/maps/p9qC6vgiFRRXzvGi7',
@@ -2158,11 +2115,9 @@ export default [
   {
     name: 'Saint Vincent and the Grenadines',
     capital: 'Kingstown',
-    currencies: {
-      XCD: { name: 'Eastern Caribbean dollar', symbol: '$' }
-    },
-    languages: { eng: 'English' },
-    latlng: [13.25, -61.2],
+    currencies: [{ name: 'Eastern Caribbean dollar', symbol: '$' }],
+    languages: ['English'],
+    coordinates: [13.25, -61.2],
     area: 389,
     maps: {
       googleMaps: 'https://goo.gl/maps/wMbnMqjG37FMnrwf7',
@@ -2179,9 +2134,9 @@ export default [
   {
     name: 'Nicaragua',
     capital: 'Managua',
-    currencies: { NIO: { name: 'Nicaraguan córdoba', symbol: 'C$' } },
-    languages: { spa: 'Spanish' },
-    latlng: [13, -85],
+    currencies: [{ name: 'Nicaraguan córdoba', symbol: 'C$' }],
+    languages: ['Spanish'],
+    coordinates: [13, -85],
     area: 130373,
     maps: {
       googleMaps: 'https://goo.gl/maps/P77LaEVkKJKXneRC6',
@@ -2199,9 +2154,9 @@ export default [
   {
     name: 'Canada',
     capital: 'Ottawa',
-    currencies: { CAD: { name: 'Canadian dollar', symbol: '$' } },
-    languages: { eng: 'English', fra: 'French' },
-    latlng: [60, -95],
+    currencies: [{ name: 'Canadian dollar', symbol: '$' }],
+    languages: ['English', 'French'],
+    coordinates: [60, -95],
     area: 9984670,
     maps: {
       googleMaps: 'https://goo.gl/maps/jmEVLugreeqiZXxbA',
@@ -2223,11 +2178,9 @@ export default [
   {
     name: 'Togo',
     capital: 'Lomé',
-    currencies: {
-      XOF: { name: 'West African CFA franc', symbol: 'Fr' }
-    },
-    languages: { fra: 'French' },
-    latlng: [8, 1.16666666],
+    currencies: [{ name: 'West African CFA franc', symbol: 'Fr' }],
+    languages: ['French'],
+    coordinates: [8, 1.16666666],
     area: 56785,
     maps: {
       googleMaps: 'https://goo.gl/maps/jzAa9feXuXPrKVb89',
@@ -2244,11 +2197,9 @@ export default [
   {
     name: 'Ivory Coast',
     capital: 'Yamoussoukro',
-    currencies: {
-      XOF: { name: 'West African CFA franc', symbol: 'Fr' }
-    },
-    languages: { fra: 'French' },
-    latlng: [8, -5],
+    currencies: [{ name: 'West African CFA franc', symbol: 'Fr' }],
+    languages: ['French'],
+    coordinates: [8, -5],
     area: 322463,
     maps: {
       googleMaps: 'https://goo.gl/maps/wKsmN7f5qAeNtGjP6',
@@ -2265,9 +2216,9 @@ export default [
   {
     name: 'Slovenia',
     capital: 'Ljubljana',
-    currencies: { EUR: { name: 'Euro', symbol: '€' } },
-    languages: { slv: 'Slovene' },
-    latlng: [46.11666666, 14.81666666],
+    currencies: [{ name: 'Euro', symbol: '€' }],
+    languages: ['Slovene'],
+    coordinates: [46.11666666, 14.81666666],
     area: 20273,
     maps: {
       googleMaps: 'https://goo.gl/maps/7zgFmswcCJh5L5D49',
@@ -2285,9 +2236,9 @@ export default [
   {
     name: 'Sri Lanka',
     capital: 'Sri Jayawardenepura Kotte',
-    currencies: { LKR: { name: 'Sri Lankan rupee', symbol: 'Rs  රු' } },
-    languages: { sin: 'Sinhala', tam: 'Tamil' },
-    latlng: [7, 81],
+    currencies: [{ name: 'Sri Lankan rupee', symbol: 'Rs  රු' }],
+    languages: ['Sinhala', 'Tamil'],
+    coordinates: [7, 81],
     area: 65610,
     maps: {
       googleMaps: 'https://goo.gl/maps/VkPHoeFSfgzRQCDv8',
@@ -2305,9 +2256,9 @@ export default [
   {
     name: 'Greece',
     capital: 'Athens',
-    currencies: { EUR: { name: 'Euro', symbol: '€' } },
-    languages: { ell: 'Greek' },
-    latlng: [39, 22],
+    currencies: [{ name: 'Euro', symbol: '€' }],
+    languages: ['Greek'],
+    coordinates: [39, 22],
     area: 131990,
     maps: {
       googleMaps: 'https://goo.gl/maps/LHGcAvuRyD2iKECC6',
@@ -2325,9 +2276,9 @@ export default [
   {
     name: 'Jamaica',
     capital: 'Kingston',
-    currencies: { JMD: { name: 'Jamaican dollar', symbol: '$' } },
-    languages: { eng: 'English', jam: 'Jamaican Patois' },
-    latlng: [18.25, -77.5],
+    currencies: [{ name: 'Jamaican dollar', symbol: '$' }],
+    languages: ['English', 'Jamaican Patois'],
+    coordinates: [18.25, -77.5],
     area: 10991,
     maps: {
       googleMaps: 'https://goo.gl/maps/Z8mQ6jxnRQKFwJy9A',
@@ -2344,9 +2295,9 @@ export default [
   {
     name: 'Italy',
     capital: 'Rome',
-    currencies: { EUR: { name: 'Euro', symbol: '€' } },
-    languages: { ita: 'Italian' },
-    latlng: [42.83333333, 12.83333333],
+    currencies: [{ name: 'Euro', symbol: '€' }],
+    languages: ['Italian'],
+    coordinates: [42.83333333, 12.83333333],
     area: 301336,
     maps: {
       googleMaps: 'https://goo.gl/maps/8M1K27TDj7StTRTq8',
@@ -2364,9 +2315,9 @@ export default [
   {
     name: 'Croatia',
     capital: 'Zagreb',
-    currencies: { HRK: { name: 'Croatian kuna', symbol: 'kn' } },
-    languages: { hrv: 'Croatian' },
-    latlng: [45.16666666, 15.5],
+    currencies: [{ name: 'Croatian kuna', symbol: 'kn' }],
+    languages: ['Croatian'],
+    coordinates: [45.16666666, 15.5],
     area: 56594,
     maps: {
       googleMaps: 'https://goo.gl/maps/qSG6xTKUmrYpwmGQ6',
@@ -2384,9 +2335,9 @@ export default [
   {
     name: 'New Caledonia',
     capital: 'Nouméa',
-    currencies: { XPF: { name: 'CFP franc', symbol: '₣' } },
-    languages: { fra: 'French' },
-    latlng: [-21.5, 165.5],
+    currencies: [{ name: 'CFP franc', symbol: '₣' }],
+    languages: ['French'],
+    coordinates: [-21.5, 165.5],
     area: 18575,
     maps: {
       googleMaps: 'https://goo.gl/maps/cBhtCeMdob4U7FRU9',
@@ -2404,9 +2355,9 @@ export default [
   {
     name: 'Pakistan',
     capital: 'Islamabad',
-    currencies: { PKR: { name: 'Pakistani rupee', symbol: '₨' } },
-    languages: { eng: 'English', urd: 'Urdu' },
-    latlng: [30, 70],
+    currencies: [{ name: 'Pakistani rupee', symbol: '₨' }],
+    languages: ['English', 'Urdu'],
+    coordinates: [30, 70],
     area: 881912,
     maps: {
       googleMaps: 'https://goo.gl/maps/5LYujdfR5yLUXoERA',
@@ -2424,9 +2375,9 @@ export default [
   {
     name: 'Hong Kong',
     capital: 'City of Victoria',
-    currencies: { HKD: { name: 'Hong Kong dollar', symbol: '$' } },
-    languages: { eng: 'English', zho: 'Chinese' },
-    latlng: [22.267, 114.188],
+    currencies: [{ name: 'Hong Kong dollar', symbol: '$' }],
+    languages: ['English', 'Chinese'],
+    coordinates: [22.267, 114.188],
     area: 1104,
     maps: {
       googleMaps: 'https://goo.gl/maps/1sEnNmT47ffrC8MU8',
@@ -2443,9 +2394,9 @@ export default [
   {
     name: 'Latvia',
     capital: 'Riga',
-    currencies: { EUR: { name: 'Euro', symbol: '€' } },
-    languages: { lav: 'Latvian' },
-    latlng: [57, 25],
+    currencies: [{ name: 'Euro', symbol: '€' }],
+    languages: ['Latvian'],
+    coordinates: [57, 25],
     area: 64559,
     maps: {
       googleMaps: 'https://goo.gl/maps/iQpUkH7ghq31ZtXe9',
@@ -2463,9 +2414,9 @@ export default [
   {
     name: 'Lebanon',
     capital: 'Beirut',
-    currencies: { LBP: { name: 'Lebanese pound', symbol: 'ل.ل' } },
-    languages: { ara: 'Arabic', fra: 'French' },
-    latlng: [33.83333333, 35.83333333],
+    currencies: [{ name: 'Lebanese pound', symbol: 'ل.ل' }],
+    languages: ['Arabic', 'French'],
+    coordinates: [33.83333333, 35.83333333],
     area: 10452,
     maps: {
       googleMaps: 'https://goo.gl/maps/Sz5VCU8UFBqMyTdc9',
@@ -2486,13 +2437,9 @@ export default [
   {
     name: 'Mauritius',
     capital: 'Port Louis',
-    currencies: { MUR: { name: 'Mauritian rupee', symbol: '₨' } },
-    languages: {
-      eng: 'English',
-      fra: 'French',
-      mfe: 'Mauritian Creole'
-    },
-    latlng: [-20.28333333, 57.55],
+    currencies: [{ name: 'Mauritian rupee', symbol: '₨' }],
+    languages: ['English', 'French', 'Mauritian Creole'],
+    coordinates: [-20.28333333, 57.55],
     area: 2040,
     maps: {
       googleMaps: 'https://goo.gl/maps/PpKtZ4W3tir5iGrz7',
@@ -2509,9 +2456,9 @@ export default [
   {
     name: 'Guinea',
     capital: 'Conakry',
-    currencies: { GNF: { name: 'Guinean franc', symbol: 'Fr' } },
-    languages: { fra: 'French' },
-    latlng: [11, -10],
+    currencies: [{ name: 'Guinean franc', symbol: 'Fr' }],
+    languages: ['French'],
+    coordinates: [11, -10],
     area: 245857,
     maps: {
       googleMaps: 'https://goo.gl/maps/8J5oM5sA4Ayr1ZYGA',
@@ -2528,11 +2475,9 @@ export default [
   {
     name: 'Republic of the Congo',
     capital: 'Brazzaville',
-    currencies: {
-      XAF: { name: 'Central African CFA franc', symbol: 'Fr' }
-    },
-    languages: { fra: 'French', kon: 'Kikongo', lin: 'Lingala' },
-    latlng: [-1, 15],
+    currencies: [{ name: 'Central African CFA franc', symbol: 'Fr' }],
+    languages: ['French', 'Kikongo', 'Lingala'],
+    coordinates: [-1, 15],
     area: 342000,
     maps: {
       googleMaps: 'https://goo.gl/maps/Phf5dDDKdfCtuBTb6',
@@ -2549,11 +2494,9 @@ export default [
   {
     name: 'Grenada',
     capital: "St. George's",
-    currencies: {
-      XCD: { name: 'Eastern Caribbean dollar', symbol: '$' }
-    },
-    languages: { eng: 'English' },
-    latlng: [12.11666666, -61.66666666],
+    currencies: [{ name: 'Eastern Caribbean dollar', symbol: '$' }],
+    languages: ['English'],
+    coordinates: [12.11666666, -61.66666666],
     area: 344,
     maps: {
       googleMaps: 'https://goo.gl/maps/rqWyfUAt4xhvk1Zy9',
@@ -2570,9 +2513,9 @@ export default [
   {
     name: 'Eritrea',
     capital: 'Asmara',
-    currencies: { ERN: { name: 'Eritrean nakfa', symbol: 'Nfk' } },
-    languages: { ara: 'Arabic', eng: 'English', tir: 'Tigrinya' },
-    latlng: [15, 39],
+    currencies: [{ name: 'Eritrean nakfa', symbol: 'Nfk' }],
+    languages: ['Arabic', 'English', 'Tigrinya'],
+    coordinates: [15, 39],
     area: 117600,
     maps: {
       googleMaps: 'https://goo.gl/maps/HRyqUpnPwwG6jY5j6',
@@ -2589,9 +2532,9 @@ export default [
   {
     name: 'Barbados',
     capital: 'Bridgetown',
-    currencies: { BBD: { name: 'Barbadian dollar', symbol: '$' } },
-    languages: { eng: 'English' },
-    latlng: [13.16666666, -59.53333333],
+    currencies: [{ name: 'Barbadian dollar', symbol: '$' }],
+    languages: ['English'],
+    coordinates: [13.16666666, -59.53333333],
     area: 430,
     maps: {
       googleMaps: 'https://goo.gl/maps/2m36v8STvbGAWd9c7',
@@ -2609,9 +2552,9 @@ export default [
   {
     name: 'Tajikistan',
     capital: 'Dushanbe',
-    currencies: { TJS: { name: 'Tajikistani somoni', symbol: 'ЅМ' } },
-    languages: { rus: 'Russian', tgk: 'Tajik' },
-    latlng: [39, 71],
+    currencies: [{ name: 'Tajikistani somoni', symbol: 'ЅМ' }],
+    languages: ['Russian', 'Tajik'],
+    coordinates: [39, 71],
     area: 143100,
     maps: {
       googleMaps: 'https://goo.gl/maps/8rQgW88jEXijhVb58',
@@ -2629,11 +2572,9 @@ export default [
   {
     name: 'Burkina Faso',
     capital: 'Ouagadougou',
-    currencies: {
-      XOF: { name: 'West African CFA franc', symbol: 'Fr' }
-    },
-    languages: { fra: 'French' },
-    latlng: [13, -2],
+    currencies: [{ name: 'West African CFA franc', symbol: 'Fr' }],
+    languages: ['French'],
+    coordinates: [13, -2],
     area: 272967,
     maps: {
       googleMaps: 'https://goo.gl/maps/rKRmpcMbFher2ozb7',
@@ -2650,9 +2591,9 @@ export default [
   {
     name: 'Macau',
     capital: 'Unknown',
-    currencies: { MOP: { name: 'Macanese pataca', symbol: 'P' } },
-    languages: { por: 'Portuguese', zho: 'Chinese' },
-    latlng: [22.16666666, 113.55],
+    currencies: [{ name: 'Macanese pataca', symbol: 'P' }],
+    languages: ['Portuguese', 'Chinese'],
+    coordinates: [22.16666666, 113.55],
     area: 30,
     maps: {
       googleMaps: 'https://goo.gl/maps/whymRdk3dZFfAAs4A',
@@ -2669,9 +2610,9 @@ export default [
   {
     name: 'Marshall Islands',
     capital: 'Majuro',
-    currencies: { USD: { name: 'United States dollar', symbol: '$' } },
-    languages: { eng: 'English', mah: 'Marshallese' },
-    latlng: [9, 168],
+    currencies: [{ name: 'United States dollar', symbol: '$' }],
+    languages: ['English', 'Marshallese'],
+    coordinates: [9, 168],
     area: 181,
     maps: {
       googleMaps: 'https://goo.gl/maps/A4xLi1XvcX88gi3W8',
@@ -2688,9 +2629,9 @@ export default [
   {
     name: 'Belarus',
     capital: 'Minsk',
-    currencies: { BYN: { name: 'Belarusian ruble', symbol: 'Br' } },
-    languages: { bel: 'Belarusian', rus: 'Russian' },
-    latlng: [53, 28],
+    currencies: [{ name: 'Belarusian ruble', symbol: 'Br' }],
+    languages: ['Belarusian', 'Russian'],
+    coordinates: [53, 28],
     area: 207600,
     maps: {
       googleMaps: 'https://goo.gl/maps/PJUDU3EBPSszCQcu6',
@@ -2708,9 +2649,9 @@ export default [
   {
     name: 'Mayotte',
     capital: 'Mamoudzou',
-    currencies: { EUR: { name: 'Euro', symbol: '€' } },
-    languages: { fra: 'French' },
-    latlng: [-12.83333333, 45.16666666],
+    currencies: [{ name: 'Euro', symbol: '€' }],
+    languages: ['French'],
+    coordinates: [-12.83333333, 45.16666666],
     area: 374,
     maps: {
       googleMaps: 'https://goo.gl/maps/1e7MXmfBwQv3TQGF7',
@@ -2728,9 +2669,9 @@ export default [
   {
     name: 'Zambia',
     capital: 'Lusaka',
-    currencies: { ZMW: { name: 'Zambian kwacha', symbol: 'ZK' } },
-    languages: { eng: 'English' },
-    latlng: [-15, 30],
+    currencies: [{ name: 'Zambian kwacha', symbol: 'ZK' }],
+    languages: ['English'],
+    coordinates: [-15, 30],
     area: 752612,
     maps: {
       googleMaps: 'https://goo.gl/maps/mweBcqvW8TppZW6q9',
@@ -2748,9 +2689,9 @@ export default [
   {
     name: 'Iceland',
     capital: 'Reykjavik',
-    currencies: { ISK: { name: 'Icelandic króna', symbol: 'kr' } },
-    languages: { isl: 'Icelandic' },
-    latlng: [65, -18],
+    currencies: [{ name: 'Icelandic króna', symbol: 'kr' }],
+    languages: ['Icelandic'],
+    coordinates: [65, -18],
     area: 103000,
     maps: {
       googleMaps: 'https://goo.gl/maps/WxFWSQuc3oamNxoE6',
@@ -2768,11 +2709,9 @@ export default [
   {
     name: 'Saint Lucia',
     capital: 'Castries',
-    currencies: {
-      XCD: { name: 'Eastern Caribbean dollar', symbol: '$' }
-    },
-    languages: { eng: 'English' },
-    latlng: [13.88333333, -60.96666666],
+    currencies: [{ name: 'Eastern Caribbean dollar', symbol: '$' }],
+    languages: ['English'],
+    coordinates: [13.88333333, -60.96666666],
     area: 616,
     maps: {
       googleMaps: 'https://goo.gl/maps/4HhJ2jkPdSL9BPRcA',
@@ -2789,9 +2728,9 @@ export default [
   {
     name: 'Vietnam',
     capital: 'Hanoi',
-    currencies: { VND: { name: 'Vietnamese đồng', symbol: '₫' } },
-    languages: { vie: 'Vietnamese' },
-    latlng: [16.16666666, 107.83333333],
+    currencies: [{ name: 'Vietnamese đồng', symbol: '₫' }],
+    languages: ['Vietnamese'],
+    coordinates: [16.16666666, 107.83333333],
     area: 331212,
     maps: {
       googleMaps: 'https://goo.gl/maps/PCpVt9WzdJ9A9nEZ9',
@@ -2809,9 +2748,9 @@ export default [
   {
     name: 'Brazil',
     capital: 'Brasília',
-    currencies: { BRL: { name: 'Brazilian real', symbol: 'R$' } },
-    languages: { por: 'Portuguese' },
-    latlng: [-10, -55],
+    currencies: [{ name: 'Brazilian real', symbol: 'R$' }],
+    languages: ['Portuguese'],
+    coordinates: [-10, -55],
     area: 8515767,
     maps: {
       googleMaps: 'https://goo.gl/maps/waCKk21HeeqFzkNC9',
@@ -2829,9 +2768,9 @@ export default [
   {
     name: 'Myanmar',
     capital: 'Naypyidaw',
-    currencies: { MMK: { name: 'Burmese kyat', symbol: 'Ks' } },
-    languages: { mya: 'Burmese' },
-    latlng: [22, 98],
+    currencies: [{ name: 'Burmese kyat', symbol: 'Ks' }],
+    languages: ['Burmese'],
+    coordinates: [22, 98],
     area: 676578,
     maps: {
       googleMaps: 'https://goo.gl/maps/4jrZyJkDERUfHyp26',
@@ -2849,11 +2788,9 @@ export default [
   {
     name: 'Senegal',
     capital: 'Dakar',
-    currencies: {
-      XOF: { name: 'West African CFA franc', symbol: 'Fr' }
-    },
-    languages: { fra: 'French' },
-    latlng: [14, -14],
+    currencies: [{ name: 'West African CFA franc', symbol: 'Fr' }],
+    languages: ['French'],
+    coordinates: [14, -14],
     area: 196722,
     maps: {
       googleMaps: 'https://goo.gl/maps/o5f1uD5nyihCL3HCA',
@@ -2871,9 +2808,9 @@ export default [
   {
     name: 'Slovakia',
     capital: 'Bratislava',
-    currencies: { EUR: { name: 'Euro', symbol: '€' } },
-    languages: { slk: 'Slovak' },
-    latlng: [48.66666666, 19.5],
+    currencies: [{ name: 'Euro', symbol: '€' }],
+    languages: ['Slovak'],
+    coordinates: [48.66666666, 19.5],
     area: 49037,
     maps: {
       googleMaps: 'https://goo.gl/maps/uNSH2wW4bLoZVYJj7',
@@ -2891,9 +2828,9 @@ export default [
   {
     name: 'Philippines',
     capital: 'Manila',
-    currencies: { PHP: { name: 'Philippine peso', symbol: '₱' } },
-    languages: { eng: 'English', fil: 'Filipino' },
-    latlng: [13, 122],
+    currencies: [{ name: 'Philippine peso', symbol: '₱' }],
+    languages: ['English', 'Filipino'],
+    coordinates: [13, 122],
     area: 342353,
     maps: {
       googleMaps: 'https://goo.gl/maps/k8T2fb5VMUfsWFX6A',
@@ -2911,9 +2848,9 @@ export default [
   {
     name: 'Albania',
     capital: 'Tirana',
-    currencies: { ALL: { name: 'Albanian lek', symbol: 'L' } },
-    languages: { sqi: 'Albanian' },
-    latlng: [41, 20],
+    currencies: [{ name: 'Albanian lek', symbol: 'L' }],
+    languages: ['Albanian'],
+    coordinates: [41, 20],
     area: 28748,
     maps: {
       googleMaps: 'https://goo.gl/maps/BzN9cTuj68ZA8SyZ8',
@@ -2930,9 +2867,9 @@ export default [
   {
     name: 'Montenegro',
     capital: 'Podgorica',
-    currencies: { EUR: { name: 'Euro', symbol: '€' } },
-    languages: { cnr: 'Montenegrin' },
-    latlng: [42.5, 19.3],
+    currencies: [{ name: 'Euro', symbol: '€' }],
+    languages: ['Montenegrin'],
+    coordinates: [42.5, 19.3],
     area: 13812,
     maps: {
       googleMaps: 'https://goo.gl/maps/4THX1fM7WqANuPbB8',
@@ -2950,11 +2887,9 @@ export default [
   {
     name: 'Gabon',
     capital: 'Libreville',
-    currencies: {
-      XAF: { name: 'Central African CFA franc', symbol: 'Fr' }
-    },
-    languages: { fra: 'French' },
-    latlng: [-1, 11.75],
+    currencies: [{ name: 'Central African CFA franc', symbol: 'Fr' }],
+    languages: ['French'],
+    coordinates: [-1, 11.75],
     area: 267668,
     maps: {
       googleMaps: 'https://www.openstreetmap.org/relation/192793',
@@ -2971,9 +2906,9 @@ export default [
   {
     name: 'Qatar',
     capital: 'Doha',
-    currencies: { QAR: { name: 'Qatari riyal', symbol: 'ر.ق' } },
-    languages: { ara: 'Arabic' },
-    latlng: [25.5, 51.25],
+    currencies: [{ name: 'Qatari riyal', symbol: 'ر.ق' }],
+    languages: ['Arabic'],
+    coordinates: [25.5, 51.25],
     area: 11586,
     maps: {
       googleMaps: 'https://goo.gl/maps/ZV76Y49z7LLUZ2KQ6',
@@ -2990,11 +2925,9 @@ export default [
   {
     name: 'Venezuela',
     capital: 'Caracas',
-    currencies: {
-      VES: { name: 'Venezuelan bolívar soberano', symbol: 'Bs.S.' }
-    },
-    languages: { spa: 'Spanish' },
-    latlng: [8, -66],
+    currencies: [{ name: 'Venezuelan bolívar soberano', symbol: 'Bs.S.' }],
+    languages: ['Spanish'],
+    coordinates: [8, -66],
     area: 916445,
     maps: {
       googleMaps: 'https://goo.gl/maps/KLCwDN8sec7z2kse9',
@@ -3012,9 +2945,9 @@ export default [
   {
     name: 'Gibraltar',
     capital: 'Gibraltar',
-    currencies: { GIP: { name: 'Gibraltar pound', symbol: '£' } },
-    languages: { eng: 'English' },
-    latlng: [36.13333333, -5.35],
+    currencies: [{ name: 'Gibraltar pound', symbol: '£' }],
+    languages: ['English'],
+    coordinates: [36.13333333, -5.35],
     area: 6,
     maps: {
       googleMaps: 'https://goo.gl/maps/CEoHAs1t6byCBhHFA',
@@ -3031,9 +2964,9 @@ export default [
   {
     name: 'Niue',
     capital: 'Alofi',
-    currencies: { NZD: { name: 'New Zealand dollar', symbol: '$' } },
-    languages: { eng: 'English', niu: 'Niuean' },
-    latlng: [-19.03333333, -169.86666666],
+    currencies: [{ name: 'New Zealand dollar', symbol: '$' }],
+    languages: ['English', 'Niuean'],
+    coordinates: [-19.03333333, -169.86666666],
     area: 260,
     maps: {
       googleMaps: 'https://goo.gl/maps/xFgdzs3E55Rk1y8P9',
@@ -3050,9 +2983,9 @@ export default [
   {
     name: 'Samoa',
     capital: 'Apia',
-    currencies: { WST: { name: 'Samoan tālā', symbol: 'T' } },
-    languages: { eng: 'English', smo: 'Samoan' },
-    latlng: [-13.58333333, -172.33333333],
+    currencies: [{ name: 'Samoan tālā', symbol: 'T' }],
+    languages: ['English', 'Samoan'],
+    coordinates: [-13.58333333, -172.33333333],
     area: 2842,
     maps: {
       googleMaps: 'https://goo.gl/maps/CFC9fEFP9cfkYUBF9',
@@ -3069,11 +3002,9 @@ export default [
   {
     name: 'Antigua and Barbuda',
     capital: "Saint John's",
-    currencies: {
-      XCD: { name: 'Eastern Caribbean dollar', symbol: '$' }
-    },
-    languages: { eng: 'English' },
-    latlng: [17.05, -61.8],
+    currencies: [{ name: 'Eastern Caribbean dollar', symbol: '$' }],
+    languages: ['English'],
+    coordinates: [17.05, -61.8],
     area: 442,
     maps: {
       googleMaps: 'https://goo.gl/maps/fnye4wGJ1RzC9jpX9',
@@ -3090,9 +3021,9 @@ export default [
   {
     name: 'Liberia',
     capital: 'Monrovia',
-    currencies: { LRD: { name: 'Liberian dollar', symbol: '$' } },
-    languages: { eng: 'English' },
-    latlng: [6.5, -9.5],
+    currencies: [{ name: 'Liberian dollar', symbol: '$' }],
+    languages: ['English'],
+    coordinates: [6.5, -9.5],
     area: 111369,
     maps: {
       googleMaps: 'https://goo.gl/maps/4VsHsc2oeGeRL3wg6',
@@ -3110,13 +3041,9 @@ export default [
   {
     name: 'Belize',
     capital: 'Belmopan',
-    currencies: { BZD: { name: 'Belize dollar', symbol: '$' } },
-    languages: {
-      bjz: 'Belizean Creole',
-      eng: 'English',
-      spa: 'Spanish'
-    },
-    latlng: [17.25, -88.75],
+    currencies: [{ name: 'Belize dollar', symbol: '$' }],
+    languages: ['Belizean Creole', 'English', 'Spanish'],
+    coordinates: [17.25, -88.75],
     area: 22966,
     maps: {
       googleMaps: 'https://goo.gl/maps/jdCccpdLodm1uTmo9',
@@ -3133,11 +3060,9 @@ export default [
   {
     name: 'Equatorial Guinea',
     capital: 'Malabo',
-    currencies: {
-      XAF: { name: 'Central African CFA franc', symbol: 'Fr' }
-    },
-    languages: { fra: 'French', por: 'Portuguese', spa: 'Spanish' },
-    latlng: [2, 10],
+    currencies: [{ name: 'Central African CFA franc', symbol: 'Fr' }],
+    languages: ['French', 'Portuguese', 'Spanish'],
+    coordinates: [2, 10],
     area: 28051,
     maps: {
       googleMaps: 'https://goo.gl/maps/ucWfFd8aW1FbGMva9',
@@ -3154,9 +3079,9 @@ export default [
   {
     name: 'Yemen',
     capital: "Sana'a",
-    currencies: { YER: { name: 'Yemeni rial', symbol: '﷼' } },
-    languages: { ara: 'Arabic' },
-    latlng: [15, 48],
+    currencies: [{ name: 'Yemeni rial', symbol: '﷼' }],
+    languages: ['Arabic'],
+    coordinates: [15, 48],
     area: 527968,
     maps: {
       googleMaps: 'https://goo.gl/maps/WCmE76HKcLideQQw7',
@@ -3173,9 +3098,9 @@ export default [
   {
     name: 'Tanzania',
     capital: 'Dodoma',
-    currencies: { TZS: { name: 'Tanzanian shilling', symbol: 'Sh' } },
-    languages: { eng: 'English', swa: 'Swahili' },
-    latlng: [-6, 35],
+    currencies: [{ name: 'Tanzanian shilling', symbol: 'Sh' }],
+    languages: ['English', 'Swahili'],
+    coordinates: [-6, 35],
     area: 945087,
     maps: {
       googleMaps: 'https://goo.gl/maps/NWYMqZYXte4zGZ2Q8',
@@ -3192,9 +3117,9 @@ export default [
   {
     name: 'Australia',
     capital: 'Canberra',
-    currencies: { AUD: { name: 'Australian dollar', symbol: '$' } },
-    languages: { eng: 'English' },
-    latlng: [-27, 133],
+    currencies: [{ name: 'Australian dollar', symbol: '$' }],
+    languages: ['English'],
+    coordinates: [-27, 133],
     area: 7692024,
     maps: {
       googleMaps: 'https://goo.gl/maps/DcjaDa7UbhnZTndH6',
@@ -3212,9 +3137,9 @@ export default [
   {
     name: 'Bermuda',
     capital: 'Hamilton',
-    currencies: { BMD: { name: 'Bermudian dollar', symbol: '$' } },
-    languages: { eng: 'English' },
-    latlng: [32.33333333, -64.75],
+    currencies: [{ name: 'Bermudian dollar', symbol: '$' }],
+    languages: ['English'],
+    coordinates: [32.33333333, -64.75],
     area: 54,
     maps: {
       googleMaps: 'https://goo.gl/maps/NLsRGNjTzDghTtAJA',
@@ -3232,9 +3157,9 @@ export default [
   {
     name: 'Saint Pierre and Miquelon',
     capital: 'Saint-Pierre',
-    currencies: { EUR: { name: 'Euro', symbol: '€' } },
-    languages: { fra: 'French' },
-    latlng: [46.83333333, -56.33333333],
+    currencies: [{ name: 'Euro', symbol: '€' }],
+    languages: ['French'],
+    coordinates: [46.83333333, -56.33333333],
     area: 242,
     maps: {
       googleMaps: 'https://goo.gl/maps/bUM8Yc8pA8ghyhmt6',
@@ -3252,9 +3177,9 @@ export default [
   {
     name: 'Mongolia',
     capital: 'Ulan Bator',
-    currencies: { MNT: { name: 'Mongolian tögrög', symbol: '₮' } },
-    languages: { mon: 'Mongolian' },
-    latlng: [46, 105],
+    currencies: [{ name: 'Mongolian tögrög', symbol: '₮' }],
+    languages: ['Mongolian'],
+    coordinates: [46, 105],
     area: 1564110,
     maps: {
       googleMaps: 'https://goo.gl/maps/A1X7bMCKThBDNjzH6',
@@ -3272,9 +3197,9 @@ export default [
   {
     name: 'Malta',
     capital: 'Valletta',
-    currencies: { EUR: { name: 'Euro', symbol: '€' } },
-    languages: { eng: 'English', mlt: 'Maltese' },
-    latlng: [35.83333333, 14.58333333],
+    currencies: [{ name: 'Euro', symbol: '€' }],
+    languages: ['English', 'Maltese'],
+    coordinates: [35.83333333, 14.58333333],
     area: 316,
     maps: {
       googleMaps: 'https://goo.gl/maps/skXCqguxDxxEKVk47',
@@ -3295,9 +3220,9 @@ export default [
   {
     name: 'Luxembourg',
     capital: 'Luxembourg',
-    currencies: { EUR: { name: 'Euro', symbol: '€' } },
-    languages: { deu: 'German', fra: 'French', ltz: 'Luxembourgish' },
-    latlng: [49.75, 6.16666666],
+    currencies: [{ name: 'Euro', symbol: '€' }],
+    languages: ['German', 'French', 'Luxembourgish'],
+    coordinates: [49.75, 6.16666666],
     area: 2586,
     maps: {
       googleMaps: 'https://goo.gl/maps/L6b2AgndgHprt2Ko9',
@@ -3316,9 +3241,9 @@ export default [
   {
     name: 'Liechtenstein',
     capital: 'Vaduz',
-    currencies: { CHF: { name: 'Swiss franc', symbol: 'Fr' } },
-    languages: { deu: 'German' },
-    latlng: [47.26666666, 9.53333333],
+    currencies: [{ name: 'Swiss franc', symbol: 'Fr' }],
+    languages: ['German'],
+    coordinates: [47.26666666, 9.53333333],
     area: 160,
     maps: {
       googleMaps: 'https://goo.gl/maps/KNuHeiJzAPodwM7y6',
@@ -3336,9 +3261,9 @@ export default [
   {
     name: 'Poland',
     capital: 'Warsaw',
-    currencies: { PLN: { name: 'Polish złoty', symbol: 'zł' } },
-    languages: { pol: 'Polish' },
-    latlng: [52, 20],
+    currencies: [{ name: 'Polish złoty', symbol: 'zł' }],
+    languages: ['Polish'],
+    coordinates: [52, 20],
     area: 312679,
     maps: {
       googleMaps: 'https://goo.gl/maps/gY9Xw4Sf4415P4949',
@@ -3356,12 +3281,12 @@ export default [
   {
     name: 'Brunei',
     capital: 'Bandar Seri Begawan',
-    currencies: {
-      BND: { name: 'Brunei dollar', symbol: '$' },
-      SGD: { name: 'Singapore dollar', symbol: '$' }
-    },
-    languages: { msa: 'Malay' },
-    latlng: [4.5, 114.66666666],
+    currencies: [
+      { name: 'Brunei dollar', symbol: '$' },
+      { name: 'Singapore dollar', symbol: '$' }
+    ],
+    languages: ['Malay'],
+    coordinates: [4.5, 114.66666666],
     area: 5765,
     maps: {
       googleMaps: 'https://goo.gl/maps/4jb4CqBXhr8vNh579',
@@ -3379,9 +3304,9 @@ export default [
   {
     name: 'Nepal',
     capital: 'Kathmandu',
-    currencies: { NPR: { name: 'Nepalese rupee', symbol: '₨' } },
-    languages: { nep: 'Nepali' },
-    latlng: [28, 84],
+    currencies: [{ name: 'Nepalese rupee', symbol: '₨' }],
+    languages: ['Nepali'],
+    coordinates: [28, 84],
     area: 147181,
     maps: {
       googleMaps: 'https://goo.gl/maps/UMj2zpbQp7B5c3yT7',
@@ -3399,9 +3324,9 @@ export default [
   {
     name: 'Argentina',
     capital: 'Buenos Aires',
-    currencies: { ARS: { name: 'Argentine peso', symbol: '$' } },
-    languages: { grn: 'Guaraní', spa: 'Spanish' },
-    latlng: [-34, -64],
+    currencies: [{ name: 'Argentine peso', symbol: '$' }],
+    languages: ['Guaraní', 'Spanish'],
+    coordinates: [-34, -64],
     area: 2780400,
     maps: {
       googleMaps: 'https://goo.gl/maps/Z9DXNxhf2o93kvyc6',
@@ -3419,12 +3344,12 @@ export default [
   {
     name: 'Guernsey',
     capital: 'St. Peter Port',
-    currencies: {
-      GBP: { name: 'British pound', symbol: '£' },
-      GGP: { name: 'Guernsey pound', symbol: '£' }
-    },
-    languages: { eng: 'English', fra: 'French', nfr: 'Guernésiais' },
-    latlng: [49.46666666, -2.58333333],
+    currencies: [
+      { name: 'British pound', symbol: '£' },
+      { name: 'Guernsey pound', symbol: '£' }
+    ],
+    languages: ['English', 'French', 'Guernésiais'],
+    coordinates: [49.46666666, -2.58333333],
     area: 78,
     maps: {
       googleMaps: 'https://goo.gl/maps/6kXnQU5QvEZMD9VB7',
@@ -3446,9 +3371,9 @@ export default [
   {
     name: 'Maldives',
     capital: 'Malé',
-    currencies: { MVR: { name: 'Maldivian rufiyaa', symbol: '.ރ' } },
-    languages: { div: 'Maldivian' },
-    latlng: [3.25, 73],
+    currencies: [{ name: 'Maldivian rufiyaa', symbol: '.ރ' }],
+    languages: ['Maldivian'],
+    coordinates: [3.25, 73],
     area: 300,
     maps: {
       googleMaps: 'https://goo.gl/maps/MNAWGq9vEdbZ9vUV7',
@@ -3466,9 +3391,9 @@ export default [
   {
     name: 'Malawi',
     capital: 'Lilongwe',
-    currencies: { MWK: { name: 'Malawian kwacha', symbol: 'MK' } },
-    languages: { eng: 'English', nya: 'Chewa' },
-    latlng: [-13.5, 34],
+    currencies: [{ name: 'Malawian kwacha', symbol: 'MK' }],
+    languages: ['English', 'Chewa'],
+    coordinates: [-13.5, 34],
     area: 118484,
     maps: {
       googleMaps: 'https://goo.gl/maps/mc6z83pW9m98X2Ef6',
@@ -3485,9 +3410,9 @@ export default [
   {
     name: 'Nauru',
     capital: 'Yaren',
-    currencies: { AUD: { name: 'Australian dollar', symbol: '$' } },
-    languages: { eng: 'English', nau: 'Nauru' },
-    latlng: [-0.53333333, 166.91666666],
+    currencies: [{ name: 'Australian dollar', symbol: '$' }],
+    languages: ['English', 'Nauru'],
+    coordinates: [-0.53333333, 166.91666666],
     area: 21,
     maps: {
       googleMaps: 'https://goo.gl/maps/kyAGw6XEJgjSMsTK7',
@@ -3504,9 +3429,9 @@ export default [
   {
     name: 'Syria',
     capital: 'Damascus',
-    currencies: { SYP: { name: 'Syrian pound', symbol: '£' } },
-    languages: { ara: 'Arabic' },
-    latlng: [35, 38],
+    currencies: [{ name: 'Syrian pound', symbol: '£' }],
+    languages: ['Arabic'],
+    coordinates: [35, 38],
     area: 185180,
     maps: {
       googleMaps: 'https://goo.gl/maps/Xe3VnFbwdb4nv2SM9',
@@ -3523,12 +3448,12 @@ export default [
   {
     name: 'Kiribati',
     capital: 'South Tarawa',
-    currencies: {
-      AUD: { name: 'Australian dollar', symbol: '$' },
-      KID: { name: 'Kiribati dollar', symbol: '$' }
-    },
-    languages: { eng: 'English', gil: 'Gilbertese' },
-    latlng: [1.41666666, 173],
+    currencies: [
+      { name: 'Australian dollar', symbol: '$' },
+      { name: 'Kiribati dollar', symbol: '$' }
+    ],
+    languages: ['English', 'Gilbertese'],
+    coordinates: [1.41666666, 173],
     area: 811,
     maps: {
       googleMaps: 'https://goo.gl/maps/NBfYvrndW4skAimw9',
@@ -3545,9 +3470,9 @@ export default [
   {
     name: 'Martinique',
     capital: 'Fort-de-France',
-    currencies: { EUR: { name: 'Euro', symbol: '€' } },
-    languages: { fra: 'French' },
-    latlng: [14.666667, -61],
+    currencies: [{ name: 'Euro', symbol: '€' }],
+    languages: ['French'],
+    coordinates: [14.666667, -61],
     area: 1128,
     maps: {
       googleMaps: 'https://goo.gl/maps/87ER7sDAFU7JjcvR6',
@@ -3565,9 +3490,9 @@ export default [
   {
     name: 'Kyrgyzstan',
     capital: 'Bishkek',
-    currencies: { KGS: { name: 'Kyrgyzstani som', symbol: 'с' } },
-    languages: { kir: 'Kyrgyz', rus: 'Russian' },
-    latlng: [41, 75],
+    currencies: [{ name: 'Kyrgyzstani som', symbol: 'с' }],
+    languages: ['Kyrgyz', 'Russian'],
+    coordinates: [41, 75],
     area: 199951,
     maps: {
       googleMaps: 'https://goo.gl/maps/SKG8BSMMQVvxkRkB7',
@@ -3585,11 +3510,9 @@ export default [
   {
     name: 'Saint Kitts and Nevis',
     capital: 'Basseterre',
-    currencies: {
-      XCD: { name: 'Eastern Caribbean dollar', symbol: '$' }
-    },
-    languages: { eng: 'English' },
-    latlng: [17.33333333, -62.75],
+    currencies: [{ name: 'Eastern Caribbean dollar', symbol: '$' }],
+    languages: ['English'],
+    coordinates: [17.33333333, -62.75],
     area: 261,
     maps: {
       googleMaps: 'https://goo.gl/maps/qiaVwcLVTXX3eoTNA',
@@ -3606,9 +3529,9 @@ export default [
   {
     name: 'Uzbekistan',
     capital: 'Tashkent',
-    currencies: { UZS: { name: 'Uzbekistani soʻm', symbol: "so'm" } },
-    languages: { rus: 'Russian', uzb: 'Uzbek' },
-    latlng: [41, 64],
+    currencies: [{ name: 'Uzbekistani soʻm', symbol: "so'm" }],
+    languages: ['Russian', 'Uzbek'],
+    coordinates: [41, 64],
     area: 447400,
     maps: {
       googleMaps: 'https://goo.gl/maps/AJpo6MjMx23qSWCz8',
@@ -3626,9 +3549,9 @@ export default [
   {
     name: 'Netherlands',
     capital: 'Amsterdam',
-    currencies: { EUR: { name: 'Euro', symbol: '€' } },
-    languages: { nld: 'Dutch' },
-    latlng: [52.5, 5.75],
+    currencies: [{ name: 'Euro', symbol: '€' }],
+    languages: ['Dutch'],
+    coordinates: [52.5, 5.75],
     area: 41850,
     maps: {
       googleMaps: 'https://goo.gl/maps/Hv6zQswGhFxoVVBm6',
@@ -3646,9 +3569,9 @@ export default [
   {
     name: 'United States Minor Outlying Islands',
     capital: 'Unknown',
-    currencies: { USD: { name: 'United States dollar', symbol: '$' } },
-    languages: { eng: 'English' },
-    latlng: [19.3, 166.633333],
+    currencies: [{ name: 'United States dollar', symbol: '$' }],
+    languages: ['English'],
+    coordinates: [19.3, 166.633333],
     area: 34.2,
     maps: {
       googleMaps: 'https://goo.gl/maps/hZKnrzgeK69dDyPF8',
@@ -3665,11 +3588,9 @@ export default [
   {
     name: 'Niger',
     capital: 'Niamey',
-    currencies: {
-      XOF: { name: 'West African CFA franc', symbol: 'Fr' }
-    },
-    languages: { fra: 'French' },
-    latlng: [16, 8],
+    currencies: [{ name: 'West African CFA franc', symbol: 'Fr' }],
+    languages: ['French'],
+    coordinates: [16, 8],
     area: 1267000,
     maps: {
       googleMaps: 'https://goo.gl/maps/VKNU2TLsZcgxM49c8',
@@ -3687,9 +3608,9 @@ export default [
   {
     name: 'Bahrain',
     capital: 'Manama',
-    currencies: { BHD: { name: 'Bahraini dinar', symbol: '.د.ب' } },
-    languages: { ara: 'Arabic' },
-    latlng: [26, 50.55],
+    currencies: [{ name: 'Bahraini dinar', symbol: '.د.ب' }],
+    languages: ['Arabic'],
+    coordinates: [26, 50.55],
     area: 765,
     maps: {
       googleMaps: 'https://goo.gl/maps/5Zue99Zc6vFBHxzJ7',
@@ -3707,9 +3628,9 @@ export default [
   {
     name: 'Indonesia',
     capital: 'Jakarta',
-    currencies: { IDR: { name: 'Indonesian rupiah', symbol: 'Rp' } },
-    languages: { ind: 'Indonesian' },
-    latlng: [-5, 120],
+    currencies: [{ name: 'Indonesian rupiah', symbol: 'Rp' }],
+    languages: ['Indonesian'],
+    coordinates: [-5, 120],
     area: 1904569,
     maps: {
       googleMaps: 'https://goo.gl/maps/9gfPupm5bffixiFJ6',
@@ -3727,9 +3648,9 @@ export default [
   {
     name: 'Guadeloupe',
     capital: 'Basse-Terre',
-    currencies: { EUR: { name: 'Euro', symbol: '€' } },
-    languages: { fra: 'French' },
-    latlng: [16.25, -61.583333],
+    currencies: [{ name: 'Euro', symbol: '€' }],
+    languages: ['French'],
+    coordinates: [16.25, -61.583333],
     area: 1628,
     maps: {
       googleMaps: 'https://goo.gl/maps/Dy9R2EufJtoWm8UN9',
@@ -3747,9 +3668,9 @@ export default [
   {
     name: 'Réunion',
     capital: 'Saint-Denis',
-    currencies: { EUR: { name: 'Euro', symbol: '€' } },
-    languages: { fra: 'French' },
-    latlng: [-21.15, 55.5],
+    currencies: [{ name: 'Euro', symbol: '€' }],
+    languages: ['French'],
+    coordinates: [-21.15, 55.5],
     area: 2511,
     maps: {
       googleMaps: 'https://goo.gl/maps/wWpBrXsp8UHVbah29',
@@ -3767,9 +3688,9 @@ export default [
   {
     name: 'Pitcairn Islands',
     capital: 'Adamstown',
-    currencies: { NZD: { name: 'New Zealand dollar', symbol: '$' } },
-    languages: { eng: 'English' },
-    latlng: [-25.06666666, -130.1],
+    currencies: [{ name: 'New Zealand dollar', symbol: '$' }],
+    languages: ['English'],
+    coordinates: [-25.06666666, -130.1],
     area: 47,
     maps: {
       googleMaps: 'https://goo.gl/maps/XGJMnMAigXjXcxSa7',
@@ -3786,9 +3707,9 @@ export default [
   {
     name: 'Aruba',
     capital: 'Oranjestad',
-    currencies: { AWG: { name: 'Aruban florin', symbol: 'ƒ' } },
-    languages: { nld: 'Dutch', pap: 'Papiamento' },
-    latlng: [12.5, -69.96666666],
+    currencies: [{ name: 'Aruban florin', symbol: 'ƒ' }],
+    languages: ['Dutch', 'Papiamento'],
+    coordinates: [12.5, -69.96666666],
     area: 180,
     maps: {
       googleMaps: 'https://goo.gl/maps/8hopbQqifHAgyZyg8',
@@ -3805,9 +3726,9 @@ export default [
   {
     name: 'Bangladesh',
     capital: 'Dhaka',
-    currencies: { BDT: { name: 'Bangladeshi taka', symbol: '৳' } },
-    languages: { ben: 'Bengali' },
-    latlng: [24, 90],
+    currencies: [{ name: 'Bangladeshi taka', symbol: '৳' }],
+    languages: ['Bengali'],
+    coordinates: [24, 90],
     area: 147570,
     maps: {
       googleMaps: 'https://goo.gl/maps/op6gmLbHcvv6rLhH6',
@@ -3825,9 +3746,9 @@ export default [
   {
     name: 'Guatemala',
     capital: 'Guatemala City',
-    currencies: { GTQ: { name: 'Guatemalan quetzal', symbol: 'Q' } },
-    languages: { spa: 'Spanish' },
-    latlng: [15.5, -90.25],
+    currencies: [{ name: 'Guatemalan quetzal', symbol: 'Q' }],
+    languages: ['Spanish'],
+    coordinates: [15.5, -90.25],
     area: 108889,
     maps: {
       googleMaps: 'https://goo.gl/maps/JoRAbem4Hxb9FYbVA',
@@ -3845,12 +3766,12 @@ export default [
   {
     name: 'Bahamas',
     capital: 'Nassau',
-    currencies: {
-      BSD: { name: 'Bahamian dollar', symbol: '$' },
-      USD: { name: 'United States dollar', symbol: '$' }
-    },
-    languages: { eng: 'English' },
-    latlng: [24.25, -76],
+    currencies: [
+      { name: 'Bahamian dollar', symbol: '$' },
+      { name: 'United States dollar', symbol: '$' }
+    ],
+    languages: ['English'],
+    coordinates: [24.25, -76],
     area: 13943,
     maps: {
       googleMaps: 'https://goo.gl/maps/1YzRs1BZrG8p8pmVA',
@@ -3867,9 +3788,9 @@ export default [
   {
     name: 'Uruguay',
     capital: 'Montevideo',
-    currencies: { UYU: { name: 'Uruguayan peso', symbol: '$' } },
-    languages: { spa: 'Spanish' },
-    latlng: [-33, -56],
+    currencies: [{ name: 'Uruguayan peso', symbol: '$' }],
+    languages: ['Spanish'],
+    coordinates: [-33, -56],
     area: 181034,
     maps: {
       googleMaps: 'https://goo.gl/maps/tiQ9Baekb1jQtDSD9',
@@ -3887,9 +3808,9 @@ export default [
   {
     name: 'Morocco',
     capital: 'Rabat',
-    currencies: { MAD: { name: 'Moroccan dirham', symbol: 'د.م.' } },
-    languages: { ara: 'Arabic', ber: 'Berber' },
-    latlng: [32, -5],
+    currencies: [{ name: 'Moroccan dirham', symbol: 'د.م.' }],
+    languages: ['Arabic', 'Berber'],
+    coordinates: [32, -5],
     area: 446550,
     maps: {
       googleMaps: 'https://goo.gl/maps/6oMv3dyBZg3iaXQ5A',
@@ -3907,9 +3828,9 @@ export default [
   {
     name: 'Germany',
     capital: 'Berlin',
-    currencies: { EUR: { name: 'Euro', symbol: '€' } },
-    languages: { deu: 'German' },
-    latlng: [51, 9],
+    currencies: [{ name: 'Euro', symbol: '€' }],
+    languages: ['German'],
+    coordinates: [51, 9],
     area: 357114,
     maps: {
       googleMaps: 'https://goo.gl/maps/mD9FBMq1nvXUBrkv6',
@@ -3927,12 +3848,12 @@ export default [
   {
     name: 'Saint Helena, Ascension and Tristan da Cunha',
     capital: 'Jamestown',
-    currencies: {
-      GBP: { name: 'Pound sterling', symbol: '£' },
-      SHP: { name: 'Saint Helena pound', symbol: '£' }
-    },
-    languages: { eng: 'English' },
-    latlng: [-15.95, -5.72],
+    currencies: [
+      { name: 'Pound sterling', symbol: '£' },
+      { name: 'Saint Helena pound', symbol: '£' }
+    ],
+    languages: ['English'],
+    coordinates: [-15.95, -5.72],
     area: 394,
     maps: {
       googleMaps: 'https://goo.gl/maps/iv4VxnPzHkjLCJuc6',
@@ -3951,11 +3872,9 @@ export default [
   {
     name: 'Montserrat',
     capital: 'Plymouth',
-    currencies: {
-      XCD: { name: 'Eastern Caribbean dollar', symbol: '$' }
-    },
-    languages: { eng: 'English' },
-    latlng: [16.75, -62.2],
+    currencies: [{ name: 'Eastern Caribbean dollar', symbol: '$' }],
+    languages: ['English'],
+    coordinates: [16.75, -62.2],
     area: 102,
     maps: {
       googleMaps: 'https://goo.gl/maps/CSbe7UmxPmiwQB7GA',
@@ -3972,9 +3891,9 @@ export default [
   {
     name: 'United States',
     capital: 'Washington, D.C.',
-    currencies: { USD: { name: 'United States dollar', symbol: '$' } },
-    languages: { eng: 'English' },
-    latlng: [38, -97],
+    currencies: [{ name: 'United States dollar', symbol: '$' }],
+    languages: ['English'],
+    coordinates: [38, -97],
     area: 9372610,
     maps: {
       googleMaps: 'https://goo.gl/maps/e8M246zY4BSjkjAv6',
@@ -3993,11 +3912,9 @@ export default [
   {
     name: 'Falkland Islands',
     capital: 'Stanley',
-    currencies: {
-      FKP: { name: 'Falkland Islands pound', symbol: '£' }
-    },
-    languages: { eng: 'English' },
-    latlng: [-51.75, -59],
+    currencies: [{ name: 'Falkland Islands pound', symbol: '£' }],
+    languages: ['English'],
+    coordinates: [-51.75, -59],
     area: 12173,
     maps: {
       googleMaps: 'https://goo.gl/maps/TZH1x7AGanQKifNk7',
@@ -4014,9 +3931,9 @@ export default [
   {
     name: 'Bulgaria',
     capital: 'Sofia',
-    currencies: { BGN: { name: 'Bulgarian lev', symbol: 'лв' } },
-    languages: { bul: 'Bulgarian' },
-    latlng: [43, 25],
+    currencies: [{ name: 'Bulgarian lev', symbol: 'лв' }],
+    languages: ['Bulgarian'],
+    coordinates: [43, 25],
     area: 110879,
     maps: {
       googleMaps: 'https://goo.gl/maps/F5uAhDGWzc3BrHfm9',
@@ -4034,11 +3951,9 @@ export default [
   {
     name: 'Papua New Guinea',
     capital: 'Port Moresby',
-    currencies: {
-      PGK: { name: 'Papua New Guinean kina', symbol: 'K' }
-    },
-    languages: { eng: 'English', hmo: 'Hiri Motu', tpi: 'Tok Pisin' },
-    latlng: [-6, 147],
+    currencies: [{ name: 'Papua New Guinean kina', symbol: 'K' }],
+    languages: ['English', 'Hiri Motu', 'Tok Pisin'],
+    coordinates: [-6, 147],
     area: 462840,
     maps: {
       googleMaps: 'https://goo.gl/maps/ChGmzZBjZ3vnBwR2A',
@@ -4056,9 +3971,9 @@ export default [
   {
     name: 'Costa Rica',
     capital: 'San José',
-    currencies: { CRC: { name: 'Costa Rican colón', symbol: '₡' } },
-    languages: { spa: 'Spanish' },
-    latlng: [10, -84],
+    currencies: [{ name: 'Costa Rican colón', symbol: '₡' }],
+    languages: ['Spanish'],
+    coordinates: [10, -84],
     area: 51100,
     maps: {
       googleMaps: 'https://goo.gl/maps/RFiwytjvNrpfKN7k6',
@@ -4076,9 +3991,9 @@ export default [
   {
     name: 'Ecuador',
     capital: 'Quito',
-    currencies: { USD: { name: 'United States dollar', symbol: '$' } },
-    languages: { spa: 'Spanish' },
-    latlng: [-2, -77.5],
+    currencies: [{ name: 'United States dollar', symbol: '$' }],
+    languages: ['Spanish'],
+    coordinates: [-2, -77.5],
     area: 276841,
     maps: {
       googleMaps: 'https://goo.gl/maps/TbX8hUW4gcbRPZiK7',
@@ -4096,9 +4011,9 @@ export default [
   {
     name: 'Svalbard and Jan Mayen',
     capital: 'Longyearbyen',
-    currencies: { NOK: { name: 'krone', symbol: 'kr' } },
-    languages: { nor: 'Norwegian' },
-    latlng: [78, 20],
+    currencies: [{ name: 'krone', symbol: 'kr' }],
+    languages: ['Norwegian'],
+    coordinates: [78, 20],
     area: -1,
     maps: {
       googleMaps: 'https://goo.gl/maps/L2wyyn3cQ16PzQ5J8',
@@ -4115,9 +4030,9 @@ export default [
   {
     name: 'Fiji',
     capital: 'Suva',
-    currencies: { FJD: { name: 'Fijian dollar', symbol: '$' } },
-    languages: { eng: 'English', fij: 'Fijian', hif: 'Fiji Hindi' },
-    latlng: [-18, 175],
+    currencies: [{ name: 'Fijian dollar', symbol: '$' }],
+    languages: ['English', 'Fijian', 'Fiji Hindi'],
+    coordinates: [-18, 175],
     area: 18272,
     maps: {
       googleMaps: 'https://goo.gl/maps/r9fhDqoLZdg1zmE99',
@@ -4134,9 +4049,9 @@ export default [
   {
     name: 'South Korea',
     capital: 'Seoul',
-    currencies: { KRW: { name: 'South Korean won', symbol: '₩' } },
-    languages: { kor: 'Korean' },
-    latlng: [37, 127.5],
+    currencies: [{ name: 'South Korean won', symbol: '₩' }],
+    languages: ['Korean'],
+    coordinates: [37, 127.5],
     area: 100210,
     maps: {
       googleMaps: 'https://goo.gl/maps/7ecjaJXefjAQhxjGA',
@@ -4157,9 +4072,9 @@ export default [
   {
     name: 'Puerto Rico',
     capital: 'San Juan',
-    currencies: { USD: { name: 'United States dollar', symbol: '$' } },
-    languages: { eng: 'English', spa: 'Spanish' },
-    latlng: [18.25, -66.5],
+    currencies: [{ name: 'United States dollar', symbol: '$' }],
+    languages: ['English', 'Spanish'],
+    coordinates: [18.25, -66.5],
     area: 8870,
     maps: {
       googleMaps: 'https://goo.gl/maps/sygfDbtwn389wu8x5',
@@ -4177,9 +4092,9 @@ export default [
   {
     name: 'Wallis and Futuna',
     capital: 'Mata-Utu',
-    currencies: { XPF: { name: 'CFP franc', symbol: '₣' } },
-    languages: { fra: 'French' },
-    latlng: [-13.3, -176.2],
+    currencies: [{ name: 'CFP franc', symbol: '₣' }],
+    languages: ['French'],
+    coordinates: [-13.3, -176.2],
     area: 142,
     maps: {
       googleMaps: 'https://goo.gl/maps/CzVqK74QYtbHv65r5',
@@ -4197,9 +4112,9 @@ export default [
   {
     name: 'North Korea',
     capital: 'Pyongyang',
-    currencies: { KPW: { name: 'North Korean won', symbol: '₩' } },
-    languages: { kor: 'Korean' },
-    latlng: [40, 127],
+    currencies: [{ name: 'North Korean won', symbol: '₩' }],
+    languages: ['Korean'],
+    coordinates: [40, 127],
     area: 120538,
     maps: {
       googleMaps: 'https://goo.gl/maps/9q5T2DMeH5JL7Tky6',
@@ -4217,9 +4132,9 @@ export default [
   {
     name: 'Taiwan',
     capital: 'Taipei',
-    currencies: { TWD: { name: 'New Taiwan dollar', symbol: '$' } },
-    languages: { zho: 'Chinese' },
-    latlng: [23.5, 121],
+    currencies: [{ name: 'New Taiwan dollar', symbol: '$' }],
+    languages: ['Chinese'],
+    coordinates: [23.5, 121],
     area: 36193,
     maps: {
       googleMaps: 'https://goo.gl/maps/HgMKFQjNadF3Wa6B6',
@@ -4237,12 +4152,12 @@ export default [
   {
     name: 'Isle of Man',
     capital: 'Douglas',
-    currencies: {
-      GBP: { name: 'British pound', symbol: '£' },
-      IMP: { name: 'Manx pound', symbol: '£' }
-    },
-    languages: { eng: 'English', glv: 'Manx' },
-    latlng: [54.25, -4.5],
+    currencies: [
+      { name: 'British pound', symbol: '£' },
+      { name: 'Manx pound', symbol: '£' }
+    ],
+    languages: ['English', 'Manx'],
+    coordinates: [54.25, -4.5],
     area: 572,
     maps: {
       googleMaps: 'https://goo.gl/maps/4DqVHDgVaFgnh8ZV8',
@@ -4264,9 +4179,9 @@ export default [
   {
     name: 'United States Virgin Islands',
     capital: 'Charlotte Amalie',
-    currencies: { USD: { name: 'United States dollar', symbol: '$' } },
-    languages: { eng: 'English' },
-    latlng: [18.35, -64.933333],
+    currencies: [{ name: 'United States dollar', symbol: '$' }],
+    languages: ['English'],
+    coordinates: [18.35, -64.933333],
     area: 347,
     maps: {
       googleMaps: 'https://goo.gl/maps/mBfreywj8dor6q4m9',
@@ -4283,9 +4198,9 @@ export default [
   {
     name: 'Lithuania',
     capital: 'Vilnius',
-    currencies: { EUR: { name: 'Euro', symbol: '€' } },
-    languages: { lit: 'Lithuanian' },
-    latlng: [56, 24],
+    currencies: [{ name: 'Euro', symbol: '€' }],
+    languages: ['Lithuanian'],
+    coordinates: [56, 24],
     area: 65300,
     maps: {
       googleMaps: 'https://goo.gl/maps/dd1s9rrLjrK2G8yY6',
@@ -4303,9 +4218,9 @@ export default [
   {
     name: 'Angola',
     capital: 'Luanda',
-    currencies: { AOA: { name: 'Angolan kwanza', symbol: 'Kz' } },
-    languages: { por: 'Portuguese' },
-    latlng: [-12.5, 18.5],
+    currencies: [{ name: 'Angolan kwanza', symbol: 'Kz' }],
+    languages: ['Portuguese'],
+    coordinates: [-12.5, 18.5],
     area: 1246700,
     maps: {
       googleMaps: 'https://goo.gl/maps/q42Qbf1BmQL3fuZg9',
@@ -4322,9 +4237,9 @@ export default [
   {
     name: 'Tunisia',
     capital: 'Tunis',
-    currencies: { TND: { name: 'Tunisian dinar', symbol: 'د.ت' } },
-    languages: { ara: 'Arabic' },
-    latlng: [34, 9],
+    currencies: [{ name: 'Tunisian dinar', symbol: 'د.ت' }],
+    languages: ['Arabic'],
+    coordinates: [34, 9],
     area: 163610,
     maps: {
       googleMaps: 'https://goo.gl/maps/KgUmpZdUuNRaougs8',
@@ -4342,12 +4257,12 @@ export default [
   {
     name: 'Faroe Islands',
     capital: 'Tórshavn',
-    currencies: {
-      DKK: { name: 'Danish krone', symbol: 'kr' },
-      FOK: { name: 'Faroese króna', symbol: 'kr' }
-    },
-    languages: { dan: 'Danish', fao: 'Faroese' },
-    latlng: [62, -7],
+    currencies: [
+      { name: 'Danish krone', symbol: 'kr' },
+      { name: 'Faroese króna', symbol: 'kr' }
+    ],
+    languages: ['Danish', 'Faroese'],
+    coordinates: [62, -7],
     area: 1393,
     maps: {
       googleMaps: 'https://goo.gl/maps/6sTru4SmHdEVcNkM6',
@@ -4365,9 +4280,9 @@ export default [
   {
     name: 'Ghana',
     capital: 'Accra',
-    currencies: { GHS: { name: 'Ghanaian cedi', symbol: '₵' } },
-    languages: { eng: 'English' },
-    latlng: [8, -2],
+    currencies: [{ name: 'Ghanaian cedi', symbol: '₵' }],
+    languages: ['English'],
+    coordinates: [8, -2],
     area: 238533,
     maps: {
       googleMaps: 'https://goo.gl/maps/Avy5RSmdsXFBaiXq8',
@@ -4384,9 +4299,9 @@ export default [
   {
     name: 'Iraq',
     capital: 'Baghdad',
-    currencies: { IQD: { name: 'Iraqi dinar', symbol: 'ع.د' } },
-    languages: { ara: 'Arabic', arc: 'Aramaic', ckb: 'Sorani' },
-    latlng: [33, 44],
+    currencies: [{ name: 'Iraqi dinar', symbol: 'ع.د' }],
+    languages: ['Arabic', 'Aramaic', 'Sorani'],
+    coordinates: [33, 44],
     area: 438317,
     maps: {
       googleMaps: 'https://goo.gl/maps/iL8Bmy1sUCW9fUk18',
@@ -4404,13 +4319,9 @@ export default [
   {
     name: 'New Zealand',
     capital: 'Wellington',
-    currencies: { NZD: { name: 'New Zealand dollar', symbol: '$' } },
-    languages: {
-      eng: 'English',
-      mri: 'Māori',
-      nzs: 'New Zealand Sign Language'
-    },
-    latlng: [-41, 174],
+    currencies: [{ name: 'New Zealand dollar', symbol: '$' }],
+    languages: ['English', 'Māori', 'New Zealand Sign Language'],
+    coordinates: [-41, 174],
     area: 270467,
     maps: {
       googleMaps: 'https://goo.gl/maps/xXiDQo65dwdpw9iu8',
@@ -4429,9 +4340,9 @@ export default [
   {
     name: 'Serbia',
     capital: 'Belgrade',
-    currencies: { RSD: { name: 'Serbian dinar', symbol: 'дин.' } },
-    languages: { srp: 'Serbian' },
-    latlng: [44, 21],
+    currencies: [{ name: 'Serbian dinar', symbol: 'дин.' }],
+    languages: ['Serbian'],
+    coordinates: [44, 21],
     area: 88361,
     maps: {
       googleMaps: 'https://goo.gl/maps/2Aqof7aV2Naq8YEK8',
@@ -4449,12 +4360,12 @@ export default [
   {
     name: 'Bhutan',
     capital: 'Thimphu',
-    currencies: {
-      BTN: { name: 'Bhutanese ngultrum', symbol: 'Nu.' },
-      INR: { name: 'Indian rupee', symbol: '₹' }
-    },
-    languages: { dzo: 'Dzongkha' },
-    latlng: [27.5, 90.5],
+    currencies: [
+      { name: 'Bhutanese ngultrum', symbol: 'Nu.' },
+      { name: 'Indian rupee', symbol: '₹' }
+    ],
+    languages: ['Dzongkha'],
+    coordinates: [27.5, 90.5],
     area: 38394,
     maps: {
       googleMaps: 'https://goo.gl/maps/VEfXXBftTFLUpNgp8',
@@ -4471,9 +4382,9 @@ export default [
   {
     name: 'Romania',
     capital: 'Bucharest',
-    currencies: { RON: { name: 'Romanian leu', symbol: 'lei' } },
-    languages: { ron: 'Romanian' },
-    latlng: [46, 25],
+    currencies: [{ name: 'Romanian leu', symbol: 'lei' }],
+    languages: ['Romanian'],
+    coordinates: [46, 25],
     area: 238391,
     maps: {
       googleMaps: 'https://goo.gl/maps/845hAgCf1mDkN3vr7',
@@ -4491,9 +4402,9 @@ export default [
   {
     name: 'Afghanistan',
     capital: 'Kabul',
-    currencies: { AFN: { name: 'Afghan afghani', symbol: '؋' } },
-    languages: { prs: 'Dari', pus: 'Pashto', tuk: 'Turkmen' },
-    latlng: [33, 65],
+    currencies: [{ name: 'Afghan afghani', symbol: '؋' }],
+    languages: ['Dari', 'Pashto', 'Turkmen'],
+    coordinates: [33, 65],
     area: 652230,
     maps: {
       googleMaps: 'https://goo.gl/maps/BXBGw7yUUFknCfva9',
@@ -4510,9 +4421,9 @@ export default [
   {
     name: 'India',
     capital: 'New Delhi',
-    currencies: { INR: { name: 'Indian rupee', symbol: '₹' } },
-    languages: { eng: 'English', hin: 'Hindi', tam: 'Tamil' },
-    latlng: [20, 77],
+    currencies: [{ name: 'Indian rupee', symbol: '₹' }],
+    languages: ['English', 'Hindi', 'Tamil'],
+    coordinates: [20, 77],
     area: 3287590,
     maps: {
       googleMaps: 'https://goo.gl/maps/WSk3fLwG4vtPQetp7',
@@ -4530,9 +4441,9 @@ export default [
   {
     name: 'Denmark',
     capital: 'Copenhagen',
-    currencies: { DKK: { name: 'Danish krone', symbol: 'kr' } },
-    languages: { dan: 'Danish' },
-    latlng: [56, 10],
+    currencies: [{ name: 'Danish krone', symbol: 'kr' }],
+    languages: ['Danish'],
+    coordinates: [56, 10],
     area: 43094,
     maps: {
       googleMaps: 'https://goo.gl/maps/UddGPN7hAyrtpFiT6',
@@ -4550,12 +4461,12 @@ export default [
   {
     name: 'Jersey',
     capital: 'Saint Helier',
-    currencies: {
-      GBP: { name: 'British pound', symbol: '£' },
-      JEP: { name: 'Jersey pound', symbol: '£' }
-    },
-    languages: { eng: 'English', fra: 'French', nrf: 'Jèrriais' },
-    latlng: [49.25, -2.16666666],
+    currencies: [
+      { name: 'British pound', symbol: '£' },
+      { name: 'Jersey pound', symbol: '£' }
+    ],
+    languages: ['English', 'French', 'Jèrriais'],
+    coordinates: [49.25, -2.16666666],
     area: 116,
     maps: {
       googleMaps: 'https://goo.gl/maps/rXG8GZZtsqK92kTCA',
@@ -4577,9 +4488,9 @@ export default [
   {
     name: 'Saudi Arabia',
     capital: 'Riyadh',
-    currencies: { SAR: { name: 'Saudi riyal', symbol: 'ر.س' } },
-    languages: { ara: 'Arabic' },
-    latlng: [25, 45],
+    currencies: [{ name: 'Saudi riyal', symbol: 'ر.س' }],
+    languages: ['Arabic'],
+    coordinates: [25, 45],
     area: 2149690,
     maps: {
       googleMaps: 'https://goo.gl/maps/5PSjvdJ1AyaLFRrG9',
@@ -4597,9 +4508,9 @@ export default [
   {
     name: 'Saint Barthélemy',
     capital: 'Gustavia',
-    currencies: { EUR: { name: 'Euro', symbol: '€' } },
-    languages: { fra: 'French' },
-    latlng: [18.5, -63.41666666],
+    currencies: [{ name: 'Euro', symbol: '€' }],
+    languages: ['French'],
+    coordinates: [18.5, -63.41666666],
     area: 21,
     maps: {
       googleMaps: 'https://goo.gl/maps/Mc7GqH466S7AAk297',
@@ -4617,11 +4528,9 @@ export default [
   {
     name: 'Guinea-Bissau',
     capital: 'Bissau',
-    currencies: {
-      XOF: { name: 'West African CFA franc', symbol: 'Fr' }
-    },
-    languages: { por: 'Portuguese', pov: 'Upper Guinea Creole' },
-    latlng: [12, -15],
+    currencies: [{ name: 'West African CFA franc', symbol: 'Fr' }],
+    languages: ['Portuguese', 'Upper Guinea Creole'],
+    coordinates: [12, -15],
     area: 36125,
     maps: {
       googleMaps: 'https://goo.gl/maps/5Wyaz17miUc1zLc67',
@@ -4639,13 +4548,9 @@ export default [
   {
     name: 'Norway',
     capital: 'Oslo',
-    currencies: { NOK: { name: 'Norwegian krone', symbol: 'kr' } },
-    languages: {
-      nno: 'Norwegian Nynorsk',
-      nob: 'Norwegian Bokmål',
-      smi: 'Sami'
-    },
-    latlng: [62, 10],
+    currencies: [{ name: 'Norwegian krone', symbol: 'kr' }],
+    languages: ['Norwegian Nynorsk', 'Norwegian Bokmål', 'Sami'],
+    coordinates: [62, 10],
     area: 323802,
     maps: {
       googleMaps: 'https://goo.gl/maps/htWRrphA7vNgQNdSA',
@@ -4663,9 +4568,9 @@ export default [
   {
     name: 'Monaco',
     capital: 'Monaco',
-    currencies: { EUR: { name: 'Euro', symbol: '€' } },
-    languages: { fra: 'French' },
-    latlng: [43.73333333, 7.4],
+    currencies: [{ name: 'Euro', symbol: '€' }],
+    languages: ['French'],
+    coordinates: [43.73333333, 7.4],
     area: 2.02,
     maps: {
       googleMaps: 'https://goo.gl/maps/DGpndDot28bYdXYn7',
@@ -4683,9 +4588,9 @@ export default [
   {
     name: 'Cocos (Keeling) Islands',
     capital: 'West Island',
-    currencies: { AUD: { name: 'Australian dollar', symbol: '$' } },
-    languages: { eng: 'English' },
-    latlng: [-12.5, 96.83333333],
+    currencies: [{ name: 'Australian dollar', symbol: '$' }],
+    languages: ['English'],
+    coordinates: [-12.5, 96.83333333],
     area: 14,
     maps: {
       googleMaps: 'https://goo.gl/maps/3eCdKVpVfMcZyKcK6',
@@ -4702,9 +4607,9 @@ export default [
   {
     name: 'Egypt',
     capital: 'Cairo',
-    currencies: { EGP: { name: 'Egyptian pound', symbol: '£' } },
-    languages: { ara: 'Arabic' },
-    latlng: [27, 30],
+    currencies: [{ name: 'Egyptian pound', symbol: '£' }],
+    languages: ['Arabic'],
+    coordinates: [27, 30],
     area: 1002450,
     maps: {
       googleMaps: 'https://goo.gl/maps/uoDRhXbsqjG6L7VG7',
@@ -4722,9 +4627,9 @@ export default [
   {
     name: 'Cyprus',
     capital: 'Nicosia',
-    currencies: { EUR: { name: 'Euro', symbol: '€' } },
-    languages: { ell: 'Greek', tur: 'Turkish' },
-    latlng: [35, 33],
+    currencies: [{ name: 'Euro', symbol: '€' }],
+    languages: ['Greek', 'Turkish'],
+    coordinates: [35, 33],
     area: 9251,
     maps: {
       googleMaps: 'https://goo.gl/maps/77hPBRdLid8yD5Bm7',
@@ -4742,11 +4647,9 @@ export default [
   {
     name: 'Dominica',
     capital: 'Roseau',
-    currencies: {
-      XCD: { name: 'Eastern Caribbean dollar', symbol: '$' }
-    },
-    languages: { eng: 'English' },
-    latlng: [15.41666666, -61.33333333],
+    currencies: [{ name: 'Eastern Caribbean dollar', symbol: '$' }],
+    languages: ['English'],
+    coordinates: [15.41666666, -61.33333333],
     area: 751,
     maps: {
       googleMaps: 'https://goo.gl/maps/HSKdHYpFC8oHHuyV7',
@@ -4763,9 +4666,9 @@ export default [
   {
     name: 'Azerbaijan',
     capital: 'Baku',
-    currencies: { AZN: { name: 'Azerbaijani manat', symbol: '₼' } },
-    languages: { aze: 'Azerbaijani', rus: 'Russian' },
-    latlng: [40.5, 47.5],
+    currencies: [{ name: 'Azerbaijani manat', symbol: '₼' }],
+    languages: ['Azerbaijani', 'Russian'],
+    coordinates: [40.5, 47.5],
     area: 86600,
     maps: {
       googleMaps: 'https://goo.gl/maps/az3Zz7ar2aoB9AUc6',
@@ -4783,25 +4686,25 @@ export default [
   {
     name: 'Zimbabwe',
     capital: 'Harare',
-    currencies: { ZWL: { name: 'Zimbabwean dollar', symbol: '$' } },
-    languages: {
-      bwg: 'Chibarwe',
-      eng: 'English',
-      kck: 'Kalanga',
-      khi: 'Khoisan',
-      ndc: 'Ndau',
-      nde: 'Northern Ndebele',
-      nya: 'Chewa',
-      sna: 'Shona',
-      sot: 'Sotho',
-      toi: 'Tonga',
-      tsn: 'Tswana',
-      tso: 'Tsonga',
-      ven: 'Venda',
-      xho: 'Xhosa',
-      zib: 'Zimbabwean Sign Language'
-    },
-    latlng: [-20, 30],
+    currencies: [{ name: 'Zimbabwean dollar', symbol: '$' }],
+    languages: [
+      'Chibarwe',
+      'English',
+      'Kalanga',
+      'Khoisan',
+      'Ndau',
+      'Northern Ndebele',
+      'Chewa',
+      'Shona',
+      'Sotho',
+      'Tonga',
+      'Tswana',
+      'Tsonga',
+      'Venda',
+      'Xhosa',
+      'Zimbabwean Sign Language'
+    ],
+    coordinates: [-20, 30],
     area: 390757,
     maps: {
       googleMaps: 'https://goo.gl/maps/M26BqdwQctqxXS65A',
@@ -4818,12 +4721,12 @@ export default [
   {
     name: 'Tuvalu',
     capital: 'Funafuti',
-    currencies: {
-      AUD: { name: 'Australian dollar', symbol: '$' },
-      TVD: { name: 'Tuvaluan dollar', symbol: '$' }
-    },
-    languages: { eng: 'English', tvl: 'Tuvaluan' },
-    latlng: [-8, 178],
+    currencies: [
+      { name: 'Australian dollar', symbol: '$' },
+      { name: 'Tuvaluan dollar', symbol: '$' }
+    ],
+    languages: ['English', 'Tuvaluan'],
+    coordinates: [-8, 178],
     area: 26,
     maps: {
       googleMaps: 'https://goo.gl/maps/LbuUxtkgm1dfN1Pn6',
@@ -4840,11 +4743,9 @@ export default [
   {
     name: 'Mali',
     capital: 'Bamako',
-    currencies: {
-      XOF: { name: 'West African CFA franc', symbol: 'Fr' }
-    },
-    languages: { fra: 'French' },
-    latlng: [17, -4],
+    currencies: [{ name: 'West African CFA franc', symbol: 'Fr' }],
+    languages: ['French'],
+    coordinates: [17, -4],
     area: 1240192,
     maps: {
       googleMaps: 'https://goo.gl/maps/u9mYJkCB19wyuzh27',
@@ -4861,9 +4762,9 @@ export default [
   {
     name: 'Mauritania',
     capital: 'Nouakchott',
-    currencies: { MRU: { name: 'Mauritanian ouguiya', symbol: 'UM' } },
-    languages: { ara: 'Arabic' },
-    latlng: [20, -12],
+    currencies: [{ name: 'Mauritanian ouguiya', symbol: 'UM' }],
+    languages: ['Arabic'],
+    coordinates: [20, -12],
     area: 1030700,
     maps: {
       googleMaps: 'https://goo.gl/maps/im2MmQ5jFjzxWBks5',
@@ -4880,9 +4781,9 @@ export default [
   {
     name: 'Ukraine',
     capital: 'Kyiv',
-    currencies: { UAH: { name: 'Ukrainian hryvnia', symbol: '₴' } },
-    languages: { ukr: 'Ukrainian' },
-    latlng: [49, 32],
+    currencies: [{ name: 'Ukrainian hryvnia', symbol: '₴' }],
+    languages: ['Ukrainian'],
+    coordinates: [49, 32],
     area: 603500,
     maps: {
       googleMaps: 'https://goo.gl/maps/DvgJMiPJ7aozKFZv7',
@@ -4900,11 +4801,9 @@ export default [
   {
     name: 'Cameroon',
     capital: 'Yaoundé',
-    currencies: {
-      XAF: { name: 'Central African CFA franc', symbol: 'Fr' }
-    },
-    languages: { eng: 'English', fra: 'French' },
-    latlng: [6, 12],
+    currencies: [{ name: 'Central African CFA franc', symbol: 'Fr' }],
+    languages: ['English', 'French'],
+    coordinates: [6, 12],
     area: 475442,
     maps: {
       googleMaps: 'https://goo.gl/maps/JqiipHgFboG3rBJh9',
@@ -4921,9 +4820,9 @@ export default [
   {
     name: 'Caribbean Netherlands',
     capital: 'Kralendijk',
-    currencies: { USD: { name: 'United States dollar', symbol: '$' } },
-    languages: { eng: 'English', nld: 'Dutch', pap: 'Papiamento' },
-    latlng: [12.18, -68.25],
+    currencies: [{ name: 'United States dollar', symbol: '$' }],
+    languages: ['English', 'Dutch', 'Papiamento'],
+    coordinates: [12.18, -68.25],
     area: 328,
     maps: {
       googleMaps: 'https://goo.gl/maps/4XVes1P6uEDTz77WA',
@@ -4940,9 +4839,9 @@ export default [
   {
     name: 'Micronesia',
     capital: 'Palikir',
-    currencies: { USD: { name: 'United States dollar', symbol: '$' } },
-    languages: { eng: 'English' },
-    latlng: [6.91666666, 158.25],
+    currencies: [{ name: 'United States dollar', symbol: '$' }],
+    languages: ['English'],
+    coordinates: [6.91666666, 158.25],
     area: 702,
     maps: {
       googleMaps: 'https://goo.gl/maps/LLcnofC5LxZsJXTo8',
@@ -4960,9 +4859,9 @@ export default [
   {
     name: 'Mozambique',
     capital: 'Maputo',
-    currencies: { MZN: { name: 'Mozambican metical', symbol: 'MT' } },
-    languages: { por: 'Portuguese' },
-    latlng: [-18.25, 35],
+    currencies: [{ name: 'Mozambican metical', symbol: 'MT' }],
+    languages: ['Portuguese'],
+    coordinates: [-18.25, 35],
     area: 801590,
     maps: {
       googleMaps: 'https://goo.gl/maps/xCLcY9fzU6x4Pueu5',
@@ -4980,22 +4879,22 @@ export default [
   {
     name: 'Namibia',
     capital: 'Windhoek',
-    currencies: {
-      NAD: { name: 'Namibian dollar', symbol: '$' },
-      ZAR: { name: 'South African rand', symbol: 'R' }
-    },
-    languages: {
-      afr: 'Afrikaans',
-      deu: 'German',
-      eng: 'English',
-      her: 'Herero',
-      hgm: 'Khoekhoe',
-      kwn: 'Kwangali',
-      loz: 'Lozi',
-      ndo: 'Ndonga',
-      tsn: 'Tswana'
-    },
-    latlng: [-22, 17],
+    currencies: [
+      { name: 'Namibian dollar', symbol: '$' },
+      { name: 'South African rand', symbol: 'R' }
+    ],
+    languages: [
+      'Afrikaans',
+      'German',
+      'English',
+      'Herero',
+      'Khoekhoe',
+      'Kwangali',
+      'Lozi',
+      'Ndonga',
+      'Tswana'
+    ],
+    coordinates: [-22, 17],
     area: 825615,
     maps: {
       googleMaps: 'https://goo.gl/maps/oR1i8BFEYX3EY83WA',
@@ -5012,9 +4911,9 @@ export default [
   {
     name: 'Gambia',
     capital: 'Banjul',
-    currencies: { GMD: { name: 'dalasi', symbol: 'D' } },
-    languages: { eng: 'English' },
-    latlng: [13.46666666, -16.56666666],
+    currencies: [{ name: 'dalasi', symbol: 'D' }],
+    languages: ['English'],
+    coordinates: [13.46666666, -16.56666666],
     area: 10689,
     maps: {
       googleMaps: 'https://goo.gl/maps/bbGBCxxtfD2A9Z4m6',
@@ -5031,12 +4930,12 @@ export default [
   {
     name: 'Cook Islands',
     capital: 'Avarua',
-    currencies: {
-      CKD: { name: 'Cook Islands dollar', symbol: '$' },
-      NZD: { name: 'New Zealand dollar', symbol: '$' }
-    },
-    languages: { eng: 'English', rar: 'Cook Islands Māori' },
-    latlng: [-21.23333333, -159.76666666],
+    currencies: [
+      { name: 'Cook Islands dollar', symbol: '$' },
+      { name: 'New Zealand dollar', symbol: '$' }
+    ],
+    languages: ['English', 'Cook Islands Māori'],
+    coordinates: [-21.23333333, -159.76666666],
     area: 236,
     maps: {
       googleMaps: 'https://goo.gl/maps/nrGZrvWRGB4WHgDC9',
@@ -5053,9 +4952,9 @@ export default [
   {
     name: 'Cape Verde',
     capital: 'Praia',
-    currencies: { CVE: { name: 'Cape Verdean escudo', symbol: 'Esc' } },
-    languages: { por: 'Portuguese' },
-    latlng: [16, -24],
+    currencies: [{ name: 'Cape Verdean escudo', symbol: 'Esc' }],
+    languages: ['Portuguese'],
+    coordinates: [16, -24],
     area: 4033,
     maps: {
       googleMaps: 'https://goo.gl/maps/Kc9vy5ChjuiAgMfXA',
@@ -5073,9 +4972,9 @@ export default [
   {
     name: 'Laos',
     capital: 'Vientiane',
-    currencies: { LAK: { name: 'Lao kip', symbol: '₭' } },
-    languages: { lao: 'Lao' },
-    latlng: [18, 105],
+    currencies: [{ name: 'Lao kip', symbol: '₭' }],
+    languages: ['Lao'],
+    coordinates: [18, 105],
     area: 236800,
     maps: {
       googleMaps: 'https://goo.gl/maps/F3asVB7sRKgSnwbE7',
@@ -5093,9 +4992,9 @@ export default [
   {
     name: 'Austria',
     capital: 'Vienna',
-    currencies: { EUR: { name: 'Euro', symbol: '€' } },
-    languages: { bar: 'Austro-Bavarian German' },
-    latlng: [47.33333333, 13.33333333],
+    currencies: [{ name: 'Euro', symbol: '€' }],
+    languages: ['Austro-Bavarian German'],
+    coordinates: [47.33333333, 13.33333333],
     area: 83871,
     maps: {
       googleMaps: 'https://goo.gl/maps/pCWpWQhznHyRzQcu9',
@@ -5113,9 +5012,9 @@ export default [
   {
     name: 'Andorra',
     capital: 'Andorra la Vella',
-    currencies: { EUR: { name: 'Euro', symbol: '€' } },
-    languages: { cat: 'Catalan' },
-    latlng: [42.5, 1.5],
+    currencies: [{ name: 'Euro', symbol: '€' }],
+    languages: ['Catalan'],
+    coordinates: [42.5, 1.5],
     area: 468,
     maps: {
       googleMaps: 'https://goo.gl/maps/JqAnacWE2qEznKgw7',
