@@ -1,6 +1,6 @@
 {
   "name": "use-react-countries",
-  "version": "0.0.2",
+  "version": "1.1.0",
   "description": "A tiny fully customizable react hook which gives you full list of countries with their flags, emojis and descriptions",
   "author": "vre2h",
   "license": "MIT",
@@ -23,7 +23,7 @@
     "start-example": "cd example && npm start"
   },
   "peerDependencies": {
-    "react": "^16.9.0"
+    "react": "^17.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
@@ -58,7 +58,7 @@
     "eslint-plugin-react": "^7.10.0",
     "eslint-plugin-standard": "^3.1.0",
     "gh-pages": "^2.0.1",
-    "react": "^16.9.0",
+    "react": "^17.0.2",
     "react-scripts": "^3.4.0",
     "react-test-renderer": "^16.9.0",
     "rollup": "^1.1.2",
