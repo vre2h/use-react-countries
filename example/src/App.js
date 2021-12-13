@@ -1,9 +1,8 @@
 import React from 'react'
 import { useCountries } from 'use-react-countries'
-import './styles.css'
 
 export default function App() {
-  const countries = useCountries()
+  const { countries } = useCountries()
 
   return (
     <>
@@ -22,6 +21,7 @@ export default function App() {
             <pre>.svg</pre>
           </td>
           <td>Country Calling Code</td>
+          <td>Postal Code</td>
         </thead>
         {countries.map((c) => (
           <tr>
@@ -37,6 +37,7 @@ export default function App() {
               <img width={'20'} src={c.flags.svg} />
             </td>
             <td>{c.countryCallingCode}</td>
+            <td>{JSON.stringify(c.postalCode)}</td>
           </tr>
         ))}
       </table>
