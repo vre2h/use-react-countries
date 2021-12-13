@@ -1,6 +1,6 @@
 {
   "name": "use-react-countries",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A tiny fully customizable react hook which gives you full list of countries with their flags, emojis and descriptions",
   "author": "vre2h",
   "license": "MIT",
