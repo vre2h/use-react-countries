@@ -17,7 +17,8 @@ export default [
     },
     population: 53771300,
     emoji: '🇰🇪',
-    countryCallingCode: '+254'
+    countryCallingCode: '+254',
+    isoCountryCode: 'KE'
   },
   {
     name: 'San Marino',
@@ -37,7 +38,8 @@ export default [
       svg: 'https://flagcdn.com/sm.svg'
     },
     emoji: '🇸🇲',
-    countryCallingCode: '+378'
+    countryCallingCode: '+378',
+    isoCountryCode: 'SM'
   },
   {
     name: 'French Polynesia',
@@ -57,7 +59,8 @@ export default [
       svg: 'https://flagcdn.com/pf.svg'
     },
     emoji: '🇵🇫',
-    countryCallingCode: '+689'
+    countryCallingCode: '+689',
+    isoCountryCode: 'PF'
   },
   {
     name: 'Sierra Leone',
@@ -76,7 +79,8 @@ export default [
       svg: 'https://flagcdn.com/sl.svg'
     },
     emoji: '🇸🇱',
-    countryCallingCode: '+232'
+    countryCallingCode: '+232',
+    isoCountryCode: 'SL'
   },
   {
     name: 'Madagascar',
@@ -96,7 +100,8 @@ export default [
       svg: 'https://flagcdn.com/mg.svg'
     },
     emoji: '🇲🇬',
-    countryCallingCode: '+261'
+    countryCallingCode: '+261',
+    isoCountryCode: 'MG'
   },
   {
     name: 'Nigeria',
@@ -116,7 +121,8 @@ export default [
       svg: 'https://flagcdn.com/ng.svg'
     },
     emoji: '🇳🇬',
-    countryCallingCode: '+234'
+    countryCallingCode: '+234',
+    isoCountryCode: 'NG'
   },
   {
     name: 'Jordan',
@@ -136,7 +142,8 @@ export default [
       svg: 'https://flagcdn.com/jo.svg'
     },
     emoji: '🇯🇴',
-    countryCallingCode: '+962'
+    countryCallingCode: '+962',
+    isoCountryCode: 'JO'
   },
   {
     name: 'Libya',
@@ -155,7 +162,8 @@ export default [
       svg: 'https://flagcdn.com/ly.svg'
     },
     emoji: '🇱🇾',
-    countryCallingCode: '+218'
+    countryCallingCode: '+218',
+    isoCountryCode: 'LY'
   },
   {
     name: 'Guyana',
@@ -174,7 +182,8 @@ export default [
       svg: 'https://flagcdn.com/gy.svg'
     },
     emoji: '🇬🇾',
-    countryCallingCode: '+592'
+    countryCallingCode: '+592',
+    isoCountryCode: 'GY'
   },
   {
     name: 'Mexico',
@@ -194,7 +203,8 @@ export default [
       svg: 'https://flagcdn.com/mx.svg'
     },
     emoji: '🇲🇽',
-    countryCallingCode: '+52'
+    countryCallingCode: '+52',
+    isoCountryCode: 'MX'
   },
   {
     name: 'Turkmenistan',
@@ -214,7 +224,8 @@ export default [
       svg: 'https://flagcdn.com/tm.svg'
     },
     emoji: '🇹🇲',
-    countryCallingCode: '+993'
+    countryCallingCode: '+993',
+    isoCountryCode: 'TM'
   },
   {
     name: 'Christmas Island',
@@ -234,7 +245,8 @@ export default [
       svg: 'https://flagcdn.com/cx.svg'
     },
     emoji: '🇨🇽',
-    countryCallingCode: '+61'
+    countryCallingCode: '+61',
+    isoCountryCode: 'CX'
   },
   {
     name: 'Panama',
@@ -256,7 +268,8 @@ export default [
       svg: 'https://flagcdn.com/pa.svg'
     },
     emoji: '🇵🇦',
-    countryCallingCode: '+507'
+    countryCallingCode: '+507',
+    isoCountryCode: 'PA'
   },
   {
     name: 'Vatican City',
@@ -275,7 +288,8 @@ export default [
       svg: 'https://flagcdn.com/va.svg'
     },
     emoji: '',
-    countryCallingCode: '+379'
+    countryCallingCode: '+379',
+    isoCountryCode: 'VA'
   },
   {
     name: 'Seychelles',
@@ -294,7 +308,8 @@ export default [
       svg: 'https://flagcdn.com/sc.svg'
     },
     emoji: '🇸🇨',
-    countryCallingCode: '+248'
+    countryCallingCode: '+248',
+    isoCountryCode: 'SC'
   },
   {
     name: 'Algeria',
@@ -314,7 +329,8 @@ export default [
       svg: 'https://flagcdn.com/dz.svg'
     },
     emoji: '🇩🇿',
-    countryCallingCode: '+213'
+    countryCallingCode: '+213',
+    isoCountryCode: 'DZ'
   },
   {
     name: 'Guam',
@@ -334,7 +350,8 @@ export default [
       svg: 'https://flagcdn.com/gu.svg'
     },
     emoji: '🇬🇺',
-    countryCallingCode: '+1 671'
+    countryCallingCode: '+1 671',
+    isoCountryCode: 'GU'
   },
   {
     name: 'Sweden',
@@ -354,7 +371,8 @@ export default [
       svg: 'https://flagcdn.com/se.svg'
     },
     emoji: '🇸🇪',
-    countryCallingCode: '+46'
+    countryCallingCode: '+46',
+    isoCountryCode: 'SE'
   },
   {
     name: 'Antarctica',
@@ -373,7 +391,8 @@ export default [
     emoji: '🇦🇶',
     countryCallingCode: '+672',
     currencies: [],
-    languages: []
+    languages: [],
+    isoCountryCode: 'AQ'
   },
   {
     name: 'Switzerland',
@@ -393,7 +412,8 @@ export default [
       svg: 'https://flagcdn.com/ch.svg'
     },
     emoji: '🇨🇭',
-    countryCallingCode: '+41'
+    countryCallingCode: '+41',
+    isoCountryCode: 'CH'
   },
   {
     name: 'Ethiopia',
@@ -413,7 +433,8 @@ export default [
       svg: 'https://flagcdn.com/et.svg'
     },
     emoji: '🇪🇹',
-    countryCallingCode: '+251'
+    countryCallingCode: '+251',
+    isoCountryCode: 'ET'
   },
   {
     name: 'Somalia',
@@ -433,7 +454,8 @@ export default [
       svg: 'https://flagcdn.com/so.svg'
     },
     emoji: '🇸🇴',
-    countryCallingCode: '+252'
+    countryCallingCode: '+252',
+    isoCountryCode: 'SO'
   },
   {
     name: 'France',
@@ -453,7 +475,8 @@ export default [
       svg: 'https://flagcdn.com/fr.svg'
     },
     emoji: '🇫🇷',
-    countryCallingCode: '+33'
+    countryCallingCode: '+33',
+    isoCountryCode: 'FR'
   },
   {
     name: 'Russia',
@@ -474,7 +497,8 @@ export default [
       svg: 'https://flagcdn.com/ru.svg'
     },
     emoji: '',
-    countryCallingCode: '+7'
+    countryCallingCode: '+7',
+    isoCountryCode: 'RU'
   },
   {
     name: 'Western Sahara',
@@ -497,7 +521,8 @@ export default [
       svg: 'https://flagcdn.com/eh.svg'
     },
     emoji: '🇪🇭',
-    countryCallingCode: '+212'
+    countryCallingCode: '+212',
+    isoCountryCode: 'EH'
   },
   {
     name: 'Åland Islands',
@@ -516,7 +541,8 @@ export default [
       svg: 'https://flagcdn.com/ax.svg'
     },
     emoji: '🇦🇽',
-    countryCallingCode: '+358'
+    countryCallingCode: '+358',
+    isoCountryCode: 'AX'
   },
   {
     name: 'Tokelau',
@@ -535,7 +561,8 @@ export default [
       svg: 'https://flagcdn.com/tk.svg'
     },
     emoji: '🇹🇰',
-    countryCallingCode: '+690'
+    countryCallingCode: '+690',
+    isoCountryCode: 'TK'
   },
   {
     name: 'Chad',
@@ -554,7 +581,8 @@ export default [
       svg: 'https://flagcdn.com/td.svg'
     },
     emoji: '🇹🇩',
-    countryCallingCode: '+235'
+    countryCallingCode: '+235',
+    isoCountryCode: 'TD'
   },
   {
     name: 'Trinidad and Tobago',
@@ -573,7 +601,8 @@ export default [
       svg: 'https://flagcdn.com/tt.svg'
     },
     emoji: '',
-    countryCallingCode: '+1 868'
+    countryCallingCode: '+1 868',
+    isoCountryCode: 'TT'
   },
   {
     name: 'Central African Republic',
@@ -592,7 +621,8 @@ export default [
       svg: 'https://flagcdn.com/cf.svg'
     },
     emoji: '🇨🇫',
-    countryCallingCode: '+236'
+    countryCallingCode: '+236',
+    isoCountryCode: 'CF'
   },
   {
     name: 'North Macedonia',
@@ -612,7 +642,8 @@ export default [
       svg: 'https://flagcdn.com/mk.svg'
     },
     emoji: '',
-    countryCallingCode: '+389'
+    countryCallingCode: '+389',
+    isoCountryCode: 'MK'
   },
   {
     name: 'El Salvador',
@@ -632,7 +663,8 @@ export default [
       svg: 'https://flagcdn.com/sv.svg'
     },
     emoji: '🇸🇻',
-    countryCallingCode: '+503'
+    countryCallingCode: '+503',
+    isoCountryCode: 'SV'
   },
   {
     name: 'Turks and Caicos Islands',
@@ -652,7 +684,8 @@ export default [
       svg: 'https://flagcdn.com/tc.svg'
     },
     emoji: '',
-    countryCallingCode: '+1 649'
+    countryCallingCode: '+1 649',
+    isoCountryCode: 'TC'
   },
   {
     name: 'Kosovo',
@@ -671,7 +704,8 @@ export default [
       svg: 'https://flagcdn.com/xk.svg'
     },
     emoji: '',
-    countryCallingCode: '+383'
+    countryCallingCode: '+383',
+    isoCountryCode: 'XK'
   },
   {
     name: 'Colombia',
@@ -690,7 +724,8 @@ export default [
       svg: 'https://flagcdn.com/co.svg'
     },
     emoji: '🇨🇴',
-    countryCallingCode: '+57'
+    countryCallingCode: '+57',
+    isoCountryCode: 'CO'
   },
   {
     name: 'Palau',
@@ -710,7 +745,8 @@ export default [
       svg: 'https://flagcdn.com/pw.svg'
     },
     emoji: '🇵🇼',
-    countryCallingCode: '+680'
+    countryCallingCode: '+680',
+    isoCountryCode: 'PW'
   },
   {
     name: 'Iran',
@@ -730,7 +766,8 @@ export default [
       svg: 'https://flagcdn.com/ir.svg'
     },
     emoji: '',
-    countryCallingCode: '+98'
+    countryCallingCode: '+98',
+    isoCountryCode: 'IR'
   },
   {
     name: 'French Southern and Antarctic Lands',
@@ -749,7 +786,8 @@ export default [
       svg: 'https://flagcdn.com/tf.svg'
     },
     emoji: '',
-    countryCallingCode: '+33'
+    countryCallingCode: '+33',
+    isoCountryCode: 'TF'
   },
   {
     name: 'Bouvet Island',
@@ -768,7 +806,8 @@ export default [
     },
     emoji: '🇧🇻',
     countryCallingCode: '',
-    currencies: []
+    currencies: [],
+    isoCountryCode: 'BV'
   },
   {
     name: 'British Virgin Islands',
@@ -787,7 +826,8 @@ export default [
       svg: 'https://flagcdn.com/vg.svg'
     },
     emoji: '',
-    countryCallingCode: '+1 284'
+    countryCallingCode: '+1 284',
+    isoCountryCode: 'VG'
   },
   {
     name: 'United Arab Emirates',
@@ -806,7 +846,8 @@ export default [
       svg: 'https://flagcdn.com/ae.svg'
     },
     emoji: '🇦🇪',
-    countryCallingCode: '+971'
+    countryCallingCode: '+971',
+    isoCountryCode: 'AE'
   },
   {
     name: 'South Africa',
@@ -838,7 +879,8 @@ export default [
       svg: 'https://flagcdn.com/za.svg'
     },
     emoji: '🇿🇦',
-    countryCallingCode: '+27'
+    countryCallingCode: '+27',
+    isoCountryCode: 'ZA'
   },
   {
     name: 'Czechia',
@@ -858,7 +900,8 @@ export default [
       svg: 'https://flagcdn.com/cz.svg'
     },
     emoji: '',
-    countryCallingCode: '+420'
+    countryCallingCode: '+420',
+    isoCountryCode: 'CZ'
   },
   {
     name: 'Hungary',
@@ -878,7 +921,8 @@ export default [
       svg: 'https://flagcdn.com/hu.svg'
     },
     emoji: '🇭🇺',
-    countryCallingCode: '+36'
+    countryCallingCode: '+36',
+    isoCountryCode: 'HU'
   },
   {
     name: 'Peru',
@@ -898,7 +942,8 @@ export default [
       svg: 'https://flagcdn.com/pe.svg'
     },
     emoji: '🇵🇪',
-    countryCallingCode: '+51'
+    countryCallingCode: '+51',
+    isoCountryCode: 'PE'
   },
   {
     name: 'Benin',
@@ -917,7 +962,8 @@ export default [
       svg: 'https://flagcdn.com/bj.svg'
     },
     emoji: '🇧🇯',
-    countryCallingCode: '+229'
+    countryCallingCode: '+229',
+    isoCountryCode: 'BJ'
   },
   {
     name: 'South Sudan',
@@ -936,7 +982,8 @@ export default [
       svg: 'https://flagcdn.com/ss.svg'
     },
     emoji: '🇸🇸',
-    countryCallingCode: '+211'
+    countryCallingCode: '+211',
+    isoCountryCode: 'SS'
   },
   {
     name: 'Heard Island and McDonald Islands',
@@ -955,7 +1002,8 @@ export default [
     },
     emoji: '',
     countryCallingCode: '',
-    currencies: []
+    currencies: [],
+    isoCountryCode: 'HM'
   },
   {
     name: 'Solomon Islands',
@@ -974,7 +1022,8 @@ export default [
       svg: 'https://flagcdn.com/sb.svg'
     },
     emoji: '🇸🇧',
-    countryCallingCode: '+677'
+    countryCallingCode: '+677',
+    isoCountryCode: 'SB'
   },
   {
     name: 'Sint Maarten',
@@ -993,7 +1042,8 @@ export default [
       svg: 'https://flagcdn.com/sx.svg'
     },
     emoji: '🇸🇽',
-    countryCallingCode: '+1 721'
+    countryCallingCode: '+1 721',
+    isoCountryCode: 'SX'
   },
   {
     name: 'Turkey',
@@ -1013,7 +1063,8 @@ export default [
       svg: 'https://flagcdn.com/tr.svg'
     },
     emoji: '🇹🇷',
-    countryCallingCode: '+90'
+    countryCallingCode: '+90',
+    isoCountryCode: 'TR'
   },
   {
     name: 'Ireland',
@@ -1032,7 +1083,8 @@ export default [
       svg: 'https://flagcdn.com/ie.svg'
     },
     emoji: '🇮🇪',
-    countryCallingCode: '+353'
+    countryCallingCode: '+353',
+    isoCountryCode: 'IE'
   },
   {
     name: 'Botswana',
@@ -1051,7 +1103,8 @@ export default [
       svg: 'https://flagcdn.com/bw.svg'
     },
     emoji: '🇧🇼',
-    countryCallingCode: '+267'
+    countryCallingCode: '+267',
+    isoCountryCode: 'BW'
   },
   {
     name: 'Haiti',
@@ -1071,7 +1124,8 @@ export default [
       svg: 'https://flagcdn.com/ht.svg'
     },
     emoji: '🇭🇹',
-    countryCallingCode: '+509'
+    countryCallingCode: '+509',
+    isoCountryCode: 'HT'
   },
   {
     name: 'Japan',
@@ -1091,7 +1145,8 @@ export default [
       svg: 'https://flagcdn.com/jp.svg'
     },
     emoji: '🇯🇵',
-    countryCallingCode: '+81'
+    countryCallingCode: '+81',
+    isoCountryCode: 'JP'
   },
   {
     name: 'Norfolk Island',
@@ -1110,7 +1165,8 @@ export default [
       svg: 'https://flagcdn.com/nf.svg'
     },
     emoji: '🇳🇫',
-    countryCallingCode: '+672'
+    countryCallingCode: '+672',
+    isoCountryCode: 'NF'
   },
   {
     name: 'Sudan',
@@ -1130,7 +1186,8 @@ export default [
       svg: 'https://flagcdn.com/sd.svg'
     },
     emoji: '🇸🇩',
-    countryCallingCode: '+249'
+    countryCallingCode: '+249',
+    isoCountryCode: 'SD'
   },
   {
     name: 'Uganda',
@@ -1149,7 +1206,8 @@ export default [
       svg: 'https://flagcdn.com/ug.svg'
     },
     emoji: '🇺🇬',
-    countryCallingCode: '+256'
+    countryCallingCode: '+256',
+    isoCountryCode: 'UG'
   },
   {
     name: 'Kazakhstan',
@@ -1169,7 +1227,8 @@ export default [
       svg: 'https://flagcdn.com/kz.svg'
     },
     emoji: '🇰🇿',
-    countryCallingCode: '+7'
+    countryCallingCode: '+7',
+    isoCountryCode: 'KZ'
   },
   {
     name: 'Northern Mariana Islands',
@@ -1188,7 +1247,8 @@ export default [
       svg: 'https://flagcdn.com/mp.svg'
     },
     emoji: '🇲🇵',
-    countryCallingCode: '+1 670'
+    countryCallingCode: '+1 670',
+    isoCountryCode: 'MP'
   },
   {
     name: 'Moldova',
@@ -1208,7 +1268,8 @@ export default [
       svg: 'https://flagcdn.com/md.svg'
     },
     emoji: '🇲🇩',
-    countryCallingCode: '+373'
+    countryCallingCode: '+373',
+    isoCountryCode: 'MD'
   },
   {
     name: 'Paraguay',
@@ -1228,7 +1289,8 @@ export default [
       svg: 'https://flagcdn.com/py.svg'
     },
     emoji: '🇵🇾',
-    countryCallingCode: '+595'
+    countryCallingCode: '+595',
+    isoCountryCode: 'PY'
   },
   {
     name: 'Estonia',
@@ -1248,7 +1310,8 @@ export default [
       svg: 'https://flagcdn.com/ee.svg'
     },
     emoji: '🇪🇪',
-    countryCallingCode: '+372'
+    countryCallingCode: '+372',
+    isoCountryCode: 'EE'
   },
   {
     name: 'Greenland',
@@ -1268,7 +1331,8 @@ export default [
       svg: 'https://flagcdn.com/gl.svg'
     },
     emoji: '🇬🇱',
-    countryCallingCode: '+299'
+    countryCallingCode: '+299',
+    isoCountryCode: 'GL'
   },
   {
     name: 'Palestine',
@@ -1291,7 +1355,8 @@ export default [
       svg: 'https://flagcdn.com/ps.svg'
     },
     emoji: '',
-    countryCallingCode: '+970'
+    countryCallingCode: '+970',
+    isoCountryCode: 'PS'
   },
   {
     name: 'Finland',
@@ -1311,7 +1376,8 @@ export default [
       svg: 'https://flagcdn.com/fi.svg'
     },
     emoji: '🇫🇮',
-    countryCallingCode: '+358'
+    countryCallingCode: '+358',
+    isoCountryCode: 'FI'
   },
   {
     name: 'São Tomé and Príncipe',
@@ -1330,7 +1396,8 @@ export default [
       svg: 'https://flagcdn.com/st.svg'
     },
     emoji: '',
-    countryCallingCode: '+239'
+    countryCallingCode: '+239',
+    isoCountryCode: 'ST'
   },
   {
     name: 'Honduras',
@@ -1350,7 +1417,8 @@ export default [
       svg: 'https://flagcdn.com/hn.svg'
     },
     emoji: '🇭🇳',
-    countryCallingCode: '+504'
+    countryCallingCode: '+504',
+    isoCountryCode: 'HN'
   },
   {
     name: 'Dominican Republic',
@@ -1370,7 +1438,8 @@ export default [
       svg: 'https://flagcdn.com/do.svg'
     },
     emoji: '🇩🇴',
-    countryCallingCode: '+1 809'
+    countryCallingCode: '+1 809',
+    isoCountryCode: 'DO'
   },
   {
     name: 'British Indian Ocean Territory',
@@ -1389,7 +1458,8 @@ export default [
       svg: 'https://flagcdn.com/io.svg'
     },
     emoji: '🇮🇴',
-    countryCallingCode: '+246'
+    countryCallingCode: '+246',
+    isoCountryCode: 'IO'
   },
   {
     name: 'Rwanda',
@@ -1408,7 +1478,8 @@ export default [
       svg: 'https://flagcdn.com/rw.svg'
     },
     emoji: '🇷🇼',
-    countryCallingCode: '+250'
+    countryCallingCode: '+250',
+    isoCountryCode: 'RW'
   },
   {
     name: 'Comoros',
@@ -1427,7 +1498,8 @@ export default [
       svg: 'https://flagcdn.com/km.svg'
     },
     emoji: '🇰🇲',
-    countryCallingCode: '+269'
+    countryCallingCode: '+269',
+    isoCountryCode: 'KM'
   },
   {
     name: 'Oman',
@@ -1447,7 +1519,8 @@ export default [
       svg: 'https://flagcdn.com/om.svg'
     },
     emoji: '🇴🇲',
-    countryCallingCode: '+968'
+    countryCallingCode: '+968',
+    isoCountryCode: 'OM'
   },
   {
     name: 'Portugal',
@@ -1467,7 +1540,8 @@ export default [
       svg: 'https://flagcdn.com/pt.svg'
     },
     emoji: '🇵🇹',
-    countryCallingCode: '+351'
+    countryCallingCode: '+351',
+    isoCountryCode: 'PT'
   },
   {
     name: 'American Samoa',
@@ -1486,7 +1560,8 @@ export default [
       svg: 'https://flagcdn.com/as.svg'
     },
     emoji: '🇦🇸',
-    countryCallingCode: '+1 684'
+    countryCallingCode: '+1 684',
+    isoCountryCode: 'AS'
   },
   {
     name: 'Thailand',
@@ -1506,7 +1581,8 @@ export default [
       svg: 'https://flagcdn.com/th.svg'
     },
     emoji: '🇹🇭',
-    countryCallingCode: '+66'
+    countryCallingCode: '+66',
+    isoCountryCode: 'TH'
   },
   {
     name: 'Timor-Leste',
@@ -1525,7 +1601,8 @@ export default [
       svg: 'https://flagcdn.com/tl.svg'
     },
     emoji: '',
-    countryCallingCode: '+670'
+    countryCallingCode: '+670',
+    isoCountryCode: 'TL'
   },
   {
     name: 'Armenia',
@@ -1545,7 +1622,8 @@ export default [
       svg: 'https://flagcdn.com/am.svg'
     },
     emoji: '🇦🇲',
-    countryCallingCode: '+374'
+    countryCallingCode: '+374',
+    isoCountryCode: 'AM'
   },
   {
     name: 'Kuwait',
@@ -1565,7 +1643,8 @@ export default [
       svg: 'https://flagcdn.com/kw.svg'
     },
     emoji: '🇰🇼',
-    countryCallingCode: '+965'
+    countryCallingCode: '+965',
+    isoCountryCode: 'KW'
   },
   {
     name: 'South Georgia',
@@ -1584,7 +1663,8 @@ export default [
       svg: 'https://flagcdn.com/gs.svg'
     },
     emoji: '',
-    countryCallingCode: '+500'
+    countryCallingCode: '+500',
+    isoCountryCode: 'GS'
   },
   {
     name: 'Saint Martin',
@@ -1604,7 +1684,8 @@ export default [
       svg: 'https://flagcdn.com/mf.svg'
     },
     emoji: '🇲🇫',
-    countryCallingCode: '+590'
+    countryCallingCode: '+590',
+    isoCountryCode: 'MF'
   },
   {
     name: 'Georgia',
@@ -1624,7 +1705,8 @@ export default [
       svg: 'https://flagcdn.com/ge.svg'
     },
     emoji: '🇬🇪',
-    countryCallingCode: '+995'
+    countryCallingCode: '+995',
+    isoCountryCode: 'GE'
   },
   {
     name: 'Burundi',
@@ -1643,7 +1725,8 @@ export default [
       svg: 'https://flagcdn.com/bi.svg'
     },
     emoji: '🇧🇮',
-    countryCallingCode: '+257'
+    countryCallingCode: '+257',
+    isoCountryCode: 'BI'
   },
   {
     name: 'Anguilla',
@@ -1662,7 +1745,8 @@ export default [
       svg: 'https://flagcdn.com/ai.svg'
     },
     emoji: '🇦🇮',
-    countryCallingCode: '+1 264'
+    countryCallingCode: '+1 264',
+    isoCountryCode: 'AI'
   },
   {
     name: 'Cambodia',
@@ -1685,7 +1769,8 @@ export default [
       svg: 'https://flagcdn.com/kh.svg'
     },
     emoji: '🇰🇭',
-    countryCallingCode: '+855'
+    countryCallingCode: '+855',
+    isoCountryCode: 'KH'
   },
   {
     name: 'Lesotho',
@@ -1708,7 +1793,8 @@ export default [
       svg: 'https://flagcdn.com/ls.svg'
     },
     emoji: '🇱🇸',
-    countryCallingCode: '+266'
+    countryCallingCode: '+266',
+    isoCountryCode: 'LS'
   },
   {
     name: 'Cayman Islands',
@@ -1727,7 +1813,8 @@ export default [
       svg: 'https://flagcdn.com/ky.svg'
     },
     emoji: '🇰🇾',
-    countryCallingCode: '+1 345'
+    countryCallingCode: '+1 345',
+    isoCountryCode: 'KY'
   },
   {
     name: 'Vanuatu',
@@ -1746,7 +1833,8 @@ export default [
       svg: 'https://flagcdn.com/vu.svg'
     },
     emoji: '🇻🇺',
-    countryCallingCode: '+678'
+    countryCallingCode: '+678',
+    isoCountryCode: 'VU'
   },
   {
     name: 'Bolivia',
@@ -1765,7 +1853,8 @@ export default [
       svg: 'https://flagcdn.com/bo.svg'
     },
     emoji: '',
-    countryCallingCode: '+591'
+    countryCallingCode: '+591',
+    isoCountryCode: 'BO'
   },
   {
     name: 'United Kingdom',
@@ -1789,7 +1878,8 @@ export default [
       svg: 'https://flagcdn.com/gb.svg'
     },
     emoji: '🇬🇧',
-    countryCallingCode: '+44'
+    countryCallingCode: '+44',
+    isoCountryCode: 'GB'
   },
   {
     name: 'Tonga',
@@ -1808,7 +1898,8 @@ export default [
       svg: 'https://flagcdn.com/to.svg'
     },
     emoji: '🇹🇴',
-    countryCallingCode: '+676'
+    countryCallingCode: '+676',
+    isoCountryCode: 'TO'
   },
   {
     name: 'Spain',
@@ -1828,7 +1919,8 @@ export default [
       svg: 'https://flagcdn.com/es.svg'
     },
     emoji: '🇪🇸',
-    countryCallingCode: '+34'
+    countryCallingCode: '+34',
+    isoCountryCode: 'ES'
   },
   {
     name: 'Israel',
@@ -1848,7 +1940,8 @@ export default [
       svg: 'https://flagcdn.com/il.svg'
     },
     emoji: '🇮🇱',
-    countryCallingCode: '+972'
+    countryCallingCode: '+972',
+    isoCountryCode: 'IL'
   },
   {
     name: 'Malaysia',
@@ -1868,7 +1961,8 @@ export default [
       svg: 'https://flagcdn.com/my.svg'
     },
     emoji: '🇲🇾',
-    countryCallingCode: '+60'
+    countryCallingCode: '+60',
+    isoCountryCode: 'MY'
   },
   {
     name: 'Curaçao',
@@ -1887,7 +1981,8 @@ export default [
       svg: 'https://flagcdn.com/cw.svg'
     },
     emoji: '',
-    countryCallingCode: '+599'
+    countryCallingCode: '+599',
+    isoCountryCode: 'CW'
   },
   {
     name: 'DR Congo',
@@ -1906,7 +2001,8 @@ export default [
       svg: 'https://flagcdn.com/cd.svg'
     },
     emoji: '',
-    countryCallingCode: '+243'
+    countryCallingCode: '+243',
+    isoCountryCode: 'CD'
   },
   {
     name: 'Cuba',
@@ -1929,7 +2025,8 @@ export default [
       svg: 'https://flagcdn.com/cu.svg'
     },
     emoji: '🇨🇺',
-    countryCallingCode: '+53'
+    countryCallingCode: '+53',
+    isoCountryCode: 'CU'
   },
   {
     name: 'Djibouti',
@@ -1948,7 +2045,8 @@ export default [
       svg: 'https://flagcdn.com/dj.svg'
     },
     emoji: '🇩🇯',
-    countryCallingCode: '+253'
+    countryCallingCode: '+253',
+    isoCountryCode: 'DJ'
   },
   {
     name: 'Chile',
@@ -1968,7 +2066,8 @@ export default [
       svg: 'https://flagcdn.com/cl.svg'
     },
     emoji: '🇨🇱',
-    countryCallingCode: '+56'
+    countryCallingCode: '+56',
+    isoCountryCode: 'CL'
   },
   {
     name: 'Bosnia and Herzegovina',
@@ -1988,7 +2087,8 @@ export default [
       svg: 'https://flagcdn.com/ba.svg'
     },
     emoji: '',
-    countryCallingCode: '+387'
+    countryCallingCode: '+387',
+    isoCountryCode: 'BA'
   },
   {
     name: 'Singapore',
@@ -2008,7 +2108,8 @@ export default [
       svg: 'https://flagcdn.com/sg.svg'
     },
     emoji: '🇸🇬',
-    countryCallingCode: '+65'
+    countryCallingCode: '+65',
+    isoCountryCode: 'SG'
   },
   {
     name: 'French Guiana',
@@ -2028,7 +2129,8 @@ export default [
       svg: 'https://flagcdn.com/gf.svg'
     },
     emoji: '🇬🇫',
-    countryCallingCode: '+594'
+    countryCallingCode: '+594',
+    isoCountryCode: 'GF'
   },
   {
     name: 'Suriname',
@@ -2047,7 +2149,8 @@ export default [
       svg: 'https://flagcdn.com/sr.svg'
     },
     emoji: '🇸🇷',
-    countryCallingCode: '+597'
+    countryCallingCode: '+597',
+    isoCountryCode: 'SR'
   },
   {
     name: 'Eswatini',
@@ -2070,7 +2173,8 @@ export default [
       svg: 'https://flagcdn.com/sz.svg'
     },
     emoji: '',
-    countryCallingCode: '+268'
+    countryCallingCode: '+268',
+    isoCountryCode: 'SZ'
   },
   {
     name: 'Belgium',
@@ -2090,7 +2194,8 @@ export default [
       svg: 'https://flagcdn.com/be.svg'
     },
     emoji: '🇧🇪',
-    countryCallingCode: '+32'
+    countryCallingCode: '+32',
+    isoCountryCode: 'BE'
   },
   {
     name: 'China',
@@ -2110,7 +2215,8 @@ export default [
       svg: 'https://flagcdn.com/cn.svg'
     },
     emoji: '🇨🇳',
-    countryCallingCode: '+86'
+    countryCallingCode: '+86',
+    isoCountryCode: 'CN'
   },
   {
     name: 'Saint Vincent and the Grenadines',
@@ -2129,7 +2235,8 @@ export default [
       svg: 'https://flagcdn.com/vc.svg'
     },
     emoji: '',
-    countryCallingCode: '+1 784'
+    countryCallingCode: '+1 784',
+    isoCountryCode: 'VC'
   },
   {
     name: 'Nicaragua',
@@ -2149,7 +2256,8 @@ export default [
       svg: 'https://flagcdn.com/ni.svg'
     },
     emoji: '🇳🇮',
-    countryCallingCode: '+505'
+    countryCallingCode: '+505',
+    isoCountryCode: 'NI'
   },
   {
     name: 'Canada',
@@ -2173,7 +2281,8 @@ export default [
       svg: 'https://flagcdn.com/ca.svg'
     },
     emoji: '🇨🇦',
-    countryCallingCode: '+1'
+    countryCallingCode: '+1',
+    isoCountryCode: 'CA'
   },
   {
     name: 'Togo',
@@ -2192,7 +2301,8 @@ export default [
       svg: 'https://flagcdn.com/tg.svg'
     },
     emoji: '🇹🇬',
-    countryCallingCode: '+228'
+    countryCallingCode: '+228',
+    isoCountryCode: 'TG'
   },
   {
     name: 'Ivory Coast',
@@ -2211,7 +2321,8 @@ export default [
       svg: 'https://flagcdn.com/ci.svg'
     },
     emoji: '',
-    countryCallingCode: '+225'
+    countryCallingCode: '+225',
+    isoCountryCode: 'CI'
   },
   {
     name: 'Slovenia',
@@ -2231,7 +2342,8 @@ export default [
       svg: 'https://flagcdn.com/si.svg'
     },
     emoji: '🇸🇮',
-    countryCallingCode: '+386'
+    countryCallingCode: '+386',
+    isoCountryCode: 'SI'
   },
   {
     name: 'Sri Lanka',
@@ -2251,7 +2363,8 @@ export default [
       svg: 'https://flagcdn.com/lk.svg'
     },
     emoji: '🇱🇰',
-    countryCallingCode: '+94'
+    countryCallingCode: '+94',
+    isoCountryCode: 'LK'
   },
   {
     name: 'Greece',
@@ -2271,7 +2384,8 @@ export default [
       svg: 'https://flagcdn.com/gr.svg'
     },
     emoji: '🇬🇷',
-    countryCallingCode: '+30'
+    countryCallingCode: '+30',
+    isoCountryCode: 'GR'
   },
   {
     name: 'Jamaica',
@@ -2290,7 +2404,8 @@ export default [
       svg: 'https://flagcdn.com/jm.svg'
     },
     emoji: '🇯🇲',
-    countryCallingCode: '+1 876'
+    countryCallingCode: '+1 876',
+    isoCountryCode: 'JM'
   },
   {
     name: 'Italy',
@@ -2310,7 +2425,8 @@ export default [
       svg: 'https://flagcdn.com/it.svg'
     },
     emoji: '🇮🇹',
-    countryCallingCode: '+39'
+    countryCallingCode: '+39',
+    isoCountryCode: 'IT'
   },
   {
     name: 'Croatia',
@@ -2330,7 +2446,8 @@ export default [
       svg: 'https://flagcdn.com/hr.svg'
     },
     emoji: '🇭🇷',
-    countryCallingCode: '+385'
+    countryCallingCode: '+385',
+    isoCountryCode: 'HR'
   },
   {
     name: 'New Caledonia',
@@ -2350,7 +2467,8 @@ export default [
       svg: 'https://flagcdn.com/nc.svg'
     },
     emoji: '🇳🇨',
-    countryCallingCode: '+687'
+    countryCallingCode: '+687',
+    isoCountryCode: 'NC'
   },
   {
     name: 'Pakistan',
@@ -2370,7 +2488,8 @@ export default [
       svg: 'https://flagcdn.com/pk.svg'
     },
     emoji: '🇵🇰',
-    countryCallingCode: '+92'
+    countryCallingCode: '+92',
+    isoCountryCode: 'PK'
   },
   {
     name: 'Hong Kong',
@@ -2389,7 +2508,8 @@ export default [
       svg: 'https://flagcdn.com/hk.svg'
     },
     emoji: '🇭🇰',
-    countryCallingCode: '+852'
+    countryCallingCode: '+852',
+    isoCountryCode: 'HK'
   },
   {
     name: 'Latvia',
@@ -2409,7 +2529,8 @@ export default [
       svg: 'https://flagcdn.com/lv.svg'
     },
     emoji: '🇱🇻',
-    countryCallingCode: '+371'
+    countryCallingCode: '+371',
+    isoCountryCode: 'LV'
   },
   {
     name: 'Lebanon',
@@ -2432,7 +2553,8 @@ export default [
       svg: 'https://flagcdn.com/lb.svg'
     },
     emoji: '🇱🇧',
-    countryCallingCode: '+961'
+    countryCallingCode: '+961',
+    isoCountryCode: 'LB'
   },
   {
     name: 'Mauritius',
@@ -2451,7 +2573,8 @@ export default [
       svg: 'https://flagcdn.com/mu.svg'
     },
     emoji: '🇲🇺',
-    countryCallingCode: '+230'
+    countryCallingCode: '+230',
+    isoCountryCode: 'MU'
   },
   {
     name: 'Guinea',
@@ -2470,7 +2593,8 @@ export default [
       svg: 'https://flagcdn.com/gn.svg'
     },
     emoji: '🇬🇳',
-    countryCallingCode: '+224'
+    countryCallingCode: '+224',
+    isoCountryCode: 'GN'
   },
   {
     name: 'Republic of the Congo',
@@ -2489,7 +2613,8 @@ export default [
       svg: 'https://flagcdn.com/cg.svg'
     },
     emoji: '',
-    countryCallingCode: '+242'
+    countryCallingCode: '+242',
+    isoCountryCode: 'CG'
   },
   {
     name: 'Grenada',
@@ -2508,7 +2633,8 @@ export default [
       svg: 'https://flagcdn.com/gd.svg'
     },
     emoji: '🇬🇩',
-    countryCallingCode: '+473'
+    countryCallingCode: '+473',
+    isoCountryCode: 'GD'
   },
   {
     name: 'Eritrea',
@@ -2527,7 +2653,8 @@ export default [
       svg: 'https://flagcdn.com/er.svg'
     },
     emoji: '🇪🇷',
-    countryCallingCode: '+291'
+    countryCallingCode: '+291',
+    isoCountryCode: 'ER'
   },
   {
     name: 'Barbados',
@@ -2547,7 +2674,8 @@ export default [
       svg: 'https://flagcdn.com/bb.svg'
     },
     emoji: '🇧🇧',
-    countryCallingCode: '+1 246'
+    countryCallingCode: '+1 246',
+    isoCountryCode: 'BB'
   },
   {
     name: 'Tajikistan',
@@ -2567,7 +2695,8 @@ export default [
       svg: 'https://flagcdn.com/tj.svg'
     },
     emoji: '🇹🇯',
-    countryCallingCode: '+992'
+    countryCallingCode: '+992',
+    isoCountryCode: 'TJ'
   },
   {
     name: 'Burkina Faso',
@@ -2586,7 +2715,8 @@ export default [
       svg: 'https://flagcdn.com/bf.svg'
     },
     emoji: '🇧🇫',
-    countryCallingCode: '+226'
+    countryCallingCode: '+226',
+    isoCountryCode: 'BF'
   },
   {
     name: 'Macau',
@@ -2605,7 +2735,8 @@ export default [
       svg: 'https://flagcdn.com/mo.svg'
     },
     emoji: '',
-    countryCallingCode: '+853'
+    countryCallingCode: '+853',
+    isoCountryCode: 'MO'
   },
   {
     name: 'Marshall Islands',
@@ -2624,7 +2755,8 @@ export default [
       svg: 'https://flagcdn.com/mh.svg'
     },
     emoji: '🇲🇭',
-    countryCallingCode: '+692'
+    countryCallingCode: '+692',
+    isoCountryCode: 'MH'
   },
   {
     name: 'Belarus',
@@ -2644,7 +2776,8 @@ export default [
       svg: 'https://flagcdn.com/by.svg'
     },
     emoji: '🇧🇾',
-    countryCallingCode: '+375'
+    countryCallingCode: '+375',
+    isoCountryCode: 'BY'
   },
   {
     name: 'Mayotte',
@@ -2664,7 +2797,8 @@ export default [
       svg: 'https://flagcdn.com/yt.svg'
     },
     emoji: '🇾🇹',
-    countryCallingCode: '+262'
+    countryCallingCode: '+262',
+    isoCountryCode: 'YT'
   },
   {
     name: 'Zambia',
@@ -2684,7 +2818,8 @@ export default [
       svg: 'https://flagcdn.com/zm.svg'
     },
     emoji: '🇿🇲',
-    countryCallingCode: '+260'
+    countryCallingCode: '+260',
+    isoCountryCode: 'ZM'
   },
   {
     name: 'Iceland',
@@ -2704,7 +2839,8 @@ export default [
       svg: 'https://flagcdn.com/is.svg'
     },
     emoji: '🇮🇸',
-    countryCallingCode: '+354'
+    countryCallingCode: '+354',
+    isoCountryCode: 'IS'
   },
   {
     name: 'Saint Lucia',
@@ -2723,7 +2859,8 @@ export default [
       svg: 'https://flagcdn.com/lc.svg'
     },
     emoji: '🇱🇨',
-    countryCallingCode: '+1 758'
+    countryCallingCode: '+1 758',
+    isoCountryCode: 'LC'
   },
   {
     name: 'Vietnam',
@@ -2743,7 +2880,8 @@ export default [
       svg: 'https://flagcdn.com/vn.svg'
     },
     emoji: '',
-    countryCallingCode: '+84'
+    countryCallingCode: '+84',
+    isoCountryCode: 'VN'
   },
   {
     name: 'Brazil',
@@ -2763,7 +2901,8 @@ export default [
       svg: 'https://flagcdn.com/br.svg'
     },
     emoji: '🇧🇷',
-    countryCallingCode: '+55'
+    countryCallingCode: '+55',
+    isoCountryCode: 'BR'
   },
   {
     name: 'Myanmar',
@@ -2783,7 +2922,8 @@ export default [
       svg: 'https://flagcdn.com/mm.svg'
     },
     emoji: '🇲🇲',
-    countryCallingCode: '+95'
+    countryCallingCode: '+95',
+    isoCountryCode: 'MM'
   },
   {
     name: 'Senegal',
@@ -2803,7 +2943,8 @@ export default [
       svg: 'https://flagcdn.com/sn.svg'
     },
     emoji: '🇸🇳',
-    countryCallingCode: '+221'
+    countryCallingCode: '+221',
+    isoCountryCode: 'SN'
   },
   {
     name: 'Slovakia',
@@ -2823,7 +2964,8 @@ export default [
       svg: 'https://flagcdn.com/sk.svg'
     },
     emoji: '🇸🇰',
-    countryCallingCode: '+421'
+    countryCallingCode: '+421',
+    isoCountryCode: 'SK'
   },
   {
     name: 'Philippines',
@@ -2843,7 +2985,8 @@ export default [
       svg: 'https://flagcdn.com/ph.svg'
     },
     emoji: '🇵🇭',
-    countryCallingCode: '+63'
+    countryCallingCode: '+63',
+    isoCountryCode: 'PH'
   },
   {
     name: 'Albania',
@@ -2862,7 +3005,8 @@ export default [
       svg: 'https://flagcdn.com/al.svg'
     },
     emoji: '🇦🇱',
-    countryCallingCode: '+355'
+    countryCallingCode: '+355',
+    isoCountryCode: 'AL'
   },
   {
     name: 'Montenegro',
@@ -2882,7 +3026,8 @@ export default [
       svg: 'https://flagcdn.com/me.svg'
     },
     emoji: '🇲🇪',
-    countryCallingCode: '+382'
+    countryCallingCode: '+382',
+    isoCountryCode: 'ME'
   },
   {
     name: 'Gabon',
@@ -2901,7 +3046,8 @@ export default [
       svg: 'https://flagcdn.com/ga.svg'
     },
     emoji: '🇬🇦',
-    countryCallingCode: '+241'
+    countryCallingCode: '+241',
+    isoCountryCode: 'GA'
   },
   {
     name: 'Qatar',
@@ -2920,7 +3066,8 @@ export default [
       svg: 'https://flagcdn.com/qa.svg'
     },
     emoji: '🇶🇦',
-    countryCallingCode: '+974'
+    countryCallingCode: '+974',
+    isoCountryCode: 'QA'
   },
   {
     name: 'Venezuela',
@@ -2940,7 +3087,8 @@ export default [
       svg: 'https://flagcdn.com/ve.svg'
     },
     emoji: '',
-    countryCallingCode: '+58'
+    countryCallingCode: '+58',
+    isoCountryCode: 'VE'
   },
   {
     name: 'Gibraltar',
@@ -2959,7 +3107,8 @@ export default [
       svg: 'https://flagcdn.com/gi.svg'
     },
     emoji: '🇬🇮',
-    countryCallingCode: '+350'
+    countryCallingCode: '+350',
+    isoCountryCode: 'GI'
   },
   {
     name: 'Niue',
@@ -2978,7 +3127,8 @@ export default [
       svg: 'https://flagcdn.com/nu.svg'
     },
     emoji: '🇳🇺',
-    countryCallingCode: '+683'
+    countryCallingCode: '+683',
+    isoCountryCode: 'NU'
   },
   {
     name: 'Samoa',
@@ -2997,7 +3147,8 @@ export default [
       svg: 'https://flagcdn.com/ws.svg'
     },
     emoji: '🇼🇸',
-    countryCallingCode: '+685'
+    countryCallingCode: '+685',
+    isoCountryCode: 'WS'
   },
   {
     name: 'Antigua and Barbuda',
@@ -3016,7 +3167,8 @@ export default [
       svg: 'https://flagcdn.com/ag.svg'
     },
     emoji: '',
-    countryCallingCode: '+1 268'
+    countryCallingCode: '+1 268',
+    isoCountryCode: 'AG'
   },
   {
     name: 'Liberia',
@@ -3036,7 +3188,8 @@ export default [
       svg: 'https://flagcdn.com/lr.svg'
     },
     emoji: '🇱🇷',
-    countryCallingCode: '+231'
+    countryCallingCode: '+231',
+    isoCountryCode: 'LR'
   },
   {
     name: 'Belize',
@@ -3055,7 +3208,8 @@ export default [
       svg: 'https://flagcdn.com/bz.svg'
     },
     emoji: '🇧🇿',
-    countryCallingCode: '+501'
+    countryCallingCode: '+501',
+    isoCountryCode: 'BZ'
   },
   {
     name: 'Equatorial Guinea',
@@ -3074,7 +3228,8 @@ export default [
       svg: 'https://flagcdn.com/gq.svg'
     },
     emoji: '🇬🇶',
-    countryCallingCode: '+240'
+    countryCallingCode: '+240',
+    isoCountryCode: 'GQ'
   },
   {
     name: 'Yemen',
@@ -3093,7 +3248,8 @@ export default [
       svg: 'https://flagcdn.com/ye.svg'
     },
     emoji: '🇾🇪',
-    countryCallingCode: '+967'
+    countryCallingCode: '+967',
+    isoCountryCode: 'YE'
   },
   {
     name: 'Tanzania',
@@ -3112,7 +3268,8 @@ export default [
       svg: 'https://flagcdn.com/tz.svg'
     },
     emoji: '',
-    countryCallingCode: '+255'
+    countryCallingCode: '+255',
+    isoCountryCode: 'TZ'
   },
   {
     name: 'Australia',
@@ -3132,7 +3289,8 @@ export default [
       svg: 'https://flagcdn.com/au.svg'
     },
     emoji: '🇦🇺',
-    countryCallingCode: '+61'
+    countryCallingCode: '+61',
+    isoCountryCode: 'AU'
   },
   {
     name: 'Bermuda',
@@ -3152,7 +3310,8 @@ export default [
       svg: 'https://flagcdn.com/bm.svg'
     },
     emoji: '🇧🇲',
-    countryCallingCode: '+1 441'
+    countryCallingCode: '+1 441',
+    isoCountryCode: 'BM'
   },
   {
     name: 'Saint Pierre and Miquelon',
@@ -3172,7 +3331,8 @@ export default [
       svg: 'https://flagcdn.com/pm.svg'
     },
     emoji: '',
-    countryCallingCode: '+508'
+    countryCallingCode: '+508',
+    isoCountryCode: 'PM'
   },
   {
     name: 'Mongolia',
@@ -3192,7 +3352,8 @@ export default [
       svg: 'https://flagcdn.com/mn.svg'
     },
     emoji: '🇲🇳',
-    countryCallingCode: '+976'
+    countryCallingCode: '+976',
+    isoCountryCode: 'MN'
   },
   {
     name: 'Malta',
@@ -3215,7 +3376,8 @@ export default [
       svg: 'https://flagcdn.com/mt.svg'
     },
     emoji: '🇲🇹',
-    countryCallingCode: '+356'
+    countryCallingCode: '+356',
+    isoCountryCode: 'MT'
   },
   {
     name: 'Luxembourg',
@@ -3236,7 +3398,8 @@ export default [
       svg: 'https://flagcdn.com/lu.svg'
     },
     emoji: '🇱🇺',
-    countryCallingCode: '+352'
+    countryCallingCode: '+352',
+    isoCountryCode: 'LU'
   },
   {
     name: 'Liechtenstein',
@@ -3256,7 +3419,8 @@ export default [
       svg: 'https://flagcdn.com/li.svg'
     },
     emoji: '🇱🇮',
-    countryCallingCode: '+423'
+    countryCallingCode: '+423',
+    isoCountryCode: 'LI'
   },
   {
     name: 'Poland',
@@ -3276,7 +3440,8 @@ export default [
       svg: 'https://flagcdn.com/pl.svg'
     },
     emoji: '🇵🇱',
-    countryCallingCode: '+48'
+    countryCallingCode: '+48',
+    isoCountryCode: 'PL'
   },
   {
     name: 'Brunei',
@@ -3299,7 +3464,8 @@ export default [
       svg: 'https://flagcdn.com/bn.svg'
     },
     emoji: '',
-    countryCallingCode: '+673'
+    countryCallingCode: '+673',
+    isoCountryCode: 'BN'
   },
   {
     name: 'Nepal',
@@ -3319,7 +3485,8 @@ export default [
       svg: 'https://flagcdn.com/np.svg'
     },
     emoji: '🇳🇵',
-    countryCallingCode: '+977'
+    countryCallingCode: '+977',
+    isoCountryCode: 'NP'
   },
   {
     name: 'Argentina',
@@ -3339,7 +3506,8 @@ export default [
       svg: 'https://flagcdn.com/ar.svg'
     },
     emoji: '🇦🇷',
-    countryCallingCode: '+54'
+    countryCallingCode: '+54',
+    isoCountryCode: 'AR'
   },
   {
     name: 'Guernsey',
@@ -3366,7 +3534,8 @@ export default [
       svg: 'https://flagcdn.com/gg.svg'
     },
     emoji: '🇬🇬',
-    countryCallingCode: '+44'
+    countryCallingCode: '+44',
+    isoCountryCode: 'GG'
   },
   {
     name: 'Maldives',
@@ -3386,7 +3555,8 @@ export default [
       svg: 'https://flagcdn.com/mv.svg'
     },
     emoji: '🇲🇻',
-    countryCallingCode: '+960'
+    countryCallingCode: '+960',
+    isoCountryCode: 'MV'
   },
   {
     name: 'Malawi',
@@ -3405,7 +3575,8 @@ export default [
       svg: 'https://flagcdn.com/mw.svg'
     },
     emoji: '🇲🇼',
-    countryCallingCode: '+265'
+    countryCallingCode: '+265',
+    isoCountryCode: 'MW'
   },
   {
     name: 'Nauru',
@@ -3424,7 +3595,8 @@ export default [
       svg: 'https://flagcdn.com/nr.svg'
     },
     emoji: '🇳🇷',
-    countryCallingCode: '+674'
+    countryCallingCode: '+674',
+    isoCountryCode: 'NR'
   },
   {
     name: 'Syria',
@@ -3443,7 +3615,8 @@ export default [
       svg: 'https://flagcdn.com/sy.svg'
     },
     emoji: '',
-    countryCallingCode: '+963'
+    countryCallingCode: '+963',
+    isoCountryCode: 'SY'
   },
   {
     name: 'Kiribati',
@@ -3465,7 +3638,8 @@ export default [
       svg: 'https://flagcdn.com/ki.svg'
     },
     emoji: '🇰🇮',
-    countryCallingCode: '+686'
+    countryCallingCode: '+686',
+    isoCountryCode: 'KI'
   },
   {
     name: 'Martinique',
@@ -3485,7 +3659,8 @@ export default [
       svg: 'https://flagcdn.com/mq.svg'
     },
     emoji: '🇲🇶',
-    countryCallingCode: '+596'
+    countryCallingCode: '+596',
+    isoCountryCode: 'MQ'
   },
   {
     name: 'Kyrgyzstan',
@@ -3505,7 +3680,8 @@ export default [
       svg: 'https://flagcdn.com/kg.svg'
     },
     emoji: '🇰🇬',
-    countryCallingCode: '+996'
+    countryCallingCode: '+996',
+    isoCountryCode: 'KG'
   },
   {
     name: 'Saint Kitts and Nevis',
@@ -3524,7 +3700,8 @@ export default [
       svg: 'https://flagcdn.com/kn.svg'
     },
     emoji: '',
-    countryCallingCode: '+1 869'
+    countryCallingCode: '+1 869',
+    isoCountryCode: 'KN'
   },
   {
     name: 'Uzbekistan',
@@ -3544,7 +3721,8 @@ export default [
       svg: 'https://flagcdn.com/uz.svg'
     },
     emoji: '🇺🇿',
-    countryCallingCode: '+998'
+    countryCallingCode: '+998',
+    isoCountryCode: 'UZ'
   },
   {
     name: 'Netherlands',
@@ -3564,7 +3742,8 @@ export default [
       svg: 'https://flagcdn.com/nl.svg'
     },
     emoji: '🇳🇱',
-    countryCallingCode: '+31'
+    countryCallingCode: '+31',
+    isoCountryCode: 'NL'
   },
   {
     name: 'United States Minor Outlying Islands',
@@ -3583,7 +3762,8 @@ export default [
       svg: 'https://flagcdn.com/um.svg'
     },
     emoji: '🇺🇲',
-    countryCallingCode: '+1'
+    countryCallingCode: '+1',
+    isoCountryCode: 'UM'
   },
   {
     name: 'Niger',
@@ -3603,7 +3783,8 @@ export default [
       svg: 'https://flagcdn.com/ne.svg'
     },
     emoji: '🇳🇪',
-    countryCallingCode: '+227'
+    countryCallingCode: '+227',
+    isoCountryCode: 'NE'
   },
   {
     name: 'Bahrain',
@@ -3623,7 +3804,8 @@ export default [
       svg: 'https://flagcdn.com/bh.svg'
     },
     emoji: '🇧🇭',
-    countryCallingCode: '+973'
+    countryCallingCode: '+973',
+    isoCountryCode: 'BH'
   },
   {
     name: 'Indonesia',
@@ -3643,7 +3825,8 @@ export default [
       svg: 'https://flagcdn.com/id.svg'
     },
     emoji: '🇮🇩',
-    countryCallingCode: '+62'
+    countryCallingCode: '+62',
+    isoCountryCode: 'ID'
   },
   {
     name: 'Guadeloupe',
@@ -3663,7 +3846,8 @@ export default [
       svg: 'https://flagcdn.com/gp.svg'
     },
     emoji: '🇬🇵',
-    countryCallingCode: '+590'
+    countryCallingCode: '+590',
+    isoCountryCode: 'GP'
   },
   {
     name: 'Réunion',
@@ -3683,7 +3867,8 @@ export default [
       svg: 'https://flagcdn.com/re.svg'
     },
     emoji: '',
-    countryCallingCode: '+262'
+    countryCallingCode: '+262',
+    isoCountryCode: 'RE'
   },
   {
     name: 'Pitcairn Islands',
@@ -3702,7 +3887,8 @@ export default [
       svg: 'https://flagcdn.com/pn.svg'
     },
     emoji: '',
-    countryCallingCode: '+64'
+    countryCallingCode: '+64',
+    isoCountryCode: 'PN'
   },
   {
     name: 'Aruba',
@@ -3721,7 +3907,8 @@ export default [
       svg: 'https://flagcdn.com/aw.svg'
     },
     emoji: '🇦🇼',
-    countryCallingCode: '+297'
+    countryCallingCode: '+297',
+    isoCountryCode: 'AW'
   },
   {
     name: 'Bangladesh',
@@ -3741,7 +3928,8 @@ export default [
       svg: 'https://flagcdn.com/bd.svg'
     },
     emoji: '🇧🇩',
-    countryCallingCode: '+880'
+    countryCallingCode: '+880',
+    isoCountryCode: 'BD'
   },
   {
     name: 'Guatemala',
@@ -3761,7 +3949,8 @@ export default [
       svg: 'https://flagcdn.com/gt.svg'
     },
     emoji: '🇬🇹',
-    countryCallingCode: '+502'
+    countryCallingCode: '+502',
+    isoCountryCode: 'GT'
   },
   {
     name: 'Bahamas',
@@ -3783,7 +3972,8 @@ export default [
       svg: 'https://flagcdn.com/bs.svg'
     },
     emoji: '🇧🇸',
-    countryCallingCode: '+1 242'
+    countryCallingCode: '+1 242',
+    isoCountryCode: 'BS'
   },
   {
     name: 'Uruguay',
@@ -3803,7 +3993,8 @@ export default [
       svg: 'https://flagcdn.com/uy.svg'
     },
     emoji: '🇺🇾',
-    countryCallingCode: '+598'
+    countryCallingCode: '+598',
+    isoCountryCode: 'UY'
   },
   {
     name: 'Morocco',
@@ -3823,7 +4014,8 @@ export default [
       svg: 'https://flagcdn.com/ma.svg'
     },
     emoji: '🇲🇦',
-    countryCallingCode: '+212'
+    countryCallingCode: '+212',
+    isoCountryCode: 'MA'
   },
   {
     name: 'Germany',
@@ -3843,7 +4035,8 @@ export default [
       svg: 'https://flagcdn.com/de.svg'
     },
     emoji: '🇩🇪',
-    countryCallingCode: '+49'
+    countryCallingCode: '+49',
+    isoCountryCode: 'DE'
   },
   {
     name: 'Saint Helena, Ascension and Tristan da Cunha',
@@ -3867,7 +4060,8 @@ export default [
       svg: 'https://flagcdn.com/sh.svg'
     },
     emoji: '',
-    countryCallingCode: '+290'
+    countryCallingCode: '+290',
+    isoCountryCode: 'SH'
   },
   {
     name: 'Montserrat',
@@ -3886,7 +4080,8 @@ export default [
       svg: 'https://flagcdn.com/ms.svg'
     },
     emoji: '🇲🇸',
-    countryCallingCode: '+1 664'
+    countryCallingCode: '+1 664',
+    isoCountryCode: 'MS'
   },
   {
     name: 'United States',
@@ -3907,7 +4102,8 @@ export default [
       svg: 'https://flagcdn.com/us.svg'
     },
     emoji: '🇺🇸',
-    countryCallingCode: '+1'
+    countryCallingCode: '+1',
+    isoCountryCode: 'US'
   },
   {
     name: 'Falkland Islands',
@@ -3926,7 +4122,8 @@ export default [
       svg: 'https://flagcdn.com/fk.svg'
     },
     emoji: '🇫🇰',
-    countryCallingCode: '+500'
+    countryCallingCode: '+500',
+    isoCountryCode: 'FK'
   },
   {
     name: 'Bulgaria',
@@ -3946,7 +4143,8 @@ export default [
       svg: 'https://flagcdn.com/bg.svg'
     },
     emoji: '🇧🇬',
-    countryCallingCode: '+359'
+    countryCallingCode: '+359',
+    isoCountryCode: 'BG'
   },
   {
     name: 'Papua New Guinea',
@@ -3966,7 +4164,8 @@ export default [
       svg: 'https://flagcdn.com/pg.svg'
     },
     emoji: '🇵🇬',
-    countryCallingCode: '+675'
+    countryCallingCode: '+675',
+    isoCountryCode: 'PG'
   },
   {
     name: 'Costa Rica',
@@ -3986,7 +4185,8 @@ export default [
       svg: 'https://flagcdn.com/cr.svg'
     },
     emoji: '🇨🇷',
-    countryCallingCode: '+506'
+    countryCallingCode: '+506',
+    isoCountryCode: 'CR'
   },
   {
     name: 'Ecuador',
@@ -4006,7 +4206,8 @@ export default [
       svg: 'https://flagcdn.com/ec.svg'
     },
     emoji: '🇪🇨',
-    countryCallingCode: '+593'
+    countryCallingCode: '+593',
+    isoCountryCode: 'EC'
   },
   {
     name: 'Svalbard and Jan Mayen',
@@ -4025,7 +4226,8 @@ export default [
       svg: 'https://flagcdn.com/sj.svg'
     },
     emoji: '',
-    countryCallingCode: '+47'
+    countryCallingCode: '+47',
+    isoCountryCode: 'SJ'
   },
   {
     name: 'Fiji',
@@ -4044,7 +4246,8 @@ export default [
       svg: 'https://flagcdn.com/fj.svg'
     },
     emoji: '🇫🇯',
-    countryCallingCode: '+679'
+    countryCallingCode: '+679',
+    isoCountryCode: 'FJ'
   },
   {
     name: 'South Korea',
@@ -4067,7 +4270,8 @@ export default [
       svg: 'https://flagcdn.com/kr.svg'
     },
     emoji: '',
-    countryCallingCode: '+82'
+    countryCallingCode: '+82',
+    isoCountryCode: 'KR'
   },
   {
     name: 'Puerto Rico',
@@ -4087,7 +4291,8 @@ export default [
       svg: 'https://flagcdn.com/pr.svg'
     },
     emoji: '🇵🇷',
-    countryCallingCode: '+1 787'
+    countryCallingCode: '+1 787',
+    isoCountryCode: 'PR'
   },
   {
     name: 'Wallis and Futuna',
@@ -4107,7 +4312,8 @@ export default [
       svg: 'https://flagcdn.com/wf.svg'
     },
     emoji: '',
-    countryCallingCode: '+681'
+    countryCallingCode: '+681',
+    isoCountryCode: 'WF'
   },
   {
     name: 'North Korea',
@@ -4127,7 +4333,8 @@ export default [
       svg: 'https://flagcdn.com/kp.svg'
     },
     emoji: '',
-    countryCallingCode: '+850'
+    countryCallingCode: '+850',
+    isoCountryCode: 'KP'
   },
   {
     name: 'Taiwan',
@@ -4147,7 +4354,8 @@ export default [
       svg: 'https://flagcdn.com/tw.svg'
     },
     emoji: '🇹🇼',
-    countryCallingCode: '+886'
+    countryCallingCode: '+886',
+    isoCountryCode: 'TW'
   },
   {
     name: 'Isle of Man',
@@ -4174,7 +4382,8 @@ export default [
       svg: 'https://flagcdn.com/im.svg'
     },
     emoji: '',
-    countryCallingCode: '+44 1624'
+    countryCallingCode: '+44 1624',
+    isoCountryCode: 'IM'
   },
   {
     name: 'United States Virgin Islands',
@@ -4193,7 +4402,8 @@ export default [
       svg: 'https://flagcdn.com/vi.svg'
     },
     emoji: '',
-    countryCallingCode: '+1 340'
+    countryCallingCode: '+1 340',
+    isoCountryCode: 'VI'
   },
   {
     name: 'Lithuania',
@@ -4213,7 +4423,8 @@ export default [
       svg: 'https://flagcdn.com/lt.svg'
     },
     emoji: '🇱🇹',
-    countryCallingCode: '+370'
+    countryCallingCode: '+370',
+    isoCountryCode: 'LT'
   },
   {
     name: 'Angola',
@@ -4232,7 +4443,8 @@ export default [
       svg: 'https://flagcdn.com/ao.svg'
     },
     emoji: '🇦🇴',
-    countryCallingCode: '+244'
+    countryCallingCode: '+244',
+    isoCountryCode: 'AO'
   },
   {
     name: 'Tunisia',
@@ -4252,7 +4464,8 @@ export default [
       svg: 'https://flagcdn.com/tn.svg'
     },
     emoji: '🇹🇳',
-    countryCallingCode: '+216'
+    countryCallingCode: '+216',
+    isoCountryCode: 'TN'
   },
   {
     name: 'Faroe Islands',
@@ -4275,7 +4488,8 @@ export default [
       svg: 'https://flagcdn.com/fo.svg'
     },
     emoji: '🇫🇴',
-    countryCallingCode: '+298'
+    countryCallingCode: '+298',
+    isoCountryCode: 'FO'
   },
   {
     name: 'Ghana',
@@ -4294,7 +4508,8 @@ export default [
       svg: 'https://flagcdn.com/gh.svg'
     },
     emoji: '🇬🇭',
-    countryCallingCode: '+233'
+    countryCallingCode: '+233',
+    isoCountryCode: 'GH'
   },
   {
     name: 'Iraq',
@@ -4314,7 +4529,8 @@ export default [
       svg: 'https://flagcdn.com/iq.svg'
     },
     emoji: '🇮🇶',
-    countryCallingCode: '+964'
+    countryCallingCode: '+964',
+    isoCountryCode: 'IQ'
   },
   {
     name: 'New Zealand',
@@ -4335,7 +4551,8 @@ export default [
       svg: 'https://flagcdn.com/nz.svg'
     },
     emoji: '🇳🇿',
-    countryCallingCode: '+64'
+    countryCallingCode: '+64',
+    isoCountryCode: 'NZ'
   },
   {
     name: 'Serbia',
@@ -4355,7 +4572,8 @@ export default [
       svg: 'https://flagcdn.com/rs.svg'
     },
     emoji: '🇷🇸',
-    countryCallingCode: '+381'
+    countryCallingCode: '+381',
+    isoCountryCode: 'RS'
   },
   {
     name: 'Bhutan',
@@ -4377,7 +4595,8 @@ export default [
       svg: 'https://flagcdn.com/bt.svg'
     },
     emoji: '🇧🇹',
-    countryCallingCode: '+975'
+    countryCallingCode: '+975',
+    isoCountryCode: 'BT'
   },
   {
     name: 'Romania',
@@ -4397,7 +4616,8 @@ export default [
       svg: 'https://flagcdn.com/ro.svg'
     },
     emoji: '🇷🇴',
-    countryCallingCode: '+40'
+    countryCallingCode: '+40',
+    isoCountryCode: 'RO'
   },
   {
     name: 'Afghanistan',
@@ -4416,7 +4636,8 @@ export default [
       svg: 'https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg'
     },
     emoji: '🇦🇫',
-    countryCallingCode: '+93'
+    countryCallingCode: '+93',
+    isoCountryCode: 'AF'
   },
   {
     name: 'India',
@@ -4436,7 +4657,8 @@ export default [
       svg: 'https://flagcdn.com/in.svg'
     },
     emoji: '🇮🇳',
-    countryCallingCode: '+91'
+    countryCallingCode: '+91',
+    isoCountryCode: 'IN'
   },
   {
     name: 'Denmark',
@@ -4456,7 +4678,8 @@ export default [
       svg: 'https://flagcdn.com/dk.svg'
     },
     emoji: '🇩🇰',
-    countryCallingCode: '+45'
+    countryCallingCode: '+45',
+    isoCountryCode: 'DK'
   },
   {
     name: 'Jersey',
@@ -4483,7 +4706,8 @@ export default [
       svg: 'https://flagcdn.com/je.svg'
     },
     emoji: '🇯🇪',
-    countryCallingCode: '+44'
+    countryCallingCode: '+44',
+    isoCountryCode: 'JE'
   },
   {
     name: 'Saudi Arabia',
@@ -4503,7 +4727,8 @@ export default [
       svg: 'https://flagcdn.com/sa.svg'
     },
     emoji: '🇸🇦',
-    countryCallingCode: '+966'
+    countryCallingCode: '+966',
+    isoCountryCode: 'SA'
   },
   {
     name: 'Saint Barthélemy',
@@ -4523,7 +4748,8 @@ export default [
       svg: 'https://flagcdn.com/bl.svg'
     },
     emoji: '🇧🇱',
-    countryCallingCode: '+590'
+    countryCallingCode: '+590',
+    isoCountryCode: 'BL'
   },
   {
     name: 'Guinea-Bissau',
@@ -4543,7 +4769,8 @@ export default [
       svg: 'https://flagcdn.com/gw.svg'
     },
     emoji: '',
-    countryCallingCode: '+245'
+    countryCallingCode: '+245',
+    isoCountryCode: 'GW'
   },
   {
     name: 'Norway',
@@ -4563,7 +4790,8 @@ export default [
       svg: 'https://flagcdn.com/no.svg'
     },
     emoji: '🇳🇴',
-    countryCallingCode: '+47'
+    countryCallingCode: '+47',
+    isoCountryCode: 'NO'
   },
   {
     name: 'Monaco',
@@ -4583,7 +4811,8 @@ export default [
       svg: 'https://flagcdn.com/mc.svg'
     },
     emoji: '🇲🇨',
-    countryCallingCode: '+377'
+    countryCallingCode: '+377',
+    isoCountryCode: 'MC'
   },
   {
     name: 'Cocos (Keeling) Islands',
@@ -4602,7 +4831,8 @@ export default [
       svg: 'https://flagcdn.com/cc.svg'
     },
     emoji: '🇨🇨',
-    countryCallingCode: '+61'
+    countryCallingCode: '+61',
+    isoCountryCode: 'CC'
   },
   {
     name: 'Egypt',
@@ -4622,7 +4852,8 @@ export default [
       svg: 'https://flagcdn.com/eg.svg'
     },
     emoji: '🇪🇬',
-    countryCallingCode: '+20'
+    countryCallingCode: '+20',
+    isoCountryCode: 'EG'
   },
   {
     name: 'Cyprus',
@@ -4642,7 +4873,8 @@ export default [
       svg: 'https://flagcdn.com/cy.svg'
     },
     emoji: '🇨🇾',
-    countryCallingCode: '+357'
+    countryCallingCode: '+357',
+    isoCountryCode: 'CY'
   },
   {
     name: 'Dominica',
@@ -4661,7 +4893,8 @@ export default [
       svg: 'https://flagcdn.com/dm.svg'
     },
     emoji: '🇩🇲',
-    countryCallingCode: '+1 767'
+    countryCallingCode: '+1 767',
+    isoCountryCode: 'DM'
   },
   {
     name: 'Azerbaijan',
@@ -4681,7 +4914,8 @@ export default [
       svg: 'https://flagcdn.com/az.svg'
     },
     emoji: '🇦🇿',
-    countryCallingCode: '+994'
+    countryCallingCode: '+994',
+    isoCountryCode: 'AZ'
   },
   {
     name: 'Zimbabwe',
@@ -4716,7 +4950,8 @@ export default [
       svg: 'https://flagcdn.com/zw.svg'
     },
     emoji: '🇿🇼',
-    countryCallingCode: '+263'
+    countryCallingCode: '+263',
+    isoCountryCode: 'ZW'
   },
   {
     name: 'Tuvalu',
@@ -4738,7 +4973,8 @@ export default [
       svg: 'https://flagcdn.com/tv.svg'
     },
     emoji: '🇹🇻',
-    countryCallingCode: '+688'
+    countryCallingCode: '+688',
+    isoCountryCode: 'TV'
   },
   {
     name: 'Mali',
@@ -4757,7 +4993,8 @@ export default [
       svg: 'https://flagcdn.com/ml.svg'
     },
     emoji: '🇲🇱',
-    countryCallingCode: '+223'
+    countryCallingCode: '+223',
+    isoCountryCode: 'ML'
   },
   {
     name: 'Mauritania',
@@ -4776,7 +5013,8 @@ export default [
       svg: 'https://flagcdn.com/mr.svg'
     },
     emoji: '🇲🇷',
-    countryCallingCode: '+222'
+    countryCallingCode: '+222',
+    isoCountryCode: 'MR'
   },
   {
     name: 'Ukraine',
@@ -4796,7 +5034,8 @@ export default [
       svg: 'https://flagcdn.com/ua.svg'
     },
     emoji: '🇺🇦',
-    countryCallingCode: '+380'
+    countryCallingCode: '+380',
+    isoCountryCode: 'UA'
   },
   {
     name: 'Cameroon',
@@ -4815,7 +5054,8 @@ export default [
       svg: 'https://flagcdn.com/cm.svg'
     },
     emoji: '🇨🇲',
-    countryCallingCode: '+237'
+    countryCallingCode: '+237',
+    isoCountryCode: 'CM'
   },
   {
     name: 'Caribbean Netherlands',
@@ -4834,7 +5074,8 @@ export default [
       svg: 'https://flagcdn.com/bq.svg'
     },
     emoji: '',
-    countryCallingCode: '+599'
+    countryCallingCode: '+599',
+    isoCountryCode: 'BQ'
   },
   {
     name: 'Micronesia',
@@ -4854,7 +5095,8 @@ export default [
       svg: 'https://flagcdn.com/fm.svg'
     },
     emoji: '',
-    countryCallingCode: '+691'
+    countryCallingCode: '+691',
+    isoCountryCode: 'FM'
   },
   {
     name: 'Mozambique',
@@ -4874,7 +5116,8 @@ export default [
       svg: 'https://flagcdn.com/mz.svg'
     },
     emoji: '🇲🇿',
-    countryCallingCode: '+258'
+    countryCallingCode: '+258',
+    isoCountryCode: 'MZ'
   },
   {
     name: 'Namibia',
@@ -4906,7 +5149,8 @@ export default [
       svg: 'https://flagcdn.com/na.svg'
     },
     emoji: '🇳🇦',
-    countryCallingCode: '+264'
+    countryCallingCode: '+264',
+    isoCountryCode: 'NA'
   },
   {
     name: 'Gambia',
@@ -4925,7 +5169,8 @@ export default [
       svg: 'https://flagcdn.com/gm.svg'
     },
     emoji: '🇬🇲',
-    countryCallingCode: '+220'
+    countryCallingCode: '+220',
+    isoCountryCode: 'GM'
   },
   {
     name: 'Cook Islands',
@@ -4947,7 +5192,8 @@ export default [
       svg: 'https://flagcdn.com/ck.svg'
     },
     emoji: '🇨🇰',
-    countryCallingCode: '+682'
+    countryCallingCode: '+682',
+    isoCountryCode: 'CK'
   },
   {
     name: 'Cape Verde',
@@ -4967,7 +5213,8 @@ export default [
       svg: 'https://flagcdn.com/cv.svg'
     },
     emoji: '',
-    countryCallingCode: '+238'
+    countryCallingCode: '+238',
+    isoCountryCode: 'CV'
   },
   {
     name: 'Laos',
@@ -4987,7 +5234,8 @@ export default [
       svg: 'https://flagcdn.com/la.svg'
     },
     emoji: '',
-    countryCallingCode: '+856'
+    countryCallingCode: '+856',
+    isoCountryCode: 'LA'
   },
   {
     name: 'Austria',
@@ -5007,7 +5255,8 @@ export default [
       svg: 'https://flagcdn.com/at.svg'
     },
     emoji: '🇦🇹',
-    countryCallingCode: '+43'
+    countryCallingCode: '+43',
+    isoCountryCode: 'AT'
   },
   {
     name: 'Andorra',
@@ -5027,6 +5276,7 @@ export default [
       svg: 'https://flagcdn.com/ad.svg'
     },
     emoji: '🇦🇩',
-    countryCallingCode: '+376'
+    countryCallingCode: '+376',
+    isoCountryCode: 'AD'
   }
 ]

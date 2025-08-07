@@ -10,8 +10,8 @@ export default function App() {
       <table>
         <thead style={{ fontWeight: 'bold' }}>
           <td>Name</td>
-          <td>Capital</td>
           <td>Emoji</td>
+          <td>Capital</td>
           <td>Area</td>
           <td>Population</td>
           <td>
@@ -21,6 +21,7 @@ export default function App() {
             <pre>.svg</pre>
           </td>
           <td>Country Calling Code</td>
+          <td>ISO Country Code</td>
           <td>Postal Code</td>
         </thead>
         {countries.map((c) => (
@@ -37,6 +38,7 @@ export default function App() {
               <img width={'20'} src={c.flags.svg} />
             </td>
             <td>{c.countryCallingCode}</td>
+            <td>{c.isoCountryCode}</td>
             <td>{JSON.stringify(c.postalCode)}</td>
           </tr>
         ))}

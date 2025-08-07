@@ -1,6 +1,6 @@
 {
   "name": "use-react-countries",
-  "version": "2.0.1",
+  "version": "2.0.3",
   "description": "A tiny fully customizable react hook which gives you full list of countries with their flags, emojis and descriptions",
   "author": "vre2h",
   "license": "MIT",
@@ -8,6 +8,7 @@
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
+  "types": "src/index.d.ts",
   "engines": {
     "node": ">=8",
     "npm": ">=5"
@@ -67,6 +68,7 @@
     "rollup-plugin-commonjs": "^9.2.0",
     "rollup-plugin-node-resolve": "^4.0.0",
     "rollup-plugin-peer-deps-external": "^2.2.0",
-    "rollup-plugin-url": "^2.1.0"
+    "rollup-plugin-url": "^2.1.0",
+    "typescript": "^3.9.10"
   }
 }
